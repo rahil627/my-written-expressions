@@ -1,0 +1,42 @@
+github tokens
+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
+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
+
+notes on github cli are in the cli.txt
+
+basic use:
+git remote -v
+  - check remote repo links
+
+git clone repo-name?
+  - clone repo from remote to local directory
+
+git pull
+  - pull changes into local rep
+
+git add -A / —all
+
+git commit -a / —all -m "my commit message"
+  - add all untracked files, and commit
+  - add the message, or else it’ll open a text editor
+
+
+git merge [todo: haven’t used this yet...]
+  - for multiple branches
+—
+
+
+add an empty folder:
+create a .gitignore file and add:
+*
+*/
+!.gitignore
+
+from:
+https://stackoverflow.com/questions/4250063/how-to-gitignore-all-files-folder-in-a-folder-but-not-the-folder-itself
+—
+
+
+
+a work-around for forking your own repo:
+  - https://stackoverflow.com/questions/9658194/can-should-i-fork-my-own-github-repo#9658243

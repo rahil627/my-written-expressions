@@ -1,0 +1,63 @@
+# todo
+install a drawing app
+  - any simple vector ones?
+  - what other creative apps?
+    - video? (for video essays)
+    - photo essay
+      - graphic novel maker using real photos with simple comic ideas
+    - music...
+    - recording
+    - ...
+    - brain-storming...? Visio-likes?
+    - blog-specific (Kirby, Hugo?)
+      - probably best to just use a non-mobile pc for any advanced web-site stuff
+
+# site designs
+site designs for each medium expressed in:
+basic writing template
+embedded YouTube or Vimeo videos (for video essays)
+  x/- or a simple custom player?
+    - no audience, and, streaming would rely on my own server’s bandwidth
+photo essays should use up width of site well, perhaps just being one large image, then auto-cut by the site software
+  - like a graphic novel, it should flow / make sense intuitively
+music from SoundCloud can be embedded (again, for the audience), but also provided in high quality on the site.
+  - it can be posted with a page of whatever inspired the music: music-making locations, photos, etc.
+audio?
+
+## writing designs
+one for:
+DK ideas-like page, simple flow chart
+  - **auto-generate from tagged ideas**, now using bold text
+ **auto-add to concepts dictionary** from tagged concepts and their definitions, now using italics text
+   - **the ideal would be to auto-generate everything from the original content**
+     - so, there are two-directions: to use mixed media to express one’s-self or to use words and to auto-generate other forms from that
+wild flow page
+notebook pages or entries
+basic / standard writings
+concept article
+idea page (especially for designs)
+  - with simple vector drawing to sketch idea
+
+text expander add-on?
+
+## how do the expressions mix?
+  - can use any combo of mediums, especially to provide real examples via documentation videos and/or photos
+  - i think the drawings with text is enough...but difficult to do, unless the writings are just part of the image, which sucks as the text font would remain forever. Otherwise, html sorta forces a top-down design, with overlaying being a head-ache. To draw over the text, move things around, [todo] that would be a cool app (that exports html). Might as well use physical paper, then use the photo of it.
+  - could have photos appear on hover of anchors, so that words are separated from my world. Also, it creates a cleaner reading experience, with choice to view photos. Then in another section, have the referenced photos auto-listed... This way, the words of my mind, concepts, *can* lead to my own examples.
+    - the photos being referenced is a cool real alternative to the out-dated “research” of schools. Only real video and photo footage are referenced.
+    - the photos could be stored with tags, then, when i want to link them, one or a group, i could simply reference the tag. The pop-up would bring up an image viewer with the tagged photos selected.
+    - having unprofessional personal photos linked adds a lot of human depth and reality to everything
+- photos could lead to words. [$$$$]**That’s how film essays work at times, the direction often flipping: the visual leading to the conceptual, and the conceptual leading to the visual. That’s how the mind works!** A film without dialogue, and then writing is a more primitive form of the film essay form. The film itself must provide pauses, wandering, contemplation, n’ so, or else the experience would be really choppy, switching attention between the visuals and writing. I think it comes from just having a bunch of footage and making something out of all of it.
+- I think for the most part, it should be **a documentation of anarchy**. Actual photos of concepts being implemented. Just **a documentation of my own attempts at anarchy**... could document the building of a communal place..
+
+# transcribed from a flyer
+idea: link main writing to YouTube videos!
+  -> documentary, animation, etc.
+  -> + real films?
+
+# black-lists
+institutions, airports, public transportation, government, corporate, etc.
+
+even cultures! can avoid interacting with non-cooperative, hoarding cultures
+
+that list would never end... only the communes would survive.

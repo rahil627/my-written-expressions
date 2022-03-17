@@ -1,0 +1,35 @@
+https://www.digitalocean.com/community/tutorials/how-to-install-discourse-on-ubuntu-20-04
+
+
+add a droplet
+use the image of Ubuntu (most recent) with Plesk or cPanel
+
+
+add domains:
+select networking from the main menu
+can add all of the domains here
+  - might as well add all of them, instead of dividing the service between domain registrar and web-host; anyway, digital ocean has a far superior interface compared to namecheap
+can set records here (re-directs, etc.)
+will have to go to domain registrar (namecheap) to set nameservers to point to digital cloud
+
+
+
+domain migration info:
+wildcard re-direct (all sub-domains) to [base url]
+  - not exactly sure how this works...
+re-direct [base url] to www.[base url]
+  - not really needed, is it?
+catch-all e-mail and re-direct to my gmail
+
+# dns records from namecheap domains
+the first four records are for GitHub pages
+  - type: A record / host: @ / value: 185.199.108.153/ ttl: Automatic
+  - 185.199.108.153
+  - 185.199.109.153
+  - 185.199.110.153
+  - 185.199.111.153
+the last record is for ‘Positive SSL’ (by Comodo), which Namecheap gave out for free 
+  - CAA Record / rathewolf.com / 0 issue “comodoca.com” / Automatic
+during the previous year i renewed the domain.
+  - i don’t need this as i will use DigitalOcean which handles SSL more conveniently, and for free!
+

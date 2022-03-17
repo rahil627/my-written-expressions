@@ -1,0 +1,38 @@
+goals:
+  - 1. prototype in Unity
+  - 2. playtest at hackerspace
+  - send gameplay video to Studio Mercato
+
+see design
+see old project
+  - delete old project?
+prototype in Unity
+test fast, slow, and instant lasers
+keep everything visible so players can strategize
+
+without looking at old design:
+  - just go at it, it's straightforward what's needed:
+    - reuse player class from Crystal Brawl
+  - geometry wars style controls
+    - add rotation toward analog stick (or keyboard thingy)
+    - test on gamepad
+  - add four players
+  - laser
+    - a list of line renderer or sprites (scaled rectangles)?
+      - try line renderer for now, can extend, or use sprites later
+    - raycast for collision testing
+  - portals
+    - just do the main function for now
+    - if it touches any part of the image, trigger portal
+    - depending on the angle the line hits the portal, it should 
+  - could use one class for everything, and change the sprite color programmatically
+  - done!
+    
+  think:
+    - what if a laser partially touches a portal?
+    - need single pixel line? If any part of the laser touches, it portals
+    - if 
+  
+later:
+  - think about controls, shoot with analog stick? Press button then analog? L1, R1, R2 to choose weapon?
+  - more physical movement?

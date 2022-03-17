@@ -1,0 +1,16 @@
+# design notes from yellow notepad
+## lasers and portals refound
+portals must show direction [in 2d]
+xbox style controls, accurate, use xbox controllers to test!
+  - right analog to shoot laser
+    - hold red button / blue button and press analog to shoot portal
+    - press enter button again to deploy
+    - (all actions are instant)
+or: one analog, lightly move analog to fire direction
+or: slow gun rotation for movement
+cannot shoot laser if too close?
+lasers move slowly
+prototype colors: matte black, white; 3d red/blue, light opacity; distorted background
+lasers bounce off of walls? And level walls, which play vs(players?) do not
+idea: show lasers slowly to trap players into a maze
+can break lasers with portals half way through

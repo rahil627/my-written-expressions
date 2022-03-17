@@ -1,0 +1,203 @@
+Godot vs Haxe/C/C++:
+
+Godot’s source code is a thing of beauty. Open-source, but, it was managed excellently. All C++, no documentation. Stunning.
+
+*Godot is very game specific.* I don’t think you can use it to make cool custom i/o projects. I don’t think it can be used for web/servers (not sure about this...). It’s limited to games.
+
+It’s also limited by it’s api. It’s simple, but, **probably okay for most simple games, or any game by a single individual at least.** The only cases where Godot wouldn’t work are very specific manually managed memory optimizations ‘n exploits. In these cases, it would have been easier to start with a more basic engine. But even then, that basic engine would have to be written in a language / compiler combo that allows manual management.
+
+*gdScript might not usable anywhere else*, as Haxe can be. I’m not sure what languages it can be transpiled to. But, I’m guessing Godot uses Mono CLI since C# is supported, so at least that part is in good hands (Mono, used by Unity).
+
+*Godot has much more potential than frameworks not written in C/C++*, simply because one potentially write more efficient code, where as transpiled output cannot possibly compete. Can it?
+
+**Godot’s api is perfect for 2d!** 2d primitive classes (polygon, circle, etc.) with ways to simply alter those primitives (add or remove verticies), and even two ways to render them: with textures or just with a plain color, in addition to having material, light2d, etc. shader stuff. Also a straight canvas drawing api, for when a game object isn’t needed. In addition to those things I desire, it has all of the standard scene tree stuff.
+
+
+—
+
+
+https://docs.godotengine.org/en/stable/tutorials/2d/index.html
+  - the canvas layers page has a good diagram showing how their scene tree and layers work: scene is the root node, but there can be layers behind or in front of it, such as a parallax background behind it, and a heads up display overlay in front of it.
+  - the drawing primitives page shows that their 2d engine is mostly ‘node2d’ based, which is, of drawing textures and saving images. In order to draw things, you must do it on the base 2d class ‘canvasItem’. canvasItem provides functions to draw: polygon, colored polygon, line, poly-line, arc, circle, along with texture (for images) and mesh (for calculating a mesh for a 2d image).
+  - **basically, Godot does everything I want to—draw 2D primitives, support 2D natively—, with extremely simple design, includes a Haxe-like scripting language (GDscript) *and* C#, and of course an editor.** Material, light, color blending modes are all properties, allowing some simple ways to use advanced shader stuff.
+
+—
+more:
+map of maps (...of maps)
+vs
+several maps
+
+O(1) * n
+vs
+O(1)
+
+...not bad!
+
+can have a recursive set of maps:
+layers (2d) - number of layers are tiny! and don’t change often
+types - number of types are tiny! and don’t change often
+more detailed types
+...
+until the list size is small enough to iterate
+
+...so, in this way, it’s extremely efficient to provide some categorical data to narrow down the size of the list to search.
+
+since they’re just lists of pointers, they shouldn’t take much memory. Although maintaining containers have a cost, the amount of keys (layers, types, classes?) are so small that it doesn’t matter.
+
+
+more implementation of entity containers:
+lists (instead of arrays and vectors) should be used for the master / add / remove / recycle entity containers, as you never really need to access anything specifically in them. (you typically have to search for things, because there’s no way to know the correct index)
+
+in case you do actually need access elements in those lists, you could use a fixed-size array (“vector” in haxe), allocating enough memory to handle the maximum amount of entities, and avoid memory fragmentation, just writing in the same memory block.
+
+
+implementation of entity containers:
+maps (either hash table or self-balancing binary tree underneath)
+  - average O(1) search, insert, and delete(!!) for hash table
+  - average *and* worst case O(log(n)) for search, insert, and delete for sb binary tree
+
+https://en.m.wikipedia.org/wiki/Associative_array
+  - a map can be serialized (turned into text data to be save in a file), creating a basic database!
+
+In Haxe, map is an abstract data type, which changes depending on the type, automatically implementing the best implementation underneath. But, you can still choose a specific implementation(!), such as hash map or enum map (uses sb binary tree)!
+
+anyway... maps are useless for this, because you can only have one key!...
+
+or maybe not? use the entity pointer as a key, and leave the other data (type) as the value?... but the point is to search by type! doh...
+
+ohhhh shit! you can just map a data type to a list of entities (pointers)!!:
+
+private var _layers:Map<Int,List<Entity>>;
+private var _types:Map<String,List<Entity>>;
+
+or, in the case the data type is unique, and you actually need to search it all:
+private var entityNames:Map<String,Entity>;
+
+that could be used in case entities have a unique id. It could be optimized by using an enum to search. Important things like players (multi-player), bosses, etc. can all easily be searched this way. Though, it might be better to keep super important things (players) globally accessible.
+
+taken from KhaPunk:
+
+	// Adding and removal.
+	private var _add:Array<Entity>;
+	private var _remove:Array<Entity>;
+	private var _recycle:Array<Entity>;
+
+	// Update information.
+	private var updateFirst:Entity;
+
+	// Render information.
+	private var _layerList:Array<Int>;
+	private var _layerDisplay:Map<Int,Bool>;
+	private var _layerShader:Map<Int,ShaderPass>;
+	private var _layers:Map<Int,List<Entity>>;
+
+	private var _classCount:Map<String,Int>;
+
+	private var _types:Map<String,List<Entity>>;
+
+	// Update information.
+	private var _update:List<Entity>;
+	
+	private var recycled:Map<String,Entity>;
+	private var entityNames:Map<String,Entity>;
+—
+
+https://code.haxe.org/category/data-structures/
+  - contains some patterns
+http://gameprogrammingpatterns.com/contents.html
+https://en.m.wikipedia.org/wiki/Software_design_pattern
+https://en.m.wikipedia.org/wiki/Design_Patterns#Patterns_by_type
+—
+
+
+**entity list should be searchable like a database is**
+
+categories “layers” concept:
+can separate entities by a category, for example: collidable, background, effects, etc. Collidable is important for limiting the list for checking collisions.
+
+for the most part, this could be implemented with an enum, which can contain 8-16 mutually exclusive layers / categories. Collidable and visible might have to be a separate booleans or something.
+
+“tags” concept:
+same as the “layers” / categories concept, except now an entity may be a part of several categories (“tags”)
+
+there’s a very good implementation of this used by Matt, using a bit-field data structure. int / enum might be 8 or 16 bits, allowing 5 or 6 (0,1,2,4,8,16) categories, and any combination of those categories.
+
+both?:
+Perhaps both could just be used: a layers map (mutually exclusive categories) and a tags map (combinable categories)! Two maps isn’t so bad to handle. It’s still infinitely simpler than a scene graph / tree.
+
+implementation:
+just have to remember to remove a pair (map pair) when an entity with a layer or tag is removed.
+
+or, just keep one master entity list, nothing else. Check entities by layer or tag.
+
+
+FlashPunk supported layers (vector?), “type” (string), and class (using ActionScript’s run-time reflection). With these three pieces of data, helper functions were added to Entity (strange place) to search the main entity list (in the “world” object), returning arrays or vectors filled with pointers to the desired entities. For example:
+get all entities by layer / type / class
+get first entity by layer / type / class (because container provides first/last)
+get last entity by ...
+collide by layer / type / class
+collide with point / line / rect
+first entity to collide with point / line / rect
+collide with another entity
+first entity to collide with another entity
+
+It seems FlashPunk kept a group internal vectors and counters for everything (in world): entities to be added or removed at the end of the frame, then, when they are added or removed, the lists of types / layers / classes are updated accordingly (also at the end of the frame).
+
+Also, layers in FlashPunk were actually used as 2D layers, for determining what order to render entities. Additionally, entities could be shifted back and forth within a layer to alter the render order. So layers had to be an array or vector, as it needed an index.
+
+All of this really shows the dynamic power of FlashPunk and ActionScript. Surely not optimal, but good enough! My hard-coded enum and bit-field implementation idea would be infinitely more efficient, but AS3’s Arrays are really flexible, allowing any type and any length.
+—
+
+
+scene graph vs no scene graph
+https://en.m.wikipedia.org/wiki/Scene_graph
+  - transforms (positional matrix) can be concatenated to produce the correct position of an object. This allows the user to use relative coordinates, which may be easier to think in, especially when a tree gets deep.
+
+https://stackoverflow.com/questions/5319282/game-engines-what-are-scene-graphs
+  - “overkill for 2D”?
+  - helps find which objects are in camera view / should be rendered
+  - helps find objects closest to the player for collision testing
+  - can cut parts of a 2D screen, partitioning the screen, so that you’d only have to check for things in a single partition
+
+What is a scene graph in the game engine development context?
+Well, it's some code that actively sorts your game objects in the game space in a way that makes it easy to quickly find which objects are around a point in the game space.
+
+That way, it's easy to :
+
+quickly find which objects are in the camera view (and send only them to the graphics cards, making rendering very fast)
+quickly find objects near to the player (and apply collision checks to only those ones)
+And other things. It's about allowing quick search in space. It's called "space partitioning". It's about divide and conquer.
+
+Why would I want to implement one for my 2D game engine?
+That depends on the type of game, more precisely on the structure of your game space.
+
+For example, a game like Zelda could not need such techniques if it's fast enough to test collision between all objects in the screen. However it can easily be really really slow, so most of the time you at least setup a scene graph (or space partition of any kind) to at least know what is around all the moving objects and test collisions only on those objects.
+
+So, that depends. Most of the time it's required for performance reasons. But the implementation of your space partitioning is totally relative to the way your game space is structured.
+
+Does the usage of a scene graph stand as an alternative to a classic entity system with a linear entity manager?
+No.
+
+Whatever way you manage your game entities' object life, the space-partition/scene-graph is there only to allow you to quickly search objects in space, no more no less. Most of the time it will be an object that will have some slots of objects, corresponding to different parts of the game space and in those slots it will be objects that are in those parts. It can be flat (like a 2D screen divider in 2 or 4), or it can be a tree (like binary tree or quadtree, or any other kind of tree) or any other sorting structure that limits the number of operations you have to execute to get some space-related informations.
+
+Note one thing :
+
+In some cases, you even need different separate space partition systems for different purposes. Often a "scene graph" is about rendering so it's optimized in a way that is dependent on the player's point of view and it's purpose is to allow quick gathering of a list of objects to render to send to the graphics card. It's not really suited to perform searches of objects around another object and that makes it hard to use for precise collision detection, like when you use a physic engine. So to help, you might have a different space partition system just for physics purpose.
+
+To give an example, I want to make a "bullet hell" game, where there is a lot of balls that the player's spaceship has to dodge in a very precise way. To achieve enough rendering and collision detection performance I need to know :
+
+when bullets appear in the screen space
+when bullets leave the screen space
+when the player enters in collision with bullets
+when the player enters in collision with monsters
+So I recursively cut the screen that is 2D in 4 parts, that gives me a quadtree. The quadtree is updated each game tick, because everything moves constantly, so I have to keep track of each object's (spaceship, bullet, monster) position in the quadtree to know which one is in which part of the screen.
+
+Achieving 1. is easy, just enter the bullet in the system.
+
+To achieve 2. I kept a list of leaves in the quadtree (squared sections of the screen) that are on the border of the screen. Those leaves contain the ids/pointers of the bullets that are near the border so I just have to check that they are moving out to know if I can stop rendering them and managing collision too. (It might be bit more complex but you get the idea.)
+
+To achieve 3 and 4. I need to retrieve the objects that are near the player's spaceship. So first I get the leaf where the player's spaceship is and I get all of the objects in it. That way I will only test the collision with the player spaceship on objects that are around it, not all objects. (It IS a bit more complex but you get the idea.)
+
+That way I can make sure that my game will run smoothly even with thousands of bullets constantly moving.
+
+In other types of space structure, other types of space partitioning are required. Typically, kart/auto games will have a "tunnel" scene-graph because visually the player will see only things along the road, so you just have to check where he is on the road to retrieve all visible objects around in the "tunnel".

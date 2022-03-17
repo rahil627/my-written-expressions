@@ -1,0 +1,63 @@
+mini-Kickstarter for transcriptions of writings
+
+# title
+Transcriptions of Philosophic Notebooks
+
+# main
+This project is to fund me to transcribe most of my physical writings (that I’m able to retrieve), especially those written during the past four years, but generally since leaving my home-town in 2011. In the process of doing so, I hope to use the money to climb out of poverty and put me in a good state of organization again (basically: get my shit together).
+
+At the moment I have: two of my main note-books, two note-pads, an old travel-size note-book (a gift from my sister for my first trip), and a mess of items I’ve written on. They mostly contain social theory (humanities, not science), but also just thoughts, observations, and ideas. I have a lot more writings, but retrieving them will require lots of luck (more on this later...).
+
+I will transcribe them first by photo; Second, by typing; Third, by slightly organizing it by topic, as one would do for a blog entry.
+
+There was only one period in my past that I actually tried to transcribe some of my mind: it was in 2014. It resulted in a sort of infantile digital philosophical corpus. It can all be seen at rahilpatel.com. Unfortunately, it’s quite confuddled by academic non-sense because I was using academic philosophy books to learn to write. Won’t happen this time!
+
+If I get enough money for an old laptop (or given one, RIP late 2013 MacBook), I will be able to take time to create a better digital writing workflow (technically: migrate to a statically generated web-site; RIP Wordpress). At the moment, all I have is an iPad Mini and a bluetooth keyboard, which, as this proposal proves, is surprisingly good enough to begin!
+
+In the end, I hope to have initially organized my writings into text files organized by date and perhaps adding related info such as a title, categories, etc., which then can be auto-generated to my public web-site as entries (blog posts).
+
+My passions and creativity are at a life-time low, so, perhaps this is a good time for mere recording?... Anyway, the money will enable me to live and go back to organizing communes / communities again.
+
+*...Can a public crowd really fund purely passionate people, such as philosophers?*
+
+# the lost writings
+If I get a laptop, I can try to repair (recover?) my external hard-drive, which might have a photo-copy of an old notebook or two (along with lots of valueable photos and other files :( :( ).
+
+If it’s possible to fix my e-book reading app installation, I might be able to fetch additional thoughts / writings that I wrote directly into the app as annotations. My e-book library *was* my main library, of 100+ books.
+
+The last bit of writings are at home, safe, in America: My first notebook (*I think...I hope...*) and a bunch of scribblings on the margins of books.
+
+# bio during the writings
+I believe the last two notebooks (#3 and #4) cover a period around the time living in a communal place in Taiwan (mostly utopian dreams) and living in poverty (mostly me losing hope). My second main notebook, which is most likely lost, physically and digitally, foreva-eva, I believe, covers my deepest philosophy period (*my* Tractucuses). My first main notebook, I believe, covers my travel observations in Asia (environmental design [natural vs institutional], development / technology / mediums and culture, etc.). I believe my writings before that, in American cities, were mostly written digitally (praise the Dropbox gods!).
+
+# stretch goals?
+I just want to emphasize that this project’s main scope merely covers a transcription of my physical writings. It’s that simple. It is does not involve turning my writings into long essays.
+
+Though, I feel the more money this project would get, the more I would be able to better re-express myself, organize everything, and get closer to more complete developments of past ideas. You can see my web-site to get the gist of what I was going for the first time. I would really like to organize everything by entries (thought / idea / concept / essay), fitting multiple entries together by topic, and, better express whatever I was trying to express during past times; All of this, during the process of transcribing.
+
+A ton of my writings were done digitally too. Any more money could motivate me to organize all of that [into the web-site too].
+
+# where the money goes
+0. monthly internet
+1. 1 year renewal domain name and web-hosting, plus a second domain
+2. a good usb battery
+3. old iPhone (3/4/5) vs laptop with a good battery (depends on money)
+4. solar charger (surely there are good ones by now...?)
+x/5. travel fees to search for a lost notebook (can hitch-hike this...)
+6. travel fees to fetch scattered belongings (short motorcycle trips)
+
+Honestly, this is just a way I thought of to get out of poverty while still doing “work”. I live abroad. Luckily, I have a good home in nature with food, but unfortunately, it’s in a bad place with a nearby market and culture that are terribly conservative—traditional Asia terrible. I really feel the only way to get out of this trap is to try do some digital work (remote computer programming)—trust me on this, I’ve tried *a lot* to get out of this trap! So, by funding this project, I’ll be able to get the gear not only to do this project, but also *enable* me to find other digital (and physical, like vending food) ways to make money after this project.
+
+# content of the writings
+I’m guessing the content is probably what the backers care about, which sucks for wandering essayists like me.
+
+The content of the last two notebooks, off-the-top, includes: poverty, what is tradition?, what is a conservative mind?, and then the normal: reflections on my past and my personality, development / environmental state of mind, lots of utopian thoughts (practical and theory), anarchy, community, commune-making, place-making, capitalism, human values (and intentions), institutionalized cultures (White, Chinese Taiwanese, Korean, Japan) vs real cultures (i.e. Black American, Native Taiwanese), community and personality theory, community and cultural theory, what is natural life?, comparison of behaviors and ethics, etc. etc.: basically thoughts on contemporary cultures of human life.
+
+Though the topics seem dense, the writings are short, simple, straight-forward thoughts and observations; They are not fully-developed ideas or essays (though, later entries might get long...). The best I can hope is that my writings have the plain, direct appeal of writers like David Graeber (of *Debt*) and the wandering anarchic content of Ivan Illich (of everything), but, without any of their skill or research, substituting academic-ness for sheer direct expressions: personal observations and experiences, wandering, and imagination. *Note: Again, I can only guarantee transcriptions of writings. Actually figuring out what I meant [at that moment], drawing out long essays, philosophizing are all not part of the scope [of this project], though, at times, it will surely naturally happen during the process. Knowing myself, especially at this age, I know I will opt for real actions as opposed to art and media.*
+
+# the start of the future
+This project also serves as the beginning point to other possible projects; I mean, actual Kickstarter-sized ones, as the writings contain most of my project ideas too. Notably essays—written essays, film essays, game essays—, but also many small pro-community digital tools, and video projects. But first, *the ideas must be saved!*
+
+This project alone might require a few tools to make along the way!: my own writing syntax (like Markdown), my own editing and grammar symbols, a good CMS with ideally *all* content generated from Dropbox, fetch and list text that have been marked (highlighted, annotated, rated)...oh boy. The possibilities...they never end.
+
+Can’t I just go back doing what I feel is natural and right? Living together?

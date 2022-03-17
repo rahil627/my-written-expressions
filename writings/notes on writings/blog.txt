@@ -1,0 +1,277 @@
+todo:
+categories:
+“social philosophy” may be renamed to “socio-cultural philosophy”
+“institution” might go under “social philosophy”, instead of “cultural theory”, “cultural hegemony” would then be left under “cultural theory”
+“communication”  might only have two, verbal (aka linguistic, semiotics) and non-verbal, and a special one for logic, which may be trashed or thrown under “science”. and a special one for media? This is all confusing because I often use communication in its effect of a culture, such as written vs oral cultures
+
+
+
+todo:
+
+add this jQuery script to toggle content beneath headers until next header, like Wikipedia:
+$('h2').click(function(){
+    $(this).nextUntil('h2').toggle()
+})
+
+center top navigation menu for smartphones
+  - failed to fix
+
+align unordered list bullets with blockquot left border
+  - fixed, just need to double check on a desktop screen
+
+make h1 headers (and table of contents) have Chinese or Roman numbered bullets
+
+
+https://yoast.com/wordpress-seo/
+  - changed XML sitemap from one plugin to this one, check if it's okay in Google Search Console
+    - old plugin had 300 pages, this one has 500 pages and some images
+  - try breadcrumbs and choosing a primary category?
+
+https://yoast.com/speed-up-wordpress/
+  - enable and follow directions to install W3 cache
+
+Google Search Console
+  c/- finish "improve search presence" todo list (6 steps)
+
+old:
+remove blog
+  - HTML
+  - Wiki*
+    - can have a page for portfolio, blog, etc.
+    - all other pages can be open to edit
+    - wiki.how
+  - use PHP to fetch notes folder
+
+create pages:
+  - game manifesto
+  - film manifesto
+  - general art manifesto?
+  - general life manifesto
+    - simple life
+
+old sub-title:
+(ノಠ益ಠ)ノ彡┻━┻
+
+articles of me:
+http://news.dice.com/2012/05/14/mobile-game-hackathon-winners-envelope-please/
+
+http://www.digitalinnovationgazette.com/feature/distribution/app_developer_competitions_worth_it/index.html#.T8cNW2jMHtZ
+
+--
+
+
+
+
+
+
+
+
+
+
+
+
+<strong>Professional Work</strong>
+<a href="http://rahilpatel.com/resume.pdf">Résumé</a>
+
+  - <a href="http://news.dice.com/2012/05/14/mobile-game-hackathon-winners-envelope-please/">an article by Dice</a>, 3rd place at a game jam
+  - <a href="http://www.digitalinnovationgazette.com/feature/distribution/app_developer_competitions_worth_it/index.html#axzz2A6mSpTVB">an article by Digital Innovation Gazzette</a>, someone wrote something
+
+
+
+
+website designs:
+http://www.wherehaveallthewildlingsgone.com/
+
+the standard font and color style:
+coding horror
+http://www.branah.com/
+
+http://demo.themecobra.com/deliciouslysimple/page/2/
+
+just use plain HTML! Then can update with whatever new cool features of the current HTML.
+
+http://www.third-helix.com/2012/02/making-2d-games-with-unity/
+http://gordon-chan.net/ - simple, mac-like
+http://99designs.com/logo-design
+
+wordpress themes
+
+deleted: book lite
+
+http://linguisticmystic.com/2007/03/08/using-ipa-fonts-with-mac-os-x-the-comprehensive-guide/ ***
+
+http://www.dmolnar.com/ - no blog, just html
+http://www.reallyfancy.com/ - simple, grey and neon!
+http://carolinethemes.com/ - wordpress themes, especially butter creme
+http://www.d-bow.com/#About - but neon colors and HTML / CSS
+http://kylejwarren.com/
+http://gloryfish.org/
+http://supercrazyawesome.com/
+http://www.airtightgames.com/ - full screen website!
+
+more (older):
+http://isotopecomics.com/index.php/events/
+http://www.aftershocksf.com/
+http://minimaldesign.net/portfolio
+http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/
+https://daw.apple.com/cgi-bin/WebObjects/DSAuthWeb.woa/wa/login?appIdKey=D635F5C417E087A3B9864DAC5D25920C4E9442C9339FA9277951628F0291F620&path=//ios/urlRedirect.action%3Fmode%3Dregister%26userAction%3Dlogin%26successURL%3Dhttps://developer.apple.com/membercenter/login.action%26cancelURL%3Dhttps://developer.apple.com/programs
+http://thedesigninspiration.com/articles/25-most-attractive-black-white-websites/ - about me page
+http://sftheaterpub.wordpress.com/
+http://theoatmeal.com/comics/state_web_winter
+http://www.incredibleegg.org
+http://binarybonsai.com/
+http://www.phpchick.com/
+http://us.blizzard.com/diablo3/
+http://brsev.com/#licensing
+
+themes:
+http://wordpress.org/extend/themes/
+  - http://wordpress.org/extend/themes/baris - current
+  - twenty twelve
+http://freewpmedia.com/tag/1-column/
+oulipo
+stilbruch
+manifest
+
+blog tips:
+http://www.dailyblogtips.com/interview-with-jeff-atwood-from-coding-horror/
+http://www.codinghorror.com/blog/2005/05/blogging-about-blogging.html
+you have to want to write
+you have to believe you have something to say
+you have to have an interesting way of saying it
+you have to be a decent (not great, but decent) writer
+you have to enable blog comments
+
+http://www.codinghorror.com/blog/2007/12/on-the-meaning-of-coding-horror.html
+
+http://scobleizer.com/2009/11/02/the-chat-roomforum-problem-an-apology-to-technosailor/ - reason why social networks devolved, except blogs and twitter
+
+
+
+self-tips:
+neatly write my findings after doing research, like coding horror
+write about things that are rare on the internet
+write well, like coding horror or no film school. For music reviews, I could write as if I were working for pitchfork or kill screen
+self-brand the shit out of the site
+showcase all of my work - photos, drawings, game, programs, etc. Anything I create should be on the site
+link Wikepedia, try avoiding linking other websites
+
+
+
+posts:
+
+Earthbound description, why art kids grew up playing it, unconventinal
+
+3d video game research
+
+a post about non sweat shop shoes:
+(1:25:04 PM) Me: So I thinking about Nike and sweatshops and was looking for non-sweatshop companies. http://www.greenamerica.org/programs/sweatshops/sneakers.cfm provided some useful info.
+
+I then read most of the wiki article of Puma. Interesting read. Convinced Jesse Owens for the 1936 Olympics in which Hitler was present and boomed from there.
+
+
+a post about choosing media, choosing your interest over popular and even universal greats at times. Windup Girl > Alduous Huxley. Then again, do read WATCHMEN. Invisible Cities. From snippets of text I gather through browsing the internet. Something generates enough interest.
+
+a post about belonging in another country.
+What if you weren't fit in the country you belong. You ache for the characteristics that describe another country. You only know by the knowledge you've gathered from the internet and the little interactions with the people from that country.
+
+
+check to mac.txt
+
+
+The big screen presentations were all cool! Thanks again for telling me about it, I'd never have found it otherwise. If this is what interaction design / ITP is about, then I don't think it's very different from creative game design. The thing that makes a game a unique medium is player input/interaction after all. Coincidentally, a monthly game jam contest I regular (since September, at least) has a similar "big screen" medium for the next contest, so it was really helpful seeing how the size of the screen, a nice sound system, and being in a large audience affects people's response.
+
+I'll be back at home for most of December myself, so we'll have to catch up next year. Have fun in LA!
+
+
+  
+
+
+
+
+
+
+
+
+SSBM thought
+So sometimes I try think of ways of explaining something or why I feel a certain way about something to someone who doesn't know. It often turns out to be a good way for me to figure out WHY exactly I like the things I do.
+
+I just had one of these long thoughts a minute ago. I decided to write it down...and it happens to be about Smash.
+
+
+explaining Super Smash Bros. to a non-player
+SSBM is a strategy game with a physical requirement. That is, to get to a professional level of play, you do need to reach a certain physical requirement which requires practice. After that point it becomes strategy, and the smartest always win.
+
+American sports are physical games, meaning a physical better player can beat a tactically smarter player. This is why soccer and hockey are regarded higher than American sports. In soccer or hockey, a physically normal person can have great achievements. Wayne Gretzky being the perfect example. He's physically normal, but he know how to play the game, know when to play safe, know when to take opportunities, use knowledge to exploit the game.
+
+Due to that physical requirement, SSBM is by no means a perfect tactical game such as chess, but it holds its own. I'd argue it is far more complex. In chess you are given strict rules of what you can/cannot do--a king can only move one space in all directions. Similarly in Smash, you have a character with a given move set. But Smash has a lot more other factors--stages, approximation of hitboxes, game anomalies, etc. I imagine if you and your opponent chose the same character, you would essentially be playing a pure tactical game, such as chess (assuming both players are nearly physically equal).
+
+So, SSBM is more comparable to Starcraft and Street Fighter 3, which they too has a physical requirement of hand-eye coordination to reach a pro level but becomes tactical after that, many factors (maps, unit hatboxes, build order/resources). All 3 games are overly complex to the point that no human can play a perfect game. They are so complex that new exploits are being found 10 years after the game was made.
+
+At the same time are the most entertaining, possibly because of how complex it is.
+
+It's possible that Super Street Fighter 4 (a little less so with SSBB) maybe a better competitive video game, as it has a low physical requirement, but still remains a strategic game, in which the smartest players still win.
+
+Yet, these are not as entertaining. Hmm.
+
+I guess any fighting game can be considered successful by my definition, as the smarter player will always win. Eh.
+
+I can't verbalize what makes this previous games so entertaining above SSF4 or chess. Maybe I haven't gotten into chess. But I think it has to do with playing tactically. No, creatively! YES. Creativity. In a strict ruleset such as SSF4, one might feel more restricted. I'm sure there are new tactics evolving in SSF4, but in the previous games, creativity is abundant, due to the large amount of factors/rules that make up the game.
+
+This allows for more creativity, an ever-evolving game. Sure, more radical than the former games, but creativity is exciting! The game of chess is done: generations have played it, there are books that explain tactics--what to do to counter your opponent in a given situation, there maybe be an ounce of creativity that only a prodigy chess player could find, but for the most part, its over. Video games are new. There's a new set of rules with many tactics waiting to be found out! This, I believe, is what creates so much excitement in those previous games.
+
+Creativity. How fitting.
+
+
+
+http://thoughtsonliberty.com/has-capitalism-made-us-complacent
+
+
+
+
+
+black vernacular, beigousie, NY, SF, etc.
+
+http://www.webdesigndev.com/inspiration/10-awesome-websites-with-the-best-navigation-structure
+
+blog slohmo, low media, art appreciation
+Rahil's journal entry. Use an old one. About life, deep. Pics in SF.
+
+
+someone's review on Zynga. It's similar to my experience at Perfect World
+Pros
+Pace (but see below); reach (millions of users - for now)
+Cons
+* No sense of company direction; Zynga cannot come up with a strategy to overcome the fact that it is entirely dependent on Facebook.
+* It is a loose collection of "studios" with little or no sharing of resources between them, resulting in serious inefficiency.
+* Disingenuousness is pervasive and seeps down all the way from the very top.
+* Zynga is not a meritocratic organization. Pettiness, paranoia, fear and back-stabbing win the day; those who "play the game" float to the top.
+* One of the company values is something called "Zynga Speed", which means accepting that quality will be sacrificed and long hours will be expected, over and over again. For employees aged over 25 this means your years of experience in your field will be routinely ignored; just to get the job done, you will be expected to abandon just about every principle you have learned as a skilled professional.
+* Deadlines are arbitrary and extremely aggressive, yet in some cases slip by several months as strategies change on a whim at the top level.
+* Expect to find yourself micromanaged by someone much less skilled than you, and who also has no skills in management.
+* A large proportion of the employees are in their first job and are treated like slaves; they will stay there until they burn out and discover a life outside Zynga. This is challenging for experienced people as the same is expected of them too.
+* Seasoned workers are open and vocal about their dissatisfaction with working there (read other Glassdoor reviews for confirmation).
+* The "no vacation policy" sounds good on the face of it, but basically it means your manager will decide not to let you take time off.
+* The games themselves are of dubious value. Do you want to believe in your company's products?
+
+SF thoughts:
+art
+no judging by clothing or color
+food
+events
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,151 @@
+notes on Hugo
+
+# hugo vs jekyll
+most people seem to prefer Hugo, or eventually change to Hugo... they cite a few of the following reasons: build times, ruby on rails environment (especially on Windows servers)
+
+i personally don’t care about build times, in theory. I also don’t care about the ruby environment: all linux environments are equally foreign to me.
+
+https://peterychuang.co.uk/tech/hugo-vs-jekyll-static-site-generator/
+  - for him, he was pleased to have certain features in Hugo ‘out-of-the-box’, such as pagination and one other one, whereas for Jekyll, you’d have to install the plugin. I personally think installing a plugin with one command and having a ton of other plugins a good thing.
+  - he also likes the organization of Hugo, for example, instead of drafts being put into a separate folder, in Hugo, draft is simply a front matter variable... Perhaps after so many years, Hugo had a better initial design... but who knows, maybe the newer Jekyll versions are also designed well?
+  - have a single binary is cool though, i’ll give it that.
+
+https://www.johnwordsworth.com/2020/08/hugo-vs-jekyll-a-static-site-generator-comparison/
+
+# migrating
+https://gohugo.io/tools/migrations/
+  - easy to migrate from and to Jekyll; has a native function
+    - so, in the case of migrating from Wordpress, it might be easier to convert it to Jekyll, then convert it again to Hugo
+
+# work-flow ‘n web-site deployment
+https://peterychuang.co.uk/tech/hugo-site-deployment-workflow/
+  - git, two branches: one for source files and one for generated site files, pushes from local computer to GitHub, then, uses some software (Travis CI?), to update the web-server? Not sure if the server checks changes by intervals, or, if the local computer or GitHub tells the server to check...
+
+- - -
+
+
+
+# from a previous research session
+https://gohugo.io/getting-started/quick-start/
+  - everything needed to install Hugo and create a site
+
+https://discourse.gohugo.io/t/hugo-101-slowstart-for-beginners/18383
+  - a more complete tutorial, which shows how to create a site from scratch, making your own CSS, archetype, and layout files (basically, your own minimalist theme)
+
+https://gohugo.io/getting-started/configuration/
+  - maybe the most important page in the docs
+  - can probably generate the essential front matter (title, date) modifying this
+    - https://gohugo.io/getting-started/configuration/#configure-front-matter
+
+https://yaml.org/spec/1.2/spec.html
+ - surprisingly close to my own mark-up language
+
+
+https://gohugo.io/content-management/formats/
+ - what hugo can input: basically, just markdown
+
+https://gohugo.io/templates/output-formats/
+  - what hugo can output
+
+https://gohugo.io/templates/lookup-order/
+  - what template / lay-out is going to be used
+  - good for over-riding a theme’s lay-out
+
+
+
+https://github.com/madranet/hugoskeletonsite/blob/master/themes/skeletontheme/layouts/index.html
+  - an example use of hugo, heavily documented intended for learning
+
+https://gohugo.io/tools/
+ - includes tools to help migrate from another platform, and, front-end GUI for Hugo
+
+git clone [from] [to]
+  - use this to get Hugo
+  - use this to get most themes
+
+hugo commands:
+hugo new site [site name]
+hugo new [filename (with or without path)]
+hugo
+  - generates the site using the default ./contents folder
+hugo -c [from] -d [to]
+  - (c is for contents, d is for destination)
+
+personal commands:
+~/hugo/hugo -d ../site
+
+scripts:
+https://discourse.gohugo.io/t/can-you-run-a-script-on-build/13385/5
+  - example build script in bash and node.js
+
+https://stackoverflow.com/questions/21985492/recursively-change-file-extensions-in-bash
+  - change file extension
+
+https://discourse.gohugo.io/t/txt-files-and-other-non-md-extensions-as-pages/23773
+  - a question that i posted
+
+If you have rename available then use:
+find . -name "*.t1" -exec rename 's/\.t1$/.t2/' '{}' \;
+
+If rename isn't available then use:
+find . -name "*.t1" -exec bash -c 'mv "$1" "${1%.t1}".t2' - '{}' \;
+
+https://gohugo.io/hosting-and-deployment/deployment-with-rsync/
+  - **sync!!!**
+  - web server ssh / sync from remote location
+
+
+can search GitHub for scripts written for Hugo to get the gist of it
+  - https://github.com/search?q=hugo+scripts
+
+https://discourse.gohugo.io/t/auto-generate-file-name-based-on-title/4648
+  - an example of a “wrapper” script
+
+https://discourse.gohugo.io/t/is-there-any-command-that-can-rename-the-post-files-which-are-weird-encoded/10643/
+  - contains a one-line script that adds front matter content to all .md files in a folder
+
+https://gist.github.com/thebearjew/79f5f572baa8dc8e6d492a282c7d4fc9
+  - **another script to add front matter, notably using the file-name as a title**
+
+hugo dev:
+https://github.com/gohugoio/hugo/issues/3805
+  - an open issue / possible update of using file-name as title
+
+# work-flows / set-ups:
+## on a standard Linux shared server:
+keep the files intended to be Hugo content in a Dropbox folder. Perhaps one content folder (on Dropbox) per site. Then, on the web server, use a command to get the folder.
+
+to get a folder via unix:
+get the link from Dropbox
+  - https://www.dropbox.com/sh/skjff5jey4eg2kv/AACMOWT2JK8SLC38YlqWzjr4a?dl=0
+change dl=0 to dl=1
+todo: research commands, perhaps wget?
+
+### why this workflow?:
+The other way would be to keep a Dropbox installation on the web-server. But, that’s not...right. Dropbox is supposed to be installed on the client-side, for security reasons. Putting *everything* in the web server is quite a risk.
+  - That’s a good thing, because in order to install Dropbox, perhaps a VPS would be needed (I’m not sure. Maybe can install via unix?...)
+
+Also, *only* getting the content folders is *just right*. No waste (Dropbox bandwidth, web-server bandwidth, etc.).
+
+## web server tailored for static sites
+
+
+### static web hosts
+Send the site files to the web host. Upon a *web-hook* or a version-control (git) push, the site will re-generate.
+
+guide to use Netlify web host with hugo
+   - https://gohugo.io/hosting-and-deployment/hosting-on-netlify/
+
+a list of static web hosts
+  - https://jekyllrb.com/docs/deployment/third-party/
+    - Netlify is the most popular one (at the time of this writing)
+
+**Many are *free*,**. In addition to that, they provide superior performance, with all new server techs, because their servers are tailored for static sites.
+
+Also, many [can] provide rather accessible server tools which may have otherwise been rather technical, such as build commands.
+
+They give you a free sub-domain, such as rahil.netlify.com, but, you can provide a custom domain.
+
+Prices vary. The free plan might be limited to just one site, as is the case for Netlify.
+
+

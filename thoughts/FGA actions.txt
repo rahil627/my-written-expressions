@@ -1,0 +1,14 @@
+$$$$$ What actions to take for the [progress of the] community?
+  - organize, organize, organize
+    - get people from other communities (FlashPunk, SC map-makers, modders, etc.)
+    - decide on actions together
+
+# problems
+income models for FG-makers
+  - Patreon after initial success / two characters
+  - Another reason as to why there aren’t any FGs
+
+game dev
+  - ask other indie game developers to make their code open-source, or, just a part of it, like the useful functions
+  - ask indie game jam developers to make their jam code libraries open-source
+  - ask indie FG developers to share their work-flow for animations and other optimizations [of the work-flow]

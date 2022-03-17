@@ -1,0 +1,8 @@
+# A specific case
+To take a very specific and narrow case of the problem: samurai games, at least in the feeling of it.
+
+It’s a good case because it’s technically easiest and can still provide satisfying game-play. Examples include: Playground game play-sword-fighting; Simple 2D-platformer indie games Nidhogg (Prince of Persia battle mode), SamuraiGunn, and TowerFall; Conceptionally and in its production, Bushido Blade; Most belovedly, GoldenEye 64 configured to license to kill and pistols only (thanks to the suspenseful slow move and aim speed); After that, there’s a giant abysmal gap; Somewhere later, the Samurai Showdown series; And at the top, the Last Blade series. Surely there are many missing from popular attention (that I intend to seek out, especially *mod games*), but, at the moment, it sure does feel like this is a good sample set.
+
+What’s striking to me is that the only polished ones out of them all are TowerFall and Last Blade 2. *That’s it.* It almost seems as if the same culture that once crafted impeccably balanced samurai weapons is the only one able to craft equally well-balanced fighting game systems; And, well, Matt Thornson [of TowerFall].
+
+It’s precisely in that abyss where many fighting game system gems are yet to be mined. Something competitive but not overly complex. And that’s crazy, considering the infinite games that can be made.

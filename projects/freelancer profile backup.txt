@@ -1,0 +1,18 @@
+Freelancer profile backup
+
+profile / about
+I’m hoping to use this site to get some game-making practice in. Like any other sport or skill, game-programming requires practice. I want to stay in shape. In addition, it’ll allow me some opportunities to try some game engines that I normally wouldn’t choose for my own projects. (and borrow some good ideas to put into my own hand-made 2D game engine :) )
+
+portfolio
+
+babycastles
+a radical, experimental, inclusive, empathetic, morally-driven game art community in NYC that I found a home in: https://www.babycastles.com/exhibitions
+
+pinkies up
+A 2-100+ player (yes 100: 10+ locally networked devices) iPad game inspired by Flipcup. Press your team's buttons in sequence as as fast as possible, but break the sequence and dear Harold will shatter into pieces. :( Pinkies only! https://jonstoked.com/Pinkies-Up
+
+crystal brawl
+“Gauntlet meets NBA Jam in Crystal Brawl, a 2v2 capture-the-flag local multiplayer game that melds fast action with MOBA-like strategy.”: http://crystalbrawlgame.com/
+
+studio mercato
+a few independent game-makers in NYC had once come together, to form something greater than our own individualized efforts: https://www.studio-mercato.com/

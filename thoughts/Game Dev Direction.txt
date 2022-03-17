@@ -1,0 +1,46 @@
+# My Personal Game Dev Direction
+My first project will just be a top down fighter to quickly test game engines.
+
+After that, there’s a very simple but difficult-to-implement (requires Flash-like drawing, often straight OpenGL functions) top down fighter idea from 2012 that I want to revisit.
+
+Then, once the engine has been decided and feels good, my personal initial aim will be towards *Melee*. To me, that’s complex yet flexible enough, creating path-ways toward enough new games, and naturally generating a large enough tool-set.
+
+The most useful thing that will come out of my own developments is a fighting game developer code library. Think: What you expect in developer mode or training mode—wire-frame characters, colorful and clear indication of pixel-perfect collision detection (*hit and hurt areas*), data overlays, a scrolling display of input and ways to save it (much like a list of chess moves), various input handlers for smooth and responsive movement, input buffering, hit handler, hurt handler, etc.—**a fighting game tool-kit** for game developers; Also, ways to alter game variables and save pre-sets in game (remember: *GoldenEye*, *Smash* series), and ways to load and play saved input—**a fighting game sandbox** for game balancers and playful game makers. I’m hoping much of it will be done by existing game frameworks and code libraries, but I still want to emphasize the fighting game specific parts of it. Of course, anything I make is free to use. This *is* a FuckinG Anarchy after all.
+
+Though the main library should be generic, not genre specific, I still hope to try attacking some pop categories myself and provide very basic samples, mainly, 2D platformer (*Melee* as the core style of FG mechanics, select FG mechanics from beloved games throughout FG history) and 2D top down (think: *Crawl*, *Smash TV*), to build the core of the library. By basic I mean two characters, one stage *basic*. I’m more interested in FG specific game mechanic details (hit, clashing, plus and minus frames, defense options, etc.) than anything else.
+
+Beyond a code library and two basic samples, I don’t feel it’s too useful to make game-making any more convenient as it would greatly limit one’s ability and therefore creativity, like specialized paint-brushes. I believe that once a person can make a 2D game using an engine, only their imagination is the limit...and community.
+
+[*note: There’s an existing Unity module, Universal Fighting Engine (UFE), that I won’t be competing with. Think of my code library as janky DIY game prototyping library on GitHub, not Street Fighter specific nor a professional product with customer service, maintenance, and free oil changes.*]
+
+## Disclaimer for game programmers
+Just to be clear: this isn’t a game engine or even framework from scratch; It’s just a code library, and perhaps barebones for a few pop genres. Think of it as what you might have prepared before attending a game jam to make a fighting game; **a game jam cheat sheet**. I’ll choose a contemporary game framework I feel is best fit. I haven’t looked at programming since Unity had *just* released their 2D update. Surely things are better by now?... Also, I personally had *a thing* for straight 2D animations, and even straight 2D game code without an interface (! kinky). But maybe it’ll be different this time though. [I’ve got my eye on an existing project that uses the Godot engine.]
+
+Ah! That reminds me: The only way I was able to make the game jam games early on was because of the much loved game framework FlashPunk. That’s probably where that *thing* came from. I hope FGAnarchy can be a cousin, still sharing the same ethos, <3, and atmosphere, just more extreme, both in the community and the tools.
+
+I’m afraid the game dev portion of the project will seem like a joke to many programmers because of how technically simple it appears, but I see it differently. For example, take the hit mechanic. *Melee*’s hit mechanic depends on timing of the attack and the area of the attack which can change every frame. Then, there’s hit priority (side note: can you imagine trying to order the priority of hits for 30 characters x 15 attacks [+ throws] x 2 timings x 2 areas?). Then, try throwing in*SF* counter hit and crush counters bonuses. To me, that’s already really really complex...Not to mention that I have no animation experience. I mean, just see Dan Fornace’s [sp?] life with *Rivals of Aether* as an example.
+
+My secret tactic is to avoid all of the difficult stuff that plague the development of fighting games: balancing too many character match-ups, animation, 3D, online service; and extra junk: AI, sound, music. Those things require serious dedication or specific passions (game balancer, animator, internet programmer, AI programmer, etc.). I’m trying to keep it indie-feasible, for me and for others.
+
+## Disclaimer for Power Stone fans (and other 3D fighters), console players, and online players
+3D, especially 3D platformer (*Power Stone*, some *Mario Party* mini-games), limited to a single screen and single camera [angle?] (*party games*), is a very compelling thought experiment that definitely has been long neglected of love, but unfortunately the 2D ones will have priority—including priority in the game engine that I choose and hope to use most of the time—, and thus this will continue to remain but a distant dream...But probably not too distant, as the two main engines have 3D capabilities. *Somebody please make Melee 3D.*
+
+2D perspective (think: dueling in *Diablo II* or *Fat Princess*, those old Asian *mmorpg*s, but limited to a single screen) is something I’m unsure of at the moment, as I’m unsure if it actually changes anything mechanically from 2D top down, other than the camera angle. The collisions are still on a 2D plane...right? [todo: do a quick Google about this]
+
+Being able to deploy to consoles conveniently play online smoothly and are unfortunately beyond my capabilities and are near-wholly dependent to the programming gods (...and the game engine I choose); You are better off throwing rocks at game programmers until they share their secret *net code* sauce. Or, pay Iron Galaxy dearly to do both. My research-sans guess is that the consoles are the bottleneck of net play. Consider me as a mere essayist and at best a shoddy tool-maker...Besides, who has a console and television but not a Mac or PC? You should get that checked.
+
+## ref
+https://www.quora.com/Why-does-nobody-make-Street-Fighter-style-Unity3D-games-or-some-kind-of-fighting-game-when-fighting-games-are-the-easiest-to-make
+https://indiewatch.net/2017/04/11/wanna-make-fighting-game-practical-guide-beginners-part/
+
+https://www.reddit.com/r/smashbros/comments/7ptf5z/hey_reddit_nyxtheshield_here_creator_of_the_godot/
+
+## notes
+Godot engine
+ - actual 2D and 3D
+ - inheritance (instead of component)
+ - simple, good-looking effects (particle, light, etc.)
+ - SSB engine on GitHub
+
+can Google for other SSBM engines, try keywords like “SSB”, “SSBM”, “Melee”, “Super Smash Bros.” etc.
+

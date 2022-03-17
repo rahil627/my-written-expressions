@@ -1,0 +1,13 @@
+heyo Noel!
+
+I’ve been out of the art game making world for a decade, and during this quarantined winter in another country, I’ve decided to just sit down and make games again! :)
+
+But, unfortunately, FlashPunk is long gone now (though, surprisingly, Flash isn’t...). So, I was wondering, is there any new place where FlashPunk folk hang?
+
+I checked HaxePunk, but even that seems rather abandoned... Both the project and the forums. There’s a Haxe discord... but it just doesn’t make sense to have a community based around a single technology... I’m guessing many of the now older punks have already crated own little custom engines that they use! (like monocle engine on monogame, or even back down to c/c++ ones on sdl)
+
+Is there some sort of general indie game dev discord server or forums somewhere?... with the same sort of DIY punk vibe? IndiePunk?
+
+If not, maybe I’d have to begin one?
+
+Anyway, hope all is well in your part of the world!

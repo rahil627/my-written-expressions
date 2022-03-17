@@ -1,0 +1,35 @@
+VolleyPong is a simple yet competitive game made tailored for the iOS, particularly the iPad. The games rules are very similar to volleyball. In order for a player to hit the ball, they must touch and swipe to create a paddle at the desired angle. In teams mode, the players must cooperate by passing the ball to each other to build velocity in the ball. Because each individual is not limited to their own screen space, teams will cross fingers trying to draw a paddle in the same location. This forces the team to create strategies for who hits the ball and when, just like volleyball.
+
+
+
+
+temp design document:
+
+I'll begin with an example playthrough that demonstrates most of the mechanics behind the game.
+[draw an example playthrough and annotate things along the way]
+
+1-4 players:
+1 player mode. 1 vs AI. See Campaign under extraneous content for more.
+2 player mode. 1 vs 1
+3 player mode. 1 vs 2 (no difference or handicap)
+4 player mode. 2 vs 2
+
+Extraneous Content:
+- Campaign - There could be a 1 and/or 2 player campaign mode in which you battle fictitious opponents in progressing difficult akin to Punch Out or other sports games. This may be needed to market to single players.
+- Art - Could be anything. Perhaps ink and paper themed.
+- Training mode - Many options provided. Helps teams work on strategies.
+- Tournament handler
+
+
+
+Summary:
+VolleyPong is a simple yet competitive game made tailored for the iOS, particularly 
+the iPad. The game’s rules are very similar to volleyball. In order for a player to hit 
+the ball, they must touch and swipe to create a paddle at the desired angle. In teams 
+mode, the players must cooperate by passing the ball to each other to build velocity 
+in the ball. Because each individual is not limited to their own screen space, teams 
+will cross fingers trying to draw a paddle in the same location. This forces the team 
+to create strategies for who hits the ball and when, just like volleyball.
+Design:
+I'll begin with an illustration of an example play-through of a single point that 
+demonstrates most of the mechanics behind the game. [next page]

@@ -1,0 +1,58 @@
+
+use Haxe for everything!
+
+ui apps:
+tools:
+  - Haxe UI
+  - wrapper for imgui?
+some examples ‘n ideas:
+  - **writing app for tablets and phones, especially iOS**
+  - reading app?
+    - probably can’t beat Voice Dream
+  - ...other creative / making digital tools (music, film, film essay, etc.)
+    - music - MIDI, busking
+    - film essay? whoa
+  - bookmark reading / consuming app, like Pocket
+  - functional apps like Devine’s (vi/emacs aesthetic interface)
+   - to make work-flows really minimal, creative-inducing
+
+interactive / multi-media apps:
+tools:
+  - media frameworks (SDL, oF, Kha, etc.)
+some examples ‘n ideas:
+  - interactive / digital art ideas
+    - input devices / sensors, strange outputs, etc.
+    - very basic games that don’t need a game engine, since most of the work is on the input and output
+  - device camera graphics apps
+  - tablet coloring book app
+
+web apps:
+tools: standard Haxe server library?, node.js wrapper
+some examples ‘n ideas:
+  - international internet languages, etc.
+  - new craigslist
+  - international Google
+  - nature-based DIY crowd-sourced community knowledge-base
+  - practical anarchy crowd-sourced community knowledge-base
+  - fighting game anarchy crowd-sourced community knowledge-base
+  - JRPG-like text display for my own site
+    - custom photo display? (much better and more interactive than blogs)
+    - custom multi-media display?
+    - these might be built with the multi-media framework, and outputted to HTML5
+
+game apps:
+tools:
+  - cross-platform media frameworks based game engines (on top of SDL, Kha; MonoGame, Beef2D, Jai)
+some examples ‘n ideas:
+[note: updated / moved to playground-game maker / modder]
+  - fighting games (simple, 2D, for fighting game anarchy)
+  - mario party like mini-games
+  - mmo / animal crossing / stardew valley idea (seasonal, ecological, social...; ragnarok graphics, harvest moon feel)
+  - 3D playground games (like GMOD, MineCraft, etc.)
+    - base / maker for 3D fighting games, sports games, etc. playground games.
+    - able to mod?
+  - 2D playground / sandbox
+    - base / maker for 2D games, based on camera (top-down, side, isometric)
+    - better to start with a game with a bunch of assets (weapons, movement skills) to play around with, like Dead Cells
+   - Smash / GoldenEye settings (items, rules, etc.)
+   - able to mod?

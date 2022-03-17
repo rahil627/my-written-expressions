@@ -1,0 +1,80 @@
+from wiki for ‘shell’:
+In computing, a shell is a computer program which exposes an operating system's services to a human user or other programs. In general, operating system shells use either a command-line interface (CLI) or graphical user interface (GUI), depending on a computer's role and particular operation. It is named a shell because it is the outermost layer around the operating system.[1][2]
+
+from wiki for bash:
+bash is the unix shell used in most linux OSes, including mac os (until 2019, when it switched to szh shell)
+
+
+# apps:
+Termius - iOS
+hosting panels (cPanel, Plesk) provide terminals
+
+
+# commands:
+ls
+  - l alias
+  - -a shows access, last modified date, file size, etc.
+
+cd
+  - change directory
+
+for these three commands, use -i to ask when overwriting
+mv -i
+  - move
+  - also used to rename
+  - **be careful, very easy to lose files!!!**
+rm -i
+  - remove
+  - -d to remove an empty directory
+  - -r to remove a filled directory
+cp -i
+  - copy
+
+
+todo:
+pwd, dir
+  - dir shows hidden files (usually with a . in front of the file-name)
+mkdir [file-name or file-path including file-name]
+  - to execute it
+
+find *part-of-file-name*
+  - not sure if recursive...
+
+zip -r -0
+  - recursive
+  - zero compression aka “store”
+
+
+du
+  - disk usage
+  - -h makes the size a bit more readable
+
+
+> (operator)
+  - output
+  - ls > file.txt (outputs directory list to file)
+
+
+
+
+
+# cli apps
+## dropbox
+dropbox cli:
+dropbox status
+  - up to date?
+dropbox running
+  - is it running?
+dropbox autostart
+  - set autostart?
+dropbox ls
+  - use it like the ls command
+
+
+## github pages:
+gh -help
+gh repo -help
+gh repo view
+gh repo clone
+
+

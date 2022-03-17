@@ -1,0 +1,29 @@
+# default var values
+https://github.com/jekyll/github-metadata
+  - this plugin sets some site.[vars] using github’s data 
+    - Sets site.title as the repository name, if none is set
+    - Sets site.description as the repository tagline if none is set
+    - Sets site.url as the GitHub Pages domain (cname or user domain), if none is set
+    - Sets site.baseurl as the project name for project pages if none is set
+
+# site not updating? likely a build error
+in the github repo
+select ‘actions’
+select the last ‘workflow’ ran
+select ‘build’ (the other is deploy)
+select ~‘build site’ or something like that
+read error messages
+
+# jekyl auto-build
+the meta title ‘n desciption of the site is automatically built from [repo-name]’ - ‘[about / description content]
+  - you can edit it by changing the ‘title’ and ‘description’ vars in the config file; these *should be* standard for every theme
+
+# domains:
+https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+  - set-up a custom domain
+  - 4 A records (2 minimum) for the “apex” domain, for example, ‘rathewolf.com’, not the www
+  - 1 CNAME record for the special ‘www’ sub-domain; points to ‘rahil627.github.io.’ *the trailing dot ‘.’ is intentional!!*
+  - 1 CNAME record for every other sub-domain
+
+https://stackoverflow.com/questions/54059217/how-to-fix-domain-does-not-resolve-to-the-github-pages-server-error-in-github
+  - this answer contains a more concise guide to set up a custom domain

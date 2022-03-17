@@ -1,0 +1,111 @@
+remote work:
+methods:
+beyond the normative scheduled jobs (fixed hours), technology has enabled people earn (and invest, from the other side) via individual or crowd funding.
+
+Funding services (Patreon, etc.) can be used for people that work on multiple small projects, local projects, etc. This way, you could, potentially work on various diverse projects and gain wealth.
+
+So, instead of asking for certain apps for jobs, can work with carious open-source apps, and try to get funding.
+
+some stable all-remote companies:
+most of these were found through remoteok.io
+perhaps uses remoteintech.company too
+
+DuckDuckGo
+  - a morally good Google
+  p/- asked about general application because there were no fitting positions at the time that I checked
+Creative Commons
+Wikimedia Foundation
+Automaticc
+  - maker of Wordpress.com (the biggest WP hosting site?) and of many WP plug-ins such as Jetpack
+  - owned and run by a co-founder of Wordpress
+WPMU
+  - incsub.com is the name of the company that owns the product
+  - has it’s own set of plug-ins, sort of proprietary, so they can charge a monthly price (to use the plug-ins)
+  - it also has a ton of content about using Wordpress
+AirTable
+  - a simpler database app
+CouchSurfing
+  - all remote?
+x/Komoot, a trail-planning app
+  - hires only within EU?
+  - non-tech positions require EU languages
+PaperPile
+  - a simple solution for citing works and gathering academic papers from the internet
+
+job listing sites:
+https://remoteok.io
+  - **the perfect classifieds for remote work!**
+  - https://remoteok.io/remote-jobs/76383-remote-nomad-promote-us-while-travelling-tab
+    - Tab, a booking / paying service for hospitality services, looking for a promoter / seller
+
+remoteintech.company
+  - https://github.com/remoteintech/remote-jobs
+    - the GitHub text is more readable!
+  - **a publicly editable list of all-remote companies**
+
+https://www.glassdoor.com/Job/
+  - mainly for showing expected salaries, it now has a solid job listings
+  - can search by keywords, such as “game qa”, other-wise, the filters are lackluster
+
+https://www.ziprecruiter.com
+  - a newer site, pretty, functional
+  - https://www.ziprecruiter.com/Jobs/Game-Tester/
+  - https://www.ziprecruiter.com/Jobs/Remote-Game-Dev
+
+https://jobs.gamasutra.com/
+  - seems like **a very well maintained selection, only one page long**
+    - worth subscribing to
+
+itch.io
+  - **beautiful site**
+  - ...but is there a jobs listing?
+
+https://remoteok.io/remote-game-dev-jobs
+  - most contemporary
+
+https://gamedevjobs.io/
+  - location-dependent, mostly big companies
+  - can try, but doubt it, still seems out-dated to more contemporary sites
+  - Unity work-place experience coordinator
+    - https://careers.unity.com/position/workplace-experience-coordinator/2114525
+
+https://gamedev.jobs/
+  - eh, worse UI, worse listings
+
+reddit
+  - game developer classifieds
+    - https://www.reddit.com/r/gameDevClassifieds/
+      - specific searches in the about page
+  - https://www.reddit.com/r/gameDevJobs/
+    -  specific searches in the about page
+  - there are “communities” based on game engines, then from there, can find specific jobs
+    - for example, Haxe has a frequent round-up which includes jobs
+    - a list of available jobs
+      - https://github.com/skial/haxe.io/labels/jobs
+        - seems out-dated
+     - https://www.reddit.com/r/godot_classifieds
+
+Haxe round-ups
+  m/- http://shirogames.com/jobs/
+    - Bordeaux, France. Their biggest hit was a RTS game
+
+stack overflow
+  - ...? I dunno. This seems too nerdy. Also, it’s likely limited to programmers, whereas Reddit is more inclusive, open to all
+
+angel list
+  - can save searches and get e-mails for them
+  - mostly shit Silicon Valley-style start-up stuff
+
+non-tech?
+—
+
+old search from Taiwan:
+https://sfbay.craigslist.org/sfc/wri/5909497684.html
+https://newyork.craigslist.org/brk/ofc/5919057452.html
+  - NY hostel
+https://sfbay.craigslist.org/sfc/fbh/5930094885.html
+  - SF hostel
+
+vs
+
+English tutor / gigs in Tainan

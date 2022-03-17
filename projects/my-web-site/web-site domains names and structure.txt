@@ -1,0 +1,63 @@
+# domain names (top-level)
+rahilpatel.com
+  - current, and, for 10 years, just keep it forever
+  - todo: should try to sell it
+  - https://www.namecheap.com/blog/how-to-sell-your-domains/
+  - only sells for around $100
+
+x/rahil.org
+  - until I can get rahil.com
+  - update: i let this go..
+rathewolf.com
+  - new personal site
+  - sub-domains: mind, body, soul...
+willowolf.com
+  - new public-facing site, as an extension of my personal ideas, ideals, wills
+  - cuter, easier to create cute willowolf species for each project
+  - (www.)willowolf.com, is just a listing of projects (sub-domains)
+  - sub-domains: fighting, experimental, nature(?), search...
+
+
+scratched ideas:
+wolfoftheway.com
+  - not as personal or cute as Ra, the Wolf, but the meaning is perfect
+  - also has sub-domain flexibility just as willowolf does
+  - **worth buying!** much better than rahilpatel.com
+wayofthewolf.com
+  - not as catchy or spiritual as Will o’ Wolf
+
+
+# structures
+## rathewolf
+rathewolf.com
+  - main, links to everything: sitemap
+mind.rathewolf.com at rathewolf.com/mind
+  - writings
+  - generated site from text files
+body.rathewolf.com at rathewolf.com/body
+  - ?
+soul.rathewolf.com at rathewolf.com/soul
+  - ?
+
+## willowolf
+willowolf.com
+fighting.willowolf.com
+experimental.willowolf.com
+natural.willowolf.com
+
+can be:
+hungry.willowolf.com
+taiwanese...
+dancing...
+...anything!
+
+
+# dns routing
+ideally:
+host the entire site in one place, on one server, using one cms, then, set the dns handler and server (apache virtualhost, or through plesk/cpanel)to route the sub-domains to the site.
+
+github pages set-up:
+let’s say you have a site on (www.)willowolf.com, then
+set the dns and server to route fighting.willowolf.com(/*) to willowolf.com/fighting(/*): that is, from fighting.willowolf.com(/*) to rahil627.github.io(/[repo-name])?
+
+i’m not sure if you can do that...

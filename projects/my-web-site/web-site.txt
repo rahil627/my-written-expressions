@@ -1,0 +1,228 @@
+web-site
+
+web servers research ‘n comparison:
+Namecheap
+  - Apache shared web server
+  - cPanel (Wordpress, etc. 1-click web app installations)
+  - “stellar” hosting, ~$2/month, limited to 3 web-sites, but really just one with two sub-domains
+  - “stellar pro”, ~$4/month, unlimited domains, auto-backup
+
+**virtual private server (VPS)** (Vultr, Linode, Digital Ocean, Amazon Lightsail, Upcloud?, etc.)
+  - $2-$5/month, do what you want, install any OS, re-install any OS, and so on
+  - **start with Digital Ocean, then can move to Vultr or Linode once i’m experienced, if needed**
+
+https://www.namecheap.com/support/knowledgebase/article.aspx/129/22/what-version-of-the-software-is-used-on-your-servers/
+
+https://www.mamboserver.com/web-hosting/digitalocean-alternatives/
+  - simple one-line summary and comparisons
+
+https://wpjohnny.com/vps-review-digital-ocean-vs-linode-vs-vultr/
+  - linode > vultr > digital ocean
+  - linode ugly and technical
+  - vultr in-between
+  - **digital ocean feels like a start-up, but more beginner-friendly, social, inclusive**
+—
+
+“hosting control panel”:
+the two biggest ones are Plesk and cPanel
+they costs extra on most VPSs because they have a license fee (not in the case of DigitalOcean!)
+
+cPanel vs Plesk vs DIY
+  - **Plesk** has more OS flexibility (including windows and other linux server OSs); whereas cPanel only supports a few (not even sure about Ubuntu!)
+  - Plesk is **far more organized**, with a single side-bar menu similar to Wordpress; whereas cPanel is a mess
+  - cPanel now has WHM, which is some sort of interface on top of cPanel that looks like Plesk, but is just as sloppy, disorganized, and unintuitive as cPanel!
+
+https://websitesetup.org/cpanel-vs-plesk/
+  - Plesk has Wordpress automation!
+
+https://www.vultr.com/apps/plesk/
+  - Plesk license (for Vultr) is $0/$9/$14 for 3/30/unlimited web-sites
+
+https://www.mamboserver.com/web-hosting/comparisons/vultr-vs-digitalocean/
+  - cPanel comes free with DigitalOcean
+  - **no customer support for Vultr? vs 3-tier support with DigitalOcean**
+—
+
+
+info:
+digitalocean site:
+rahil627
+
+digitalocean server:
+[is address]
+username: root
+password: [my general key]’s public key
+
+plesk:
+user: admin
+pass: [pass]33!!11
+urls:
+https://eloquent-hellman.104-131-91-99.plesk.page/login?secret=bS74M54vu1li2vYik4VvF_K9KM1bSyVWMJ4_aIWI2uG8tTbN
+https://104.131.91.99/login?secret=bS74M54vu1li2vYik4VvF_K9KM1bSyVWMJ4_aIWI2uG8tTbN
+
+plesk rahilpatel.com ftp/ssh:
+user: rahil627
+pass: t%r28Ix2setlIkMi
+
+wordpress:
+user: rahil627
+pass: [pass]33!!11?? [todo: most hackable, should change to bullshit]
+—
+
+vultr server:
+http://141.164.61.191/wp-admin/
+User: user39749
+Pass: 5S2cBxjeC1E5R4g
+
+rahil627
+[common password]33!!??
+
+namecheap
+[pass]33!!?? or 33??
+—
+
+
+todo:
+finish migration to digitalcean server with plesk
+  - move all domains to digitalocean, and handle them from there
+  - get ssl for all domains
+    - do this at the same time, because it expires every 3 months
+    - for mind.rathewolf.com and rahilpatel.com/blog and old/young.rathewolf.com
+  - recover Wordpress on rahilpatel.com/blog
+  - wordpress cleaning:
+in the end, i want to:
+    - delete all old backups, keeping just this one; to save Dropbox space!
+    - with only the most useful plugins; save 30mb
+    - with only one theme (my custom theme); save 10mb
+      - note themes that i liked
+    - it’s okay to keep the bunch of database copies because they don’t take much space... but if possible, can try to find a database comp ‘n diff web app and delete the old ones too.
+    - “migrate” the domain from rahilpatel.com/blog to blog(?).rathewolf.com
+      - other possibilities: old, old-mind, past
+  - set up Hugo on rathewolf.com/mind
+keep vultr account
+note linode account, requires credit card
+
+apply for technical writer position?
+**check for eco game reply**
+  - **super interested!!**
+check for country life sim game reply
+  - asked for a video
+check for zombie game reply
+  - asked for what they need
+
+
+
+save everything to GitHub (private?) or BitBucket
+
+
+
+gather past notes [from other locations]
+remove contact info
+  - must contact info be real?
+  - https://www.namecheap.com/support/knowledgebase/article.aspx/305/46/how-do-i-change-the-contact-information-for-my-domain
+
+change url, but keep Wordpress in a sub-folder
+  - https://wordpress.org/support/article/giving-wordpress-its-own-directory/
+    - at the moment, I’m using the first simpler method
+
+fix rahilpatel.com
+  - during the restore process (from a backup), I installed the latest version of Wordpress, and then restored my old site. There’s a 4 year difference, so, things are surely broken.
+  - Exec-PHP plug-in was disabled because it broke the site
+  - another pop plug-in (JetPack?) also was disabled
+
+move domain?
+  - https://www.namecheap.com/support/knowledgebase/article.aspx/172/22/can-i-change-the-main-domain-name-associated-with-my-hosting-account
+
+
+to read:
+https://www.namecheap.com/support/knowledgebase/article.aspx/9586/89/how-to-deal-with-git-on-our-shared-servers#step_4
+  - simple git tutorial, covering local and remote uses
+
+
+
+domain names:
+
+readings:
+https://webhostingmedia.net/com-vs-net-vs-org/
+  - checked because rahil.org was available, but now leaning towards lovesrahil.com, or some other [sub-domain][connecting word][rahil.com]:  byrahil, 4rahil...!!
+    - oh shit, forgot about numbers!!
+      - 12ahil, rahi1... ... meh, still say the number in my head when reading n’ typing
+      - rahil627.com would be consistent, though not memorable; classic, using my screen-name!
+      - <3rahil.com?
+
+—
+
+
+web-site structure:
+rahilpatel.com
+  - “main domain” for cPanel
+  - re-directs to /blog at the moment, because Wordpress was originally installed there (i think...)
+rathewolf.com
+  - a domain handled beneath the cPanel for rahilpatel.com
+willowolf.com
+  - a domain handled beneath the cPanel for rahilpatel.com
+
+note: Namecheap only allows handling a max of 3 web-sites beneath one server
+
+in cPanel, all three domains point to the single web-server
+  - note: when this is done, domains can’t be re-directed / forwarded from the Namecheap page. they are re-directed from cPanel
+
+in order to add other domains to a single server, cPanel forces you to create sub-domains:
+wolf.rahilpatel.com
+  - re-directs to rathewolf.com
+will.rahilpatel.com
+  - re-directs to willowolf.com
+—
+
+
+
+
+Static site generators (SSGs) will be used for everything, so, no need for sub-domains. In order create a re-direct for mind.rathewolf, it seems I would have to create a sub-domain, then create re-direct (and just leave the sub-domain’s folder empty). Maybe there’s a way to re-direct people using .htaccess file in rahilpatel.com though...
+
+desired sub-domain re-directs:
+mind.rathewolf.com
+  - rathewolf.com/mind
+...body...
+...soul...
+will.rathewolf.com
+  - willowolf.com
+—
+
+willowolf.com structure:
+all projects will be a sub-domain or folder of this site:
+fight.willowolf.com or willowolf.com/fga
+
+it depends on whether or not a single CMS can be used for everything or not. The FGA (Fighting Game Anarchy) project would need a highly-collaborative CMS, so, something like Notion would be great. Although, perhaps Hugo could be used... Just need to share the folder full of text files. Either way, another Hugo site would be needed. Or... all of the projects could just be a part of a single big Hugo site...
+—
+
+
+https://discourse.gohugo.io/t/hugo-with-dropbox-and-iphone-long/19246
+
+--
+Which CMS?
+
+rahilpatel.com
+  - Kirby CMS
+
+rathewolf.com
+  - a SSG, starting with Hugo
+
+willowolf.com
+  - that same SSG
+  - project sites depend on the project: it could be something like Notion, a wiki, or Slack n' Discord channels
+
+a comparison of contemporary CMSs:
+https://blog.zipboard.co/which-cms-to-choose-kirby-grav-jekyll-or-craft-f7d61616510?gi=6ed222861e7c
+
+DocPad
+  -https://docpad.bevry.me/
+  - many simple static sites, usually for documentstion, are hosted on GitHub using this. Its abandoned now, but, the dev left some good writing about the history of static sites here
+
+—
+some cool things I’ve recently found:
+https://hostadvice.com/marketshare/
+  - shows market-share for web hosts (thus, making it a good place to check for contemporary web hosts)
+  - also contains ratings for web hosts
+
+https://nibbler.silktide.com/en_US/reports/rahilpatel.com
+  - web-site testing web app

@@ -1,0 +1,80 @@
+
+main objects for a minimal game engine:
+
+thing:
+an abstract game/interactive framework for some thing
+used by the thing group or directly from the loop
+called entity in FlashPunk; thing, bot
+inherit this to make some game/interactive thing
+  - update
+    - (generally called by thing group, though could avoid using a thing group and call them in the loop yourself...)
+  - render
+    - (generally called by thing group)
+
+thing group:
+basically the scene graph
+  - update things in this group
+    - (called in the loop)
+  - render things in this group
+    - (called in the loop)
+  - search things in this group (spatial partitioning)
+    - several optimized ways of searching what you want (heavily uses correct data types)
+      - layers (enum), types (enum), tags (bitfield), class (via reflection)
+      - lists of things by layer, type, tag, class are maintained here
+ - check for collisions between things
+   - used after searching and finding the things you want to check for
+   - uses a pure geometry library
+ - (possibly other cool game-specific programming may happen here)
+   - (serialize data to save game)
+   - (etc.)
+
+loop/screen:
+an abstract framework for the main game/interactive loop
+inherit this to make a game/interactive loop
+  - init: instantiate a thing group
+  - update
+     - check screen manager, to change to another loop/screen
+     - time
+     - input
+     - other singletons?
+     - thing group (according to time and input)
+  - render
+    - thing group
+
+screen manager
+something that handles changing loops/screens
+(todo: an overlay manager would be better, to handle screens on top of screens; could be pretty easy: just don’t destroy the last screen, and return to it)
+an interactive-engine specific singleton
+  - onChangeScreen
+    - destroy current screen, and begin a new screen/loop
+
+engine?
+just for handling the screen manager?
+
+drawing library
+an engine specific library that conveniently provides things to draw to the screen
+this library uses pure math libraries to draw things
+  - draw geometrical things (primitives)
+
+pure libraries
+  - math
+    - part of the programming language std lib
+  - geometry basics
+    - not in the std lib, the media framework (Kha, OpenFL, Heaps) provides this and is different
+    - vectors, matrices, quaternions, etc.
+  - geometry drawing
+    - uses the geometry basics to draw shapes
+    - arc, circle, rectangle, polygon, bezier, etc. unfilled and filled
+  - algorithms
+
+singletons:
+on top of a low-level media framework (SDL, Kha, etc.)
+  - window and OS handler
+  - input info
+  - sound player
+  - graphics?
+    - (the low-level class has functions to draw triangles (vertices), image, etc. including the use of shaders and whatever else)
+    - simple way to handle of buffers, context, etc.? (no clue) for drawing primitives
+    - simple way to load assets
+    - simple way to render sprites (2D)
+    - simple way to render models (3D)?

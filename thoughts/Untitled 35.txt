@@ -1,0 +1,10 @@
+# todos
+
+# ideas
+use this text file as an example text format for future notes
+  - separate / auto-compile later with text tools, using the modified date of the file and headers
+
+create accessible, informal, even child-friendly, and perhaps even black vernacular versions of critical ideas and writings!
+  - try translating Ivan Illich into simple, easy-to-read format, like the DK philosophy book
+
+# thoughts

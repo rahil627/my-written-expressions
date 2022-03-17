@@ -1,0 +1,49 @@
+game engine structure:
+tiered structure, from low to high level:
+OS
+SDL
+  - low-level language media framework, access to i/o (inputs: devices, outputs: graphics, sounds, OS windows, etc.)
+OpenFrameworks
+  - low-level media framework in C++, probably much easier to connect C/C++ libraries for embedded device ideas, or really many new media ideas, as most of the complex libraries, especially libraries that requires memory management, are written in C/C++
+Haxe
+  - high-level language that can be transpiled down to C to work on most devices
+  - can also be transpiled to Javascript allowing it to be used for server-side code
+  - already has many code converters to quickly bring other libraries to Haxe: creative frameworks from js, device and complex algorithm libraries from c/c++?, etc.
+Kha (Kinc & Krafix)
+  - high-level language low-level media framework, with and without the graphics component
+Dia (also singletons in FlashPunk and especially Flixel)
+  - singleton very high-level helper classes for rapid prototyping, independent from the game engine, so they can be used for quickly making any kind of art / interactive project: input manager, graphics manager, sound manager, OS window manager, etc.
+KhaPunk minimal
+  - engine loop (time, update/render structure), entity, entity list / scene graph
+KhaPunk
+  - collision, drawing, other graphics libs.
+  - pure math ‘n algorithm libs can be separated (geometry, graphics algorithms)
+  - other useful pure libs (stb: file i/o, save images, pack textures, etc.)
+KhaPunk with vector graphics (VectorPunk)
+  - KhaPunk with a vector graphics rendering engine for efficient drawing, in addition to Kha’s raster-efficient engine (Krafix)
+  - simple api similar to other creative frameworks: Flash, Processing, p5, etc., allowing creative and fun creation of graphics instead of images. **Necessary for most of my 2D game ideas.**
+Godot
+  - if the idea requires a lot of game stuff, then simply just using Godot makes more sense. No need to build that wheel. Also, no way to. Though... beginning an open-source project to follow my desired tastes would be interesting...
+Unity
+  - if the idea requires even more game stuff, especially 3d, then Unity is the way to go.
+—
+
+project naming:
+haxe$
+  - sexy (feels & looks)	Kha (Kinc & Krafix)
+  - bitch						helper
+  - 64							KhaPunk minimal
+  - 128							KhaPunk (normal)
+—
+
+Haxe$ structure / namespace / folders:
+sexy
+  - bitch (optional, requires sexy)
+pure (math, stb—image, serialization, optimal data structures, etc.)
+64
+  - engine data
+  - entity list data (2d “scene graph”), including entity and functions to search for entities
+  - extension data (optional, comes in 128), just a ton more functions ‘n libraries
+—
+
+

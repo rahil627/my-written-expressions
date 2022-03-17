@@ -1,0 +1,23 @@
+For a long time now, I’ve avoided making my own game engine in favor of using someone else’s, thinking that they, the people that made the game engine, wrote efficient code, and, because, simply, the efficient time-use.
+
+I’ve always been very close to writing my own game engine, having not been satisfied by existing pop game engines, always seeking something better.
+
+The best engine for me was FlashPunk. It was simple, minimal, *just* providing the necessary things to make a game: code to handle the following things: entities (a base renderable game object), a main entity group, screens, collision detection (simple and pixel-perfect: though I believe this was somehow associated to the sprite class...), drawing (through Flash’s drawing library), a camera (one was usually enough), and surely some things I’m forgetting. But that was really about it. And it was perfect!
+
+Since Flash died, it was ported to Haxe: HaxePunk, which used an open-source implementation of Flash underneath: OpenFL or NME. And since then, HaxePunk was ported to more original foundational / media libraries: Kha (KhaPunk). So, surely, I’m not the only lover of FlashPunk.
+
+But, it shouldn’t have been ported like that. It should have been written from scratch once people ditched Flash, writing good code for the graphics implementations, as in Heaps.io, or the many engines that aren’t popular, but can be found on GitHub. These unpopular engines are superior in quality, just un-marketed.
+
+At the time, I was working on iOS games, using Cocos2D, which fucking sucked. Yet, although I vaguely remembering using AIR to deploy to iOS (not sure if I used Flash or Haxe), I just remember some of the graphics functions not working. I don’t remember if this was an OpenGL ES limitation or what... Anyway, I stopped making games around that time, and, it may have been partly because of how bad all these engines were. Starling came out to help Flash actually make use of the GPU, and there was even a short lived StarlingPunk(!)..., and there were similar things going on to narrow this gap. But it was just a mess. The Flash ecosystem was in the hands of a private company. The Haxe ecosystem was messy and new, probably full of bad Flash programmers (me included!). And so I was really just left with MonoGame, which was also in the process of being developed, and old C/C++ media libraries, such as SDL, SFML and OpenFrameworks.
+
+Fast-forward 10 years later, nothing in 2D game development has changed. In fact, people have gone back, to those old C/C++ libraries! And, the good ones look extremely similar to the minimalism of FlashPunk. Good designs don’t die.
+
+Haxe is still an option, though, for some reason, it never caught on. MonoGame (C#) similarly has a niche community. C/C++ still reigns as game engine kings.
+
+Thus, I have the option: to try KhaPunk, Heaps.io, and MonoGame, or, just make my tiny little C/C++ framework, and build from there. Or, perhaps, mix the two, with C/C++ handling the core-most things (SDL, GLFW), and Haxe or C# handling the scripting. We’ll see...
+
+It’s a pain, but, it must be done!
+
+Meanwhile, things like Beef now exists, and Jai is around the corner.
+
+Oh the choices(!), and the indecisive me.

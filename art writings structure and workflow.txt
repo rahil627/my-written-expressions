@@ -1,0 +1,16 @@
+workflow for this folder:
+thoughts -> writings -> projects -> wills -> kick-starter / do it
+
+thoughts
+  - all of my mind’s rumination go here
+
+writings
+  - more-edited thoughts go here
+
+projects
+  - contains a text file for each project
+  - mostly just notes for a small projects
+
+wills
+  - these are my larger wills and desires, larger projects, dreams
+  - intended to be on the willowolf site

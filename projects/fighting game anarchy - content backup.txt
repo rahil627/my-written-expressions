@@ -1,0 +1,3 @@
+https://github.com/Rahil627/fighting-game-anarchy/wiki
+
+should copy Discord info (structure, pinned messages)

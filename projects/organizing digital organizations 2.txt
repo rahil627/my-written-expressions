@@ -1,0 +1,78 @@
+# how to...
+set up a discord
+set up a wiki
+port my thoughts / writings to the wiki
+ask people with similar interests to join or to contribute
+gather theory data
+
+# organize game jams!
+use itch.io to create a game jam.
+
+post ads:
+
+FGA:
+game dev communities
+   - Weekly Game Jam discord server
+   - try finding other fg dev servers
+game engine communities
+  - (mugen)
+  - can try searching for fighting game threads on their boards
+fighting game communities
+  - can try searching for fg devs in them
+
+EGA:
+Babycastles
+EGP
+...? not really sure of any other places...
+
+TFA:
+hackathons? hack jams? really have to research this...b
+
+
+# Discourse? vs Discord?
+should a Discourse forums be created for all of the digital organizations? wouldn’t that just create another messy knowledge base, in which you’d have to go in to extract data from?
+
+if you were to use one, you’d have to maintain it well to keep a clean knowledge-base
+
+Discourse is a less human, less interactive form of communication, though, it being time-independent does make it more convenient. ...but in Discord, you can chat to people independent of time too, just use the @mention.
+
+Hmmm... Discourse still has it’s uses: for directed conversation, dialectics, topic-based discussions... Discord can feel like a mess of people, just saying whatever they want, whereas Discourse keeps communication on topic. It’s a lot more functional.
+
+I think Discourse could be useful for any digital organization.
+—
+
+names for digital communities:
+FGA - fighting game anarchy
+EGA - experimental game anarchy
+TFA - tech/tools for anarchy
+
+put your name in it!:
+rathewolf’s fighting game anarchy
+rathewolf’s experiemtnal game anarchy
+rathewolf’s tech/tools for anarchy
+
+this makes it easy to search, and displays the human behind the work
+
+use an informal name, like the Factory or the Retro Room:
+rathewolf’s garage / street / back-yard / cul-de-sac
+rathewolf’s arcade / laboratory / **exploratorium**
+rathewolf’s garden / temple
+
+but still keep the full name:
+rathewolf’s garage: a fighting game anarchy
+
+—
+
+choosing a digital name:
+ra
+ra the wolf
+**rathewolf**
+ra-the-wolf
+Ra-The-Wolf
+
+ra and ‘ra the wolf’ are difficult to search for on the internet. Single, unique words are better.
+
+i believe hyphens too are ignored by search enngines
+
+that simply leaves rathewolf
+—

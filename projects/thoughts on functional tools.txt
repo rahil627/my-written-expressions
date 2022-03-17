@@ -1,0 +1,8 @@
+
+A few people I saw through GitHub seem to near a functional ideal: of using a custom mechanical keyboard, vi/emacs-like keyboard-based and command-based software: Plan9, vi or emacs, next [browser], etc.
+
+It’s more functional, more creative as one is spending less time browsing (conspicuously consuming) and more time pressing buttons (creating, telling the computer to do what you want).
+
+A screen full of text or whatever media you are working with, full of *just* your working environment, your tools, leads to a far more creative state of mind than the graphical interfaces of pervading digital personal computers. A blank screen is what’s needed to make one feel creative, and not distracted...
+
+It’s a good direction: direction-free, keyboard-based tools. Mac OS’s and Mac software have always been good with this, but perhaps it can be even better?

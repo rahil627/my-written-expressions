@@ -1,0 +1,98 @@
+server stuff
+
+“host” ip address:
+104.131.91.99
+(use this to access via ssh terminal or ssh sftp; use ssh key)
+
+digital ocean login:
+https://cloud.digitalocean.com/login
+
+digital ocean console login:
+https://cloud.digitalocean.com/droplets/279596031/terminal/ui/?os_user=root
+(must be signed in)
+
+plesk login:
+https://eloquent-hellman.104-131-91-99.plesk.page/admin/setup
+
+vnc server info:
+[password] but truncated to 8 characters
+
+vncserver
+New 'X' desktop is eloquent-hellman.104-131-91-99.plesk.page:1
+Creating default startup script /root/.vnc/xstartup
+Starting applications specified in /root/.vnc/xstartup
+Log file is /root/.vnc/eloquent-hellman.104-131-91-99.plesk.page:1.log
+
+vncserver -localhost
+New 'X' desktop is eloquent-hellman.104-131-91-99.plesk.page:1
+Starting applications specified in /root/.vnc/xstartup
+Log file is /root/.vnc/eloquent-hellman.104-131-91-99.plesk.page:1.log
+
+
+# notes:
+useful sites in general:
+digital ocean
+hostinger
+linuxhandbook
+
+dropbox cli:
+dropbox status
+  - up to date?
+dropbox running
+  - is it running?
+dropbox autostart
+  - set autostart?
+dropbox ls
+  - use it like the ls command
+
+
+github pages cli:
+gh -help
+gh repo -help
+gh repo view
+gh repo clone
+  - a bit easier than `git clone repo-url`
+
+
+
+
+
+
+# set up vnc server
+sudo apt install vncserver
+vncpasswd
+  - to change password, if you ever need to change it
+
+
+# install dropbox cli
+https://www.digitalocean.com/community/tutorials/how-to-install-dropbox-client-as-a-service-on-ubuntu-14-04
+  - the only pain is copying the link in time and getting back to the console
+  - one  command is out of order:
+    - do `sudo update-rc.d dropbox defaults` before `sudo service dropbox start`
+ 
+
+
+
+
+# sync writings on Dropbox to a SSG CMS
+https://namelesshorror.com/2013/12/18/super-easy-blogging-with-jekyll-dropbox-and-ifttt/
+  - nameless horror’s 2013 set-up
+
+# backup Dropbox to Google Drive:
+
+for CLI:
+install Dropbox app
+let it sync
+upload to Google Drive
+  - maybe need an app too?
+
+https://www.dropboxforum.com/t5/Dropbox-files-folders/How-can-I-download-my-entire-account-s-content-and-maintain-the/td-p/387403
+  - doesn’t seem to have a simple method, only either download from the web-site one folder at a time, or, download the app, let it sync, then uninstall the app.
+
+https://linoxide.com/install-dropbox-ubuntu/
+  - complete guide
+
+https://help.dropbox.com/installs-integrations/desktop/linux-commands
+
+https://www.dropbox.com/install?os=lnx
+  - shows commands to download for each linux distro

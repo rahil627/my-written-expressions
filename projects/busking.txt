@@ -1,0 +1,70 @@
+# areas in the world
+https://en.wikipedia.org/wiki/List_of_busking_locations
+
+# taipei
+## areas
+http://taiwantoday.tw/news.php?unit=18,23,45,18&post=24475
+ximending
+http://forumosa.com/taiwan/viewtopic.php?t=49008
+  - illegal. can get deported
+  - http://www.taipeitimes.com/News/feat/archives/2004/06/20/2003175775
+    - good story of Scott Ezell
+
+https://www.reddit.com/r/Busking/comments/2hza3m/busker_on_the_streets_of_taiwan_hello/
+  - You'll have to Audition for one. Taipei is tough, lot of top notch buskers there. But still, if you're half way talented should be fine. Google Taipei County Cultural Center. From there you should find information about the auditions. [Bureau of Cultural Affairs, Taipei City]
+
+http://english.culture.gov.taipei/ct.asp?xItem=1115276&ctNode=30793&mp=119002
+
+https://sites.google.com/a/wsps.tp.edu.tw/the-buskers-in-taipei/calendar
+
+
+# from a paper note
+Ragnarok is Korean! Can learn and play K-RPG music whilst busking Korea!
+  - always comes back to games. :)
+
+# from thoughts from east side trip.txt:
+## a sticky note
+record environment
+---
+kids
+train
+traffic
+$nature - insects, birds, etc,; beach, stream, waterfall, night market, day market
+urban - 7/11, family mart, familiar sounds
+people - talking
+
+fun! simple music-making (in public)
+
+vs
+
+folk, talking, singing, rapping, etc. [lyrical]
+  - performance art!
+
+## a sticky note
+self-record
+---
+[illustration]
+iPhone or GoPro on a tripod, or, on a random object
+  - [can also be used to record ambient sounds]
+  - [todo: research / buy second-hand online (iPad and GoPro)]
+Zoom h4n on the floor [optional, for live feel]
+
+## a sticky note
+busking -> cafe (ver 1.)
+---
+anywhere comfortable
+
+[illustration:]
+MIDI controller -> iPad (as DAW) -> (wireless/bluetooth) speaker
+  - airplane mode (to save power)
+
+todo: check power consumption
+
+if wireless/bluetooth speaker, place it anywhere
+must have good battery duration
+
+compare bluetooth vs wired power consumption
+  - [for the iPad]
+
+thought:
+add GPS to automobiles + backpack + iPad/iPhone

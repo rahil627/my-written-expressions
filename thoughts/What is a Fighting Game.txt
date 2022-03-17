@@ -1,0 +1,43 @@
+# What I usually mean by *fighting game* (a manifesto?)
+For the core of the project, I usually mean a *video game* (Of course that would be a travesty to all of the other games: playground games, and real-time table-top games, other games that use electronic devices...)
+
+Ah yes, *real-time games*, not *turn-based games*. The action must keep going. Even speed chess might not cut it, as it’s still turn-based, just time-limited. When the player switches between offense and defense it can be seen as turn-based, but, the players on both sides are still continuously able to take actions, not just merely wait for their turn. Having defensive options makes a game much more compelling than merely two block options. Rolling, perfect-block / parry, spot-dodge, air-dodge, knock-down options were all key defense mechanics. But most key was DI: real-time defensive input.
+
+To limit the technical scope of the project, I usually mean *party game*: one screen, and one camera, usually restricted to one angle (because changing angle requires changing movement input), and at least two players. It’s also much more feasible to spectate one screen. Starcraft battles were masterful, but it really required an additional spectator screen to watch.
+
+A *sports game*, in that there is a way to win. It’s goal-oriented. This make it different from *contest games*, which require a human judge, such as a game-making contest, a combo contest, battle rap (a game of trash-talking?), or the community’s favorite: being the most stylish player. The goals shoudln’t stray away from fighting though, like moving a sports-ball into an area. [This important difference detailed later...]
+
+A *competitive game*, in that the better fighter,, will almost always win in a long match. Little to no randomness, especially for the main fighting calculations. (Example case of failure: Company of Heroes, potentially the one of the best RTS games.)
+  [- What is a better fighter?: the person with better decision-making, experience, technical proficiency, ability to adapt, creativity, strategy...] 
+
+A *fighting game*, in that it’s primarily consists of battle situations between players, continuous direct interaction.
+
+It’s distinctive from a *sports game* in that the objective is tightly-knit with the opponent; Think: The difference between Mario Kart versus mode and battle mode. Or, the difference between playing a game as intended, let’s say, cooperative games, and trying to destroy your friends without being destroyed—which is the un-written first principle rule of most fighting games: ***to hit your opponent without getting hit***.
+
+It’s similarly distinctive from *battle game* too, in that the interaction with the opponent is more frequent. Tetris Battle and other ‘puzzle fighters’ aren’t [interactive] enough. Bomberman Battle, however, iirc, is.
+
+Thus, party battle games may be the best pop terms to describe the games I am going for, yet, the word fighting, seems edge out, as it tends to focus on the interaction, which often is fighting, regardless of whether it’s with arms or colorful turtle shells.
+
+Culturally, the word is pigeonholed to by extremely isolated past arcade communities to be a game that’s extremely similar to *Street Fighter 2*. So much so that the best and more technical fighting game*Melee*, was disregarded by them. No matter that the game actually consists entirely of punching and kicking opponents. But hopefully, instead of creating a new word, I’m keeping the word fighting games so that it can be rejuvenated and take on a much broader meaning, to include battle games, so that Mario Kart battle mode may be played alongside other fighters in the fighting game tournament scene. Those extremely narrow communities will have to adopt a new word: like, clone fighters, primitive fighters, or RPS games.
+
+[todo: read Wiki articles on games, fighting games, sports (sport games), competitive games, party games, etc.]
+
+## Fighting Games and Sports Games
+It’s distinctive from a *sports game* in that the objective is tightly-knit with the opponent, not some sort of side-goal to score points. To understand this, think of the difference between Mario Kart in versus mode and in battle mode. Versus mode is mostly about racing, with little interaction with other racers; Battle mode is entirely about the interaction with other players, so much so, that **every move that you make affects your chances to win.**
+|
+Another example is the difference between non-video sports (football [soccer], basketball, hockey, rugby, etc.) and the mini-game of trying to take or keep a ball from your opponent. The rest of sports is about placing the ball in an area, requiring much team-work, planning, and practice. But, each time a sports player has the ball and makes it past a player, he wins a battle. That’s where all of the fighting occurs. It’s about the cross-over, juking, left or right, ball-handling, and, getting the steal.
+
+...
+
+*Battle sports games* seems vague, but usually, are just sports games, in that the objective is doing something else, other than beating your opponent. You *can* beat your opponent up as you try to do that something else, which is required to win, but, it’s just extra. In Team Fortress games, for example, the objective may be to capture a flag, push a cart, capture territories, or something, and, you can kill the opponents, you can make it your personal objective to have the most kills during that game, but, you or your team won’t be rewarded by the game for doing that. Turn Team Fortress into a death-match however, then, it becomes a fighting game.
+
+An aside: I vaguely remember a FPS battle tank game that my brother played for a short period of time when I was really young. That, I believe actually was a good example of a fighting FPS game. It had movement, aiming, other things, but in a really slow and strategic way. It’s probably why my brother really enjoyed GoldenEye and Halo with his friends much later on... In fact, now that I think of it, my brother solely played fighting games with his friends!
+
+The point is that the better *fighter* wins, not the better racer, or strategist (RTSs, a little vague...), team strategy (team games, including team sports games), map strategy (also little vague...).
+
+Maps and environments effect games, but, in the end, it the better fighter should still win, not some cheap map strategy, whether that’s a strategy to get a rocket launcher faster, or, counter-picking stages in more traditional fighters. **Maps and environments often distract from fighting,** hence why competitive players gravitate toward narrowing stage selection to basic environments: to help narrow the gameplay to the core of the game: fighting.
+
+RTSs also can distract from fighting. Fighting happens in battles. There’s strategies to battling, but, there’s also strategies for the whole resource-handling since of the game. Take that out, as it was  for Company of Heroes, then, you get closer to a fighting game. So, to turn StarCraft into a fighting game, all you had to do was provide each player an army, then, see who was left standing. [todo: make this happen, or, re-visit an old map that does this well.] And, that’s actually what was nearly done, naturally, by the people. **People made up rules** where you weren’t allowed to rush (fight) for a certain initial amount of time. People went further and even made maps where you start with a bunch of resources, created buildings and armies instantaneously, then, after players were ready, fight. It wasn’t very professional, but, it got to the point quick: fighting. One army vs the other. 200 units of army. Or, even constant building and fighting. It was childish fighting at its best. It’s a clear demonstration of **people naturally modifying a game to become a fighting game**.
+
+It’s a phenomenon that happens all of the time. You and your friend are playing a cooperative game. Turn friendly fire on. It’ll quickly turn into a fighting game. You and your friends are playing ‘ball, suddenly, there’s bout, it’s settled in a 1v1, first to 21 points, or, whatever. It’s just natural, instinctive, competitive. Actually punching your friend’s face in, is something different, certainly not part of *the game*.
+

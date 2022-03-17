@@ -1,0 +1,21 @@
+# Writing / editing apps
+## Voice Dream Writer
+Open Sans 17
+character spacing: 0
+line spacing: 2
+side margins: 20
+
+## ByWord
+Avenir Next 16
+(always 0 line spacing with this font)
+
+alt:
+San Francisco 14
+(can add 1 to 2 line spacing)
+
+# Reading apps
+## Voice Dream Reader
+Open Sans 17, 16
+character spacing: 0
+line spacing: 0
+side margins: 140

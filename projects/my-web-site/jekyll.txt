@@ -1,0 +1,154 @@
+notes on jekyll
+
+https://talk.jekyllrb.com/
+  - the community discussions site
+
+# vs Hugo:
+https://cloudcannon.com/blog/jekyll-vs-hugo-choosing-the-right-tool-for-the-job/
+  - about the same amount of users, but Hugo rose quickly
+    - https://star-history.com/#jekyll/jekyll
+  - more extendable, has plugins (Ruby gems)
+  - more readable / easier to comprehend (because Go and Hugo’s templating system is cryptic)
+  - slower
+
+
+https://pages.github.com/versions/
+  - can see GitHub Pages’s installation of Jekyll here, listing it’s plugins ‘n dependencies
+  - can also see which themes are already installed
+
+
+# basics:
+
+gemfiles ‘n plugins
+  https://jekyllrb.com/docs/step-by-step/10-deployment/
+
+# themes:
+
+## notes:
+
+config:
+remote_theme: jekyll/minima # force remote download to get the most recent version, which has skins, because GitHub Pages doesn’t update them often
+remote_theme: rahil627/minima-custom-jekyll-theme # i won't ever rememeber to update my forked version :(
+
+## places to search:
+
+GitHub.com #jekyll-theme repos
+https://jekyllrb.com/docs/themes/
+  - jamstackthemes.dev
+  - jekyllthemes.org
+  - jekyllthemes.io
+  - jekyll-themes.com
+
+https://github.com/orgs/pages-themes/repositories?type=all
+  - themes that are pre-installed by GitHub Pages
+
+https://github.com/topics/jekyll-theme?o=desc&s=stars
+  - find some themes on github with the topic of ‘jekyll-theme’
+
+https://ben.balter.com/jekyll-style-guide/themes/
+  - changing the fonts ‘n style stuff is easy, just change the scss file (like a new css file); so, don’t worry if the style suck, as long the the site ‘n page formats are fine
+
+## themes
+https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+### starter / barebones themes
+by starting with the most simplest themes of the style / layout, can then learn by practice and build a page
+
+from the simplest to the most complex:
+primer
+  - possibly **the most primitive, bare-bones**, the layouts (pages, posts, home) are just empty placeholders
+
+riggraz/no-style-please
+  - **a very special nearly css-less style, has its own raw html beauty**
+
+kotet/ultralight
+  - another no css theme, less centered, smaller font
+
+ghosind/Jekyll-Paper
+  - good for reading, very basic, **looks great on an iPad, cramming the entire screen**
+
+jekyll-now
+  - **basic single column page** with a **basic top nav bar**, making it a very good place to start
+
+reverie:
+  - forked from jekyll-now, quite perfect for the single-column top nav bar style
+
+minimal
+  - quite popular, **changes view when the device is on it’s side**, which is really neat, putting the nav bar on the left side when horizontal and at the top when vertical, very very smooth
+
+BDHU / minimalist
+  - someone’s fork of minimal, hard-coded nav-bar though, colors similar to minima’s dark skin
+
+jekyll/minima
+  - the default for jekyll but still should be used with remote_theme toget the latest version, has 4 skins: dark, **solarized is book-like**, solarized-dark is kinda ugly, and the default white one
+    - **the solarized one can be used for rathewolf.com**
+  - **this theme has a lot problems**: because it does SEO stuff “under the hood”, such as getting the ‘title’ and ‘description’ vars from the GitHub repo’s project name and description
+
+x/minimal mistakes
+  - most popular, two-column, but quite heavy on features, more for people that just want a site and don’t want to do the work to build one themselves
+
+### special purpose themes:
+ronv/sidey
+  - fantastic for it’s style: **two-column**, also a fantastic minimal listing of posts! wow, very very good, **great for lots of writings**, like **a mix of a documentation site and a blog**, **can try putting ‘the mind of ra the wolf’ project here!!!!**
+yous/whiteglass
+
+sighingnow/jekyll-gitbook
+  - pretty awesome **two column book / documentation** style, with **table of contents expanding on the side**, making it easier to navigate longer writings
+  - **contains a deep search plugin that can quickly search all text!** :o
+  - uses **jekyll-toc table of contents plugin**
+
+b2a3e8/jekyll-theme-console
+  - terminal-like, 3 skins including: a black ‘n white terminal which resembles **ascii art**, **the matrix green one, very fun!**, and a normal white-background black font one
+  - the default black one is **good for experimental games anarchy** lol
+
+the windows 95 theme
+  - omg!!! :o
+
+### to steal ideas, colors, fonts from:
+Hammie217/LatexJekyll
+  - **reads like a newspaper**, good padding, serif font
+
+https://github.com/erlzhang/jekyll-theme-persephone
+  - comes with many layouts that are all beautiful
+
+piharpi/jekyll-klise
+  - nice bolds ‘n off-colors, awesome **light / dark toggle switch**, the dark skin has very **molokai-like style**
+  - **good enough for my personal site, for now...**
+  - navigation menu is pop-up
+  - requires an icon? also content comes quite far down...
+
+poole/lanyon
+  -  minimal grey, quite popular, solid, must click a button to reveal a side-bar (“drawer”), but, i think it wastes time and an extra click
+
+chesterhow/tale
+  - minimal grey
+
+huangyz0918/moving
+  - super minimal grey, **like my original Wordpress theme**
+
+nielsenramon/chalk
+  - minimal black ‘n white
+
+daviddarnes/alembic
+  - boiler-plate site meant to be used as a base, minimal grey, **maybe should start with this one, if intend to edit it myself**
+
+sharu725/hagura
+  - minimal grey, huge titles ‘n fonts, **like medium.com**, really great for sites that don’t have much,, **dark ‘n light toggle**, though, the dark-side isn’t very pretty
+
+
+am i limited to just the themes by GitHub Pages?
+  - https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll#further-reading
+    - set remote_theme
+  - can use any theme found on gitHub, the value is [user-name]/[theme name]
+  - see https://github.com/topics/jekyll-theme
+  - try these themes: 'poole/lanyon', and the 'dark' and solarized' skins of minima
+
+in _config.yml file:
+#theme: jekyll-theme-tactile # this only works for the themes that github pages has installed, and, they are all very old
+
+remote_theme: poole/lanyon #  use this method
+
+plugins: jekyll-remote-theme # github pages must already have this...
+
+minima: # some themes provide color variants
+  skin: dark #solarized

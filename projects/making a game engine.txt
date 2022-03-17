@@ -1,0 +1,186 @@
+choosing a programming language:
+
+choosing a programming language can help in narrowing down the choices:
+
+Haxe	Mono	C++	C	Beef	Jai
+y		?		?		*	?		?		can it compile to C? (for platform compatibility)
+y		y		*		n	y		y		high-level language? (* “modern C++” is meh)
+2		3		3		3	1		1		good IDE? c-languages all use bloated VS. Haxe is bloat free. Jai ‘n Beef are customized.
+y		?		y		y	y?		y?		has a good media framework? (SDL, Kha, etc.)
+y		*		n		n	?		?		can it transpile into other languages? (Mono uses a CLI)
+y		?		?		?	?		?		are there libraries to convert to the language, or at least extern?
+3		3		2		2	1		1		manual memory management, optional or not (*Haxe ‘n Mono via externs?)
+y		y?		y		y	n		n		have many libraries, especially media-oriented (*not sure about Mono)
+y		y		y		y	n		n		is a general language made to be used for making anything, not specialized for games
+2		2-3		1		1	1		1		performance (*not sure about Mono vs Haxe performance)
+y		y*		n		n	y		y		small, homely community (*Mono’s community has grown perhaps too large!)
+y		y		y		y	y*		y*		has a good game engine? (*assuming the best for Jai and Beef)
+y		y		y		y	n		n		has good support / history / continued development / longevity
+
+
+
+
+At the moment, until Jai comes out and Beef gets some love, it’s between Haxe and Mono. The only differences: performance (I’m unsure...), the IDE (Visual Studio vs FlashDevelop), and community (small indie community vs Microsoft. In two case Haxe wins. As for performance, I just don’t know how a CLI compares to Haxe’s transpiler, nor do I know how their run-times or compilers compare. But, Mono is backed by Microsoft, Unity, and MonoGame.
+
+Can still try Godot for most games, until it hits a limit. The only problem with Godot is that it uses it’s own scripting language, which is specialized... as opposed to Haxe or Mono, in which a single language ‘n environment can be used to make anything.
+—
+
+
+can try all of the following, just for trying / experiencing the workflows:
+Haxe
+  - haxe world
+Godot
+  - game editor, blueprints, etc.
+Beef2D
+  - manual memory management, advanced debugger, game-specialized programming language
+“blah”
+  - “modern c++”
+Monocle Engine
+  - Mono world
+—
+
+
+some good software bases to begin an engine:
+C/C++		SDL, GLFW, BGFX, sokol
+C++		SFML (or any C library)
+C#/Mono	MonoGame
+Haxe		Kha (SDL underneath?, could use any C library)
+Beef		[default lib] (SDL underneath?)
+Jai			[default lib] (SDL underneath?)
+—
+
+
+Start with Chevy’s **FlashPunk**
+  - entity with composite objects (graphics, collision masks) built-in (not inheritance)
+  - entity **type** (string)
+    - this makes a lot more sense as you are likely going to be checking for collisions for only certain types (f.e. bullet types, not background types)
+  - **layers (used for rendering)**
+    - there are functions to put an entity to the front-most or back-most place in a layer (because each layer is a vector container, with add and push functions). This might also be helpful for optimizing general entity lists, as you can then order a list with the most-likely things you are searching in the front.
+  - **entities are added and removed at the end of the frame**
+  - **lists with entity layers, types, classes, etc. are maintained, and then used to optimally search for entities** (functions are in the entity file, but I believe the lists are maintained in the world file)
+    - there are **containers (AS3 arrays) of the following: layers, types, classes. This is interesting, as it removes the need for always recursively traversing a large scene tree. Instead, you can use reduce the [2D] space you are searching by knowing which layer, type, and/or name. This is basically where all of the scene graph optimizations can be done. The more containers / ways to logically divide game objects, the better.**
+  - collision with point, line, shape, and entity (type, layer, class; all, only first, nearest)
+  - camera
+
+HaxePunk
+  - uses Haxe’s features when porting the engine
+    - can peak at this to see how to use Haxe language to make an engine
+  - atlas
+  - seems a bit more bloated?
+
+Then see how Matt updated it for **Monocle Engine**
+  - https://towerfall.tumblr.com/post/26712676009/engine
+  - based on XNA 4.0
+  - **entities with components (image, etc.; components update and render)**
+  - **entity tag (int / byte with bit shifting to manipulate it; an entity can have multiple types)**
+  - colliders aren’t a component, and are handled separately
+  - atlas
+  - **the most minimal engine I’ve seen since FlashPunk! This is amazing!**
+  - used for TowerFall and Celeste
+
+
+See Matt’s latest Strawberry
+See Noel’s Foster and Blah
+
+Combine all of these.
+
+Heaps
+  - feels bloated, putting a lot of junk in the main object class
+  - uses Flash-like scene tree / graph (base game objects have children and a single parent)
+  - supports 2D and 3D, leaving the main engine and rendering code in h3d, which seems right
+  - probably has a lot of cool classes to steal]
+  - the 2D object class contains functions to traverse it’s own tree, and even draw just it’s owns tree either to the screen or a texture!.. but it’s a little strange keeping this here, as opposed to having these functions elsewhere
+
+**Kha**
+
+**KhaPunk**
+  - the status of this seems a bit shady, perhaps it was ported, but still many todos left
+  - the entity search and collision functions were moved from the entity file to scene file
+    - these search functions use a lot of Haxe magic like reflection, but it still is all statically typed, unlike as3’s simpler dynamic untyped magical arrays that hold anything
+    - much of collision functions could be refactored into pure math algorithms. But, since the entity containers are located and handled here, all of the functions are here, which makes sense.
+  - the scene file also contains the entity containers (the main one and the optimization ones)
+  - the entity optimization containers were changed from as3 arrays to maps. Surely this is much faster!
+  - the scene graph also contains some mouse input, which probably should be optional?
+
+**Dia**
+  - a minimalistic KhaPunk like engine
+  - extremely neat, uses callbacks to accomplish this
+  - has static helper classes for common game i/o: sound, input, window, graphics, etc. Basically, just another abstraction on top of Kha.
+  - very minimal, as there is no entity list / scene class, collision detection, or anything really
+  - could start with this, and then add things from KhaPunk to build up an engine
+
+GameBase / TerryHeaps
+  - very sloppy game engine by the maker of VVVVV, most resembles HaxeFlixel (gfx static class that provides functions for drawing, primitives class) and Flash/OpenFL (drawing)
+
+
+At the moment, I would say either branch off of KhaPunk or Dia (minimalistic Kha engines), or, branch off of Monocle Engine (a minimalistic MonoGame engine). Otherwise, I’d have to go down to C/C++ libs.
+
+Flash is dead, so no need for OpenFL or the older NME. I haven’t used MonoGame / XNA, but it sounds like a media framework, just for .NET, which is cool.
+
+
+
+—
+So, it seems there are a few ways to go about making a game engine:
+using a game engine that provides useful classes (entity, screen, world, camera, etc.)
+using a creative framework that doesn’t provide any useful classes
+mixing an i/o framework with a graphics framework to create a game engine
+using an i/o framework and making your own graphics framework
+using a graphics framework and making your own i/o framework
+doing everything yourself
+—
+
+
+game engines:
+Haxe:
+**GameBase** by deepnight aka Sebastian Bernard of Dead Cells fame, is an simple game framework on top of Heaps.io
+  - **Heaps.io**by ? might just have enough game-engine related code itself, no?
+**Dia** by Graham Missail, a minimalistic engine atop Kha, perhaps a simpler version of KhaPunk
+**KhaPunk** by ?, well, it has Punk in it’s name!!
+Luxe engine by the high-quality coders of Snow Collective, was a Haxe engine, but, version 2 seems to have moved to C++ and Wren (programming language)
+  - the Snow Collective also wrote a high-quality foundational library (Snow) and a high-quality UI library, among other base libraries
+
+Beef:
+**Strawberry** by Matt Thornson (a game engine written using Beef)
+  - **Beef** might just have enough game-engine-related code in it to use as a start
+
+C#:
+**Foster** by Noel Berry of Celeste fame, alongside Matt, a C#-only library
+**Monocle Engine** by Matt Thornson, an old MonoGame game engine, used for Celeste
+
+C/C++:
+**openFrameworks**
+**blah** by Noel Berry, a C++ engine atop SDL2, starting with OpenGL
+  - probably the best place to start on making a C/C++ engine, also: as of September 2020, it’s currently being worked on
+**Flow** by ? is an extremely simple modern header-only C++ engine that is probably the best way for me to learn modern C++!
+—
+
+cross-platform foundational / multi-media frameworks including a graphics renderer:
+C:
+**SDL**
+SFML
+FNA3D, an minimal-C implementation of XNA 4.0
+
+Haxe:
+**Kha**
+NME?
+
+C#:
+MonoGame, a current XNA open-source implementation
+FNA, an XNA 4.0 implementation
+—
+
+cross-platform “build your own engine” framework, without a graphics renderer:
+Haxe:
+Lime, used by OpenFL
+Kinc, used by Kha
+—
+
+cross-platform graphics renderers:
+C:
+**Sokol**, a minimal-C graphics rendering library
+**BGFX**, a proven rendering library
+—
+
+ref:
+https://dewitters.com/indepth-look-at-2d-game-engines-for-haxe/comment-page-1
+

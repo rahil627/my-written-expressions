@@ -1,0 +1,30 @@
+tech trends
+
+https://trends.builtwith.com
+
+web servers
+  - Apache - 38%
+  - nginx - 35%
+  - IIS (Windows) - 11%
+  - others
+
+OSs
+  - Ubuntu 8%
+  - Parallels Plesk Panel 4%
+  - others
+
+name servers
+  - Cloudflare 21%*
+  - Amazon 12%*
+  - GoDaddy 8%
+  - Google DNS / Cloud DNS / Domains 1.5% each
+  - Network Solutions 3%
+  - NameCheap 2%
+  - others
+
+CMS
+  - Wordpress 36%
+  - Drupal 3.5%
+  - others
+  - Joomla 1.5%
+

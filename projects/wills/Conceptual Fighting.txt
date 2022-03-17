@@ -1,0 +1,337 @@
+Fighting Game Anarchy & Arts
+An online hang-out space specialized in the arts and crafts of battle (video) games ...and other related personal works.
+
+# 1999 eternal nostalgia
+KickStarter: Explain it to a friend.
+
+Me: Yo! It’s like back in ‘99, summer-break late-night on a week-day when your street friends were trapped in by curfew: Bone Thugs ‘n—*StarCraft* battle.net: when ‘custom maps’ (new games, really) were being crafted and play-tested by passionate kids ‘online’, rare maps were being re-distributed and cherished together, favorite maps were being updated ‘n remixed (or rigged or plagiarized [still are!]) by anyone, a wild variety of unique game systems were being experienced and explored at a hectic 10.6kbps pace...That, except, for*all* battle games.
+
+**It’s that feeling you caught when you and your friends came together to play**, not just games but ***with* games**: playground-game variations, then *GoldenEye 64*, then again for LAN party ‘custom servers’ (modified games) and ‘custom maps’, once again for indie jam-games, and one final time for modified input-output games, **but, over the internet**, and, with the ability to participate in any part of the game-making process, at your own natural accord, in your own natural habitat.
+
+**It’s about just playing and naturally making-up stuff up, online**, in and with the public. It’s the vain attempt of one old kid to re-create that much longed for nostalgic feeling of making games the way they’re supposed to: ***together and playfully***, changing rules and shifting components at will until you and your friends stumble upon something beautiful, memorable, *and* fun—but, perpetualized through internet technology, eternally, for one young kid, and the younger kid in all of us.
+
+# toooo long; do you not feeeeel...like reading? [preface / tl;dr]
+This project is to fund me to *enable* me to spend some time and attention of my life to wander about and make my own contribution to the fighting game culture, specifically the *arts* of it—the art of fighting (theory) and the art of making (crafting)—in whatever way I can/feel from a computer as one of my longer-term projects. **It’s my personal attempt to organize the art culture, digitally.** Although I expect this endeavor to bear some small, personal fruits: [1]essays, [2]essay games, etc. fighting game arts; The [temporary] title [of the project] Fighting Game Anarchy (FGA) belongs to the durian of the project: [0]the digital social organization.
+
+The core of the project belongs to my attempt to kickstart a pure-hearted online social communal space for anyone that’s naturally attracted to the arts of battle games to hang out. *Online* so that nearly any-one from any-where at any-time would be able to join. *Pure-hearted* in that d’ evils will receive zero tolerance. [And, ]*Social* so that nearly every artisitic process—fighting (competitive and playful), making (designing and developing), spectating, theorizing[, more?]—becomes a shared social experience. **An online FG art space and community.**
+
+In addition, I sense that a tiny personal series of works—various forms of **essays**—about those arts (and other arts!) will crystallize from my own personal experiences during this project and from reminisces of past times.
+
+There are many reasonings, motives, and dreams beneath all of this, but that’s really the gist of it!
+
+*Caution: Humbleness ends here, continue at your own risk.*
+
+End of preface. *If you believe, press [contribute] to skip. Insert (1)[medium foodstuffs] to continue.*
+
+# TOC to ‘em, Ra!
+ready?...fight! [intro]
+building a home out of bits and peoples
+avoiding traps and detecting despair
+a personal contemplative wandering about the he/art of fighting
+excavating buried scrolls, symbol tablets, and rare games
+the forgotten arts of making and playing
+the cyyyyyyycle of liiiife, with really really real people [conclusion]
+an xx-tight history of myself, and sample works
+<($.$)>
+a possible time-line
+a disclaimer about the rewards
+
+*Note: From here on, I use the term fighting games instead of battle games, but my definition of fighting games goes beyond the norm Street Fighter 2 (SF2) style games. At the moment it includes the battle modes of Mario Kart and Bomberman, [irl] kite fighting, [irl] fighting, and CrossFire. So for now, think of it as real-time battle games, converging toward electronic varieties.*
+
+# ready?...fight! [intro]
+Since the beginning of time, animals have naturally and passionately socialized by playing, making, watching, talking about, and competing via *fighting games*.
+
+...But why then are there *still* only a handful of popularly-known *good* fighting video games (*Melee*, *StarCraft*, and a few SF2-like games) being played competitively today?
+
+And from that [todo: link full] thought, this adventure began...
+
+It is my personal *research programme* toward a very real yet seemingly difficult-to-attain ideal: *good* fighting games. It seeks to answer: [1]What is a fighting game? [todo: link]; [2]What exactly makes *good* fighting games so great? [4]Has history really produced so few? If so, why? It seeks to solve: [0]The chaos on the internet about the arts [3]The problems individuals (‘indies’) encounter when attempting to make good fighting games, especially good video fighting games; [5]The problem that a majority of people who love playing fighting games unawaringly get duped by marketing and consumerism to conform to play *bad* games in their stead. (*I meant that generally, not particularly. I mean, games with little to no fighting at its core. I mean...I mean...I-uhhh-oh...!*)
+
+I intend to ponder about and **take whatever actions I feel to attack all of these questions and problems publicly and transparently over the internet** in hopes that some of the ideas catch on, catching special people from around the world, to come together to share, play, talk, and work beside each other, not just toward my own programme, but on anything related to the arts of fighting games, with a special emphasis on fighting *video* [or electronic?] games.
+
+Just as certain past art collectives were in pursuit of or naturally drifted toward something universally intuitively understood yet undefinable, undefinable yet had defined boundaries, so too does this programme—just far less seriously (*it’s just fighting games not serious games!*). I merely hope to serve as a guiding wolf: marking known territories, making sure it’s moving on the right path, keeping things tidy, and walking beside anyone who joins [the group] to aid them chart their own trails.
+
+The hopeful result of all’a this would be the progress toward that ideal, *good fighting games*, and therefore the progress of *the culture, and its arts*, influencing an increase in the recognizing, searching, promoting, tinkering, perfecting, creating, and playing of a diverse variety of good fighting games crafted by an equally diverse set of peoples throughout history. */kanye_voice I make, gooooood games.*
+
+End of the intro. *Press [contribute] to skip. Insert (2)[juices] to continue*
+
+# building a home out of bits and peoples
+*”What the fuuuu......I mean...Go on.”*
+
+Similar to the making of many timeless art objects, making a great fighting video game system often requires patient tinkering until it’s juuust right. Furthermore, fighting games are a really specific art form; There aren’t any special places to practice it together [irl], or even any socially stable places on the internet to help maintain a state of grace. Thus, before I begin making my own games again, I would first like to make such a place.
+
+[0]I would like to begin organizing a **home-base on the internet about the art and craft** both for myself and anyone interested or even just curious about it. Just like a real hang-out spot, a digital one will have an entrance (web-site [cms]), common play-rooms (audio chat rooms [Discord?]), eerie back rooms (audio+video chat rooms), wall-boards (forums, bbs, classifieds [Twitter?]), storage nooks / ‘info-shop’ (collaborative sites [Wiki, cms + shared folders = auto-gen cms{!!}]), *maybe* sheeple rabbling (filtered ‘social media’ feeds), and so on. For the moment though, I think this is a good enough start. Hopefully, as more people use the space, people will naturally annex more components, according to their own desires. *Note: I am not building an all-in-one application such as battle.net or Steam, rather, I’m just organizing a make-shift home with the good tools that already exist.*
+
+There’s a lot of people and info out there, on the internet and in the world, but it’s isolated, decayed, diseased even. Competitive game players and indie game developers are all isolated somewhere in the world (art and mis-educational institutions in big cities, meet-up spots, arcades in suburbs, play-grounds, hang-outs, parents’ homes...) as they are on the internet (personal blogs, competitive game specific forums, geographical-area based forums, game framework forums, [market-]platform specific messengers, private messaging groups, anti-community pop ‘social mediums’...). I want to create an  **independent, sane, real-time, pro-*real* public digital arcade room** to allow anyone to pour into, find their own little corner of a room, and just be able to chill, having the comfort of similarly cultured people nearby, to play anything, and then to naturally begin organizing and building.
+
+*Note:* **Most of the proposed work belongs to organizing people and organizing the space.** Organizing people: somehow attracting people who love fighting games from all over the world (internet)—hobby-makers, the floor is lava players, pros, kids, kids-at-heart, hearty-cooking mamas, etc.—to just show up, talk, feel comfortable, **show and tell, express passions**. Then, somehow ensuring positive experiences so that they’ll *want* to come back. Organizing the space (internet applications stack): at first, public chat room commons and the battle.net-like public game list (event list); Then, to fit their needs: trying out various applications to, especially collaborative ones, to facilitate interactions and to enable more ways to interact and create over the internet; Even later, to find ways to allow the people to do whatever they want: giving [limited] server access to trusted persons. **I can only take responsibility in building the initial environment and *some* social organizing; Much of it will depend on human nature.** It’s all just a digital social experiment. *”It was all a dream!...”*
+
+# avoiding traps and detecting despair
+*”But why? I mean, what’s the point? What do we get out of it!?”*
+
+Game making can be an extremely mind-narrowing, lonely, long-winded, trap-ridden path, one that shouldn’t be embarked upon alone:
+
+First: One of main hurdles of any artist is to simply have people who truly care about your art, to support you; Or, you must have sheer waywardness. But when an art takes sooo much time, as is often the case with FGs (months to years of time!), the passion will wane, and even the most loyal of friends may run out of caring and consideration energy, draining your motivation, at times even questioning your sanity. Periodic meetups with friends simply aren’t enough; Making fighting games requires lots of time together, so much so that it seems as if the only way to make them is to live with other passionate students of *the game*. In a chill online community with a common interest, you could probably rely on just having people to have time to hang out and talk about game design, perhaps even be playful enough to volunteer to be a part of your project, play-test your game via streaming, or just play some good ol’ games(!), *at any time*, keeping motivation and sanity levels steady.
+
+As an extra benefit: For most personalities, a community (local or digital) also offers the realest and naturalest way to learn. Learn, anything: how to make games, make videos, art, think, write, whatever.
+
+Second: I feel that isolating this “niche” genre from the much larger game making community will really benefit from having **an audience that share a love for fighting games**, creating **a healthy and super-important human feedback loop necessary for successful game making.** It seems counter-intuitive because it isn’t inclusive, but, it’s not really that *niche* either: If you enjoy *beating* your friends in *Mario Kart*, you’re probably into fighting video games. Also, certain people tend to prefer certain styles of games: puzzle games, sports, and so on. So, for example, the humanoids that still play Metroid-likes today aren’t going to be too helpful. Even the primitive tribes that still worship SF2-likes are simply best left alone.
+
+Mini-story: About 10 years ago I was into exploring expressive art and aesthetically experimental styles, and when I didn’t belong to communities for them or have a cultured audience, my interest dwindled, and when my sheer will-power and passion wore off (imo I had a lot too!), I faced despair, and I stopped making games. Artist communities and cultures are important.
+
+*...And thus, by building this project and sending it to the past, we can save struggling children like my younger self...Then, come back to the future to play some good @$$ games.*
+
+# a personal contemplative wandering about the he/art of fighting
+*”Pshhh, you know organizers shouldn’t get paid. Do some ‘real work’ ya’ lazy hippie!”*
+
+Though my main focus and role will be the same as it has been my whole life, voluntarily organizing and helping (though digital this time), I myself intend to simultaneously begin a journey of my own: **an exploration into fighting games**. Perhaps it will begin by [1]**outlining simple concepts in the form of written essays** [in English]. For example, answering that first question: ‘What is a *fighting game*?’ [todo: link], and following it up with more: ‘What is *playing the game?*: fighting not winning’, ’What exactly (in the game) generates hype moments?’, ‘Is kick, punch, really all in the mind?’
+
+...But what’s special about this **enquiry** is that I want it to trascend from the writing medium to the game medium via short-form games *essay games*.[2]**The main point of my essay games are to explore and develop fighting game ideas further**: Is it the few-frame reactionary inputs (DI, perfect block / parry) that really adds finesse and satisfaction? What sort of fighting systems provide a good *flow*? What mechanics balance pressure without limiting it? Is the mythical golden balance between accessibility and complexity really possible? What’s the ideal input device to best match fighting games?(—The *Power Glove*?) I want to break it all down to the most bare-minimal fighting game goodness, to really figure out, and to answer that second question: what the heck makes a fighting game *soooo gooood*? Simple game ideas expressed through simple games (think: *Mario Party* mini-games).
+
+As an extra benefit, this will keep me quite pragmatic, as I’ll be in fray with y’all, DIY’ing, no, *DIT’ing* everything, suffering the pains of game dev together. *Urgh.* 
+
+# excavating buried scrolls, symbol tablets, and rare games
+*”Sophistry don’t count either, ya’ bum!”*
+
+The adventure toward good fighting games, that is, the processes of organizing and essaying, will [3]naturally form contributions to the arts (FG theory and FG making): a gathering of links and references to related media: notable games (video and physical games played around the world), mechanics, concepts, theories, conversations, forum discussions, famous pro matches, etc. etc.; And, a gathering of game modding info, game engine info, along with commonly-used FG-related code libraries, and *hopefully* even my own little prototyping library: **a fighting game digital book-case and tool-kit**, started by me but hopefully maintained by the community later on, together.
+
+Given that game communities are isolated with their own isolated information, it doubles as a more general **digital info-shop** or info-hub serving, spanning, and bringing together communities for modding, design, dev, competitive fighting, niche or rare gaming, or even just spectating.
+
+[5]Groups of people that play and make niche games (not found on the markets), perhaps popular in other countries, cult favorites, or just some old arcade or mod or jam-game **favorites** that you and your friends love are really all **worth spot-lighting and popularizing**. [4]This, I hope, will also bring together info on some **great rare games** along with the rare communities that still play them (and perhaps still update them!), and even great lost games that only exist in memories (one-time exhibitions, jam-games...or, didn’t Pizza Hut have a video game?...).
+
+Thus, whether or not I *personally* reach that lofty goal of making good fighting games, at least I will leave a well-packed bag of loot to guide future generations of wayward souls.
+
+# the forgotten arts of making and playing
+*”What do you reeeaally want, mannn!?”*
+
+[todo: this whole section is just too long]
+
+Ideally, it should be rather easy for game makers (flash game makers, game modders, DIY folks; passionate people) to create, alter, or even just find a fighting game system, share it with the public via the internet, and play it locally (on PC and Mac), allowing the public community to participate by messing with game variables (provided in-game or with instructions) or source code (or even input devices!) to naturally exploit what’s fun or good and to further alter and create more fighting game systems. *That* I believe is the formula on **how countless great and now forgotten games were made by playful people and hobbyists: through custom maps, mods, hacks, variations, rules**...before indie game-making technologies baited their minds, before the markets controlled their minds, and before playful minds became mindless. That’s the game-making **ideal** I hope to bring back through the space. It should feel like making variations of *tag*, then iterating one [variation] to perfection. That’s **the game-making workflow** that I feel the structure of the hang-out space should be modeled around.
+
+The technical difficulty gap between making games with a *maker* and making games with an *engine* is closing.
+[todo: not sure where this goes.]
+
+Coincidentally, the more time people spend on making, talking about, playing with, modifying *game systems* and then fine-tuning the their components (input, mechanics, balance), as opposed to all of the other parts of production, the better the games will be, from a *competitive gamer’s* perspective.
+
+Actually ‘completing the game’, by making and throwing in extra graphics, sounds, broken characters, busted stages around the game system, isn’t of my concern, as it’s all just that: extraneous. Besides, what’s the point of completing a game if the core game system sucks? There’s enough of those already. This isn’t some capitalist-factory with forced release cycles.
+|
+Great fighting games come slow, with love and care, to be appreciated forever. */japanese_accent “Fighting games...are soooo, great.”* [todo: listen to quote again] Luckily though, until then, there will surely be many silly fun playground-esque un-refined fighting games to play. *Sooo...fighting games are just polished play-ground games?*
+
+# the cyyyyyyycle of liiiife, with really really real people [conclusion]
+*”You thought I was listenin’ to all ‘uh that!? This is America! We don’t read; We just watch the ‘tube!”*
+
+To leave you with a **thought-picture**: I think it’d be really cool if someone were to wander in, talk, join a group chat, play an older person’s old favorites or a hipper person’s recent favorites, get comfy, get excited, get inspired to organize and make things together: anything—FG-theory media, projects to re-create and perfect old favs, projects to rejuvenate and perfect fav game mods, simple or complex FGs, the next Power Stone (aka Melee 3D), the next Power Glove, whatever. Then, share it back with the community: ask in the chat rooms to see if anyone feels like playing at that moment, post a want-to-play ad on the classifieds, schedule a stream, post a link to a dev version to enable others to participate in the making; Do whatever you can to remain playful and in the culture. Then, get that quality FG-cultured player feedback asap, attract like-minds, decide to continue working on that project, or end it with a constructive conclusion, take a break, wash, rinse, repeat. *The cycle of art-life in the anarchy.*
+
+No corporate-controlled FG competitions (eSports), corporate-controlled game jam competitions (Silicon Valley, SF), corporate-controlled “educational” institutions (all game-related degrees), Japanese corporate-controlled FG developers and publishers (all traditional FGs); No slaves to any of them either. No traditional institutions; No brain-washed, fake people either. No motor-vehicle commutes. No event-space property-rent. No BM. Just us. *The reeeeaaaal,* good kids.
+
+Most simply: I’m just curious in seeing what happens when a special mix of *real* people come together...digitally.
+
+And that’s what you should expect. Nothing too wild. What’s wild is that ***the beauty* is somewhere in there**; Not just in the games, but **in the experience of playing *with* the games, *together***. And unfortunately that experience doesn’t manifest itself with just anyone either, but with *special* people who share a culture of having good *game sense* and the *playfulness* of a child. What’s even more beautiful is that we are all able to find our own version of that beauty ourselves, given the right set of tools, ideas, directions, environment, and people: even better, a space with all of that:
+
+F. G. Anarchy. *The F’ing G’est of anarchies.**...And may the fate of fighting games rest in your—our—hands...*
+
+...lol, I’m kidding with that name. Forreal though, I just think it’d be a cool community project to work on *from anywhere* (nature!), and a final ode to the culture of my childhood.
+
+*The End* of proposal. *Press [contribute] to skip credits. Wait (300)[seconds] to continue.*
+
+# an xx-tight history of myself through sample works
+[todo: insert picture of me here]
+
+I grew up in my beloved American suburban neighborhood, playing games and exploring the nearby area with nearby friends, cooperatively or competitively, sharing everything we had, playing everytime we had off. I think enough of me and this project can be derived from that one experience alone. [see a less tight history[todo: link]]
+ 
+Art: Game projects have eluded me, or perhaps I have eluded them, for a long time, for much ‘bigger picture’ projects. Other than a few early jam game prototypes [todo: link], the party game project *Pinkies Up* [todo: link], and the battle sports game *Crystal Brawl* [todo: link], all made circa 2011-2012 either alone or with a few friends in the NY scene, I haven’t touched game development for a few life-times (*wage labor not counted*). Unfortunately the value of games waxes and wanes for me, and so does the art of making them. Recently though, I’ve noticed that fighting games are the only kind that have endured time [for me], and even feels the *gamiest* compared to other art-games, and, is precisely why this project is limited to that subject.
+
+Anarchy: Organizing (anarchy, or just better living arrangements), however, has been a life-long struggle. I’ve been hanging out in public communal spaces since I could walk out of the door, and living in places with nearly-public communal spaces since 2013. The most recent major commune was Place of Arts [todo: link] (*lame name in English, I know*) ending last year, and again now noticing in retrospect, it was the best form [for me] (*progress!?*). Although, this will indeed be my first attempt at a *digital* commune. *At. long. last. I can transcend beyond the filthy house habits of others and get back to real organizing again!* And...it fits my personality perfectly. :)
+
+Both directions in life *still* greatly influenced by a super-cute punk-ethics game-art-facade cooking guild in NY. :) ...Unfortunately, both directions never end...
+
+...Web-development is something I loathe and will try avoid in favor of more humane communication tools, like audio and video chats applications, and, simple things like collaborating with text files on shared [cloud] folders for writings, then, auto-generating sites from that. My personal site [todo:link] is more than 10 years old and still uses the same WordPress installation and theme!
+
+*Warning: I haven’t played a video game or used social media for several years. I’m technically a barbarian now!*
+
+# <($.$)>
+[todo: insert picture of home here]
+
+Money at least goes toward: a used MacBook (*don’t ask...*), mobile internet service; Survival essentials: tent repair, motorcycle repair, house repair; Midi busking equipment...
+
+The amount of money doesn’t reflect a calculated itemized cost; Instead, it just guarantees my body and mind some peace from this crazy world to allow me to quickly get into studio mode, begin working, and *stomp* on that kickstarter lever. Basically, KS amount = 3.5 “months” x $2000 + ~KS fees. 6 “months” is a good maximum, approaching hot season, and I’d be *big pimpin’, affordin’ the cheese,* even keeping a stash for core volunteers’ labors. Anything beyond that probably goes straight to the physical commune stash: housing and caring for outcasted peoples. As long as the main work involves organizing, helping, and working with people, I’ll happily whistle to work; Tell me to code a FG engine, however, and I’ll meet social-death again.
+
+Just to be clear, this project will be public and free (like Wikipedia). Later, If things go really well and get busy, I can *try* to put together a digital cardboard box to accept donations to be distributed amongst volunteer organizers, needy members, and wild unforeseen server costs (also sorta like Wikipedia)... Otherwise, there are no intentional profits beyond the amount KickStarted.
+
+After the winter season, I’ll gladly go back to the art-life of balancing temporary labor and labors of love—but first, *I just need to build the environment!* And *yo!*, c’mon. This isn’t just some art you experience once, trash, and forget. *Fighting games are for-eh-vuh.* *...Doesn’t that make this project foreva-eva?* Besides, how else are organizers of non-institutionalized arts supposed to get paid? Matter ’a fact, how else are the real FG artists ever gonna’ get their work recognized *or* completed? *Now, show me your rupees! I mean that bluuue stuff.*
+
+# a possible time-line
+During the KickStarter funding period, the time-line is like so: make a make-shift web-site, set-up chat rooms, and do whatever else that’s possible with this iPad (pray that it doesn’t malfunction), so that people may immediately join, communicate, meet, and self-organize (*Note: I won’t be able to hang out much until the money comes through, but, we can still message!*). Then, spread the word, pray, network, communicate, ponder. So, hopefully by the time this is kickstarted, the stuff that doesn’t require a laptop are about done.
+
+After it’s funded (*if it’s funded..*.), the general timeline is simple: get $, search for lost [paper] notebooks and hard-drives, re-organize and optimize the tech-stacks and work-flows, try to find and move into a better shack, then, work with a stoic flow until the sun comes back (~3-6 months), crash, and finally, live slowly again, knowing that this project exists in the world, naturally voluntarily helping and organizing the project, whenever, forever. Also, the timing is good; Winter’s coming soon; I get itchy feet in the sub-tropical heat.
+
+# a disclaimer about the rewards
+[Beyond name credits,] There really aren’t any rewards (FGAnarchists care about nature, material workers, and postal workers). C’mon, you’re smart. You probably out-grew the pop Flash (now pop mobile) “games” (activities) by age 4. Age 5 is usually where wrestling and Super Mario World complexity begins.
+
+Seriously though, by contributing, you can join the dialectic (a fighting game of communicating!), and I’ll take the time to listen and talk with you. I’ll take in whatever advice or info you’ve got, whatever desires you have into consideration, with a fight. Everyone will be able to contact me. **Contributors get higher priority voices**, but not over-powered though. If there’s anything else, I’m sure we can figure it out. *...A fighting play-style that is Captain Falcon mixed with Makoto you say?... Hrmmm... I’ll take it into consideration...*
+
+The contributor community has only now come to my attention. This feels strange...strangely forced... Some sort of ‘OD’ (original donater...of course) tags for the forums and chat rooms would be cool...? **Forum and chat room fashion privileges?** tiered by reward amount? It used to be cool... :( I’m sure more opportunities for more natural gifts will come up...
+
+If you fund me and have no intentions of hanging out, then, all I really got is love for ya:
+
+<3
+
+*Gaaaaaaame Ooooover.* *Press [contribute] to quit. Press [home] to restart.*
+
+# removed text
+[keep this idea private]
+What sort of systems provide a good *flow* of offensive input and defensive input that keeps it non-stop compelling?
+
+[If this project gets crazy money, I’d probably have to directly approach home-less people and see if money or communal love can change their situation, slowly giving it away over my life-time. Oh, and to my parents. Oh, and also to (voluntary) contributors to the project.]
+
+[*note: If KickStarter doesn’t count ideas, writings, and organization as something tangible enough (‘a product’), then, I will be hopelessly forced to put more effort on this part, as this is the most commodifiable part.*]
+
+[removed from money]
+ in Taiwan (until Trump screws everything up; *a real possibility*) and
+ 
+ [removed from money]
+I also hope to to use this as a stepping stone to enable me to begin some real anarchy tech projects (mapping food waste, etc.) and essay films. So, stay tuned!
+
+[removed from rewards]
+Seriously though, I am but a single individual, one who doesn’t even have a personality fit for programming! I don’t want to make any promises of code features as rewards. *...A replay feature that has the capability to create a slow motion ‘clip’ of video and send it to your IG with cat ears you?* No thanks.
+
+[removed from benefit of digital org]
+However if you’re simply not interested in (or incapable of understanding) *Mario Kart*, that’s okay, hence FGs being considered niche, boy’ish.
+
+[removed from several places, but re-fitted in-to the intro]
+[4]Another motivated, more reactionary reason [see the full story] to do all of this is that I hope I’ll have some answers to **the problem** as to why there *still* are only a handful of popularly-known *good* fighting video games (*Melee*, *StarCraft*, and a few *Street Fighter 2 (SF2)*-like games) to play and being played competitively?...and with even greater hope, influence an increase, creating new ones and even seeking and perfecting old systems. [todo: repeated from first part. Should move to the first part...I think.]
+
+[removed from leave you a picture]
+...in which multiple players control buttery-smooth heavy *Melee*-style characters with a selection FG mechanics to play army dodge-ball or racquet-ball with sandbags instead of balls. 
+
+[todo: move to separate history writing]
+Despite the infinite ways one can express themselves through games, the competitive game is the very specific form I’ve always come back to, and I‘m now finally piecing together why and why I value them so much. Anyway, I’ve long since learned to use other mediums to express myself...
+
+[todo: incomplete, watch, play again.]
+
+[todo: to project ideas]
+Additionally, for fun and as “research”, I will *try* to stream and record a video series of playing and critiquing past fighting games very quickly...just to get back into the culture again. This really depends on a lot of things though, so it won’t begin until I’m quite settled-in. [todo: *This isn’t part of the project.*]
+
+[todo: to ideal digital info shop]
+The process of making the games will [3]naturally form contributions to fighting game system development: a gathering of links and references to quality media—videos (FG mechanic tutorials, pro matches, conversations), writings (essays, collab-writings, e-books, zines?), a list of exemplary fighting games throughout history, a list of fighting game mechanics, a fighting game concepts dictionary, a current list of useful game dev tools, etc. on fighting game theory and making: **a fighting game digital bookcase**, hopefully maintained by the community, together;
+
+[cut down from the art of crafting]
+Also, just in case you didn’t know: Making a good fighting game is considered a *notoriously difficult* task, hence there are only about three *traditional* fighting game companies[!!!] and Dan Fornace [todo: sp?]. But, like most human problems, much of the notoriety stems from *tradition*: 2D animation [frame by frame!!] and 3D modeling, giant character roster to balance, AI, etc. Non-traditional, simple fighting game systems can alleviate most of those problems. Few problems such as bad ‘net code’, however, will likely remain, with good fate too: *God wants you to teach the people closest to you to become playful again.*
+
+[cut down from the art of crafting]
+Over time I hope to build a simple code library of common fighting game specific functions and dev tools: **a fighting game dev tool-kit**.
+|
+*Major Disclaimer: this proposed tool-kit is just my own little humble prototyping code library, much like my ancient FlashPunk code [todo: link]. It is NOT a professional SF2-clone-maker for non-programmers. I have an idea and direction for it[todo: link], but I make no promises. It’s not even a goal, rather, more of something that grows from practical use over time.* Anyway, you know how software usually works. *It doesn’t.*
+
+[removed from intro]
+the physical social organization
+
+[a thought on the intro]
+anarchy for the name of the community / hang-out (conceptual fighting anarchy?), conceptual fighting for my research programme—conceptual fighters (game essays), conceptual writings, conceptual fighting framework, etc. Yeah, that’s more for my own personality, not for everyone. Everyone fits in the anarchy.
+
+[todo: does this fit here? if not, remove?]
+Since big city game-making-related events (*game jams*) and global experimental game jams used to attract about a classroom each (in ~2012), I’m guessing there’s really only a few conscious *experimental FG makers* yet a *ton* of unconscious, highly-creative people (mostly children and ‘child-at-heart’ people) that naturally make fighting games at home or in their backyards in this world at any given moment anyway (*whoa!*). *Come together.*
+
+[removed from intro]
+conform to and become habituated to play bad, often more recently made, games in their stead.
+
+[removed from preface]
+*Social* in that the active participatory parts of the [fighting game art] culture (playing, making, doing...together) are prioritized over passive one-way consumption and object production (playing, making...alone).
+[todo: prioritized? It’s in relation with one-way consumption..., but that one-way consumption must be an active kind...; Also, it should be way more accessible than this, as it’s the first thing people see. It’s too academic; prioritized or...favored? aim?]
+[todo: maximize? doing as much as we can together?... Social so that nearly every action becomes a social experience...try to do everything together.]
+
+[removed from money]
+Even the web-spaces will be *for-eh-vuh*
+
+[removed from avoiding traps]
+So a person solely attached to one style is likely not going to be too helpful.
+
+[*It’s dangerous. Here, take this.* [todo: get actual quote]]
+
+[removed from essays]
+ ‘Comparing fighting video games to fighting playground games’...
+ 
+ [removed from ideally]
+ commentating contests
+ 
+ [removed from preface:]
+My humble hope for this project is to...
+
+[removed from bio; best of both worlds bit]
+This whole project is just another manifestation of my passionate, greedy, never compromising, endless desire of having it all: having both: playful art culture (digitally) and natural living culture (physically).
+
+[removed from preface:]
+and mostly from my own experience of organizing and hangin’ out at that space[, along with past experiences].
+|
+during this project
+
+the art of digital anarchy
+
+[removed from intro]
+consumerist technologies—anti-social games, anti-community social mediums
+
+[removed from $]
+evading the distractions of traditional work.
+
+[removed from preface]
+*Note: ‘Trash-talking’ is pure competition. Stealing video content is evil.*
+
+[removed from game-making ideal, re-fitted to explain]
+(just as many of us now older folks did with StarCraft’s map-maker and battle.net community, modding tools and mod communities [Half-Life], and more immediately experienced with *GoldenEye 64* and [irl] play-ground game variations).
+
+[removed from game-making ideal]
+the narrow-minded indie game boom (*especially IGF*), and in my opinion, they made *wayyy* better *game systems*, and even way more enthralling experiences.
+
+That’s the game-making ideal I hope to bring back, which somehow got lost in all the indie game-making technology, narrow market platforms, consumerism, and just getting old.
+
+[removed from buried scrolls...]
+It is not a professional SF2-clone-maker for non-programmers.
+
+[removed from title of forgotten arts...]
+childish ideals, from childhood ideas /
+
+[removed form thought-picture]
+[todo: from ..., Also: always be in the culture, not never alone]
+
+[thought on money]
+[todo: stash for volunteers? maybe don’t need with new battle.net oriented project...Also:  $7500 is okay. That’s like two months programming money. Quite perfect. Even 4 months is okay.]
+
+[removed from bio]
+This project: the means to the ends of those directions: **art and anarchy**.
+
+[removed from near end of proposal]
+[todo: the right organizational structure]
+
+[merged into the conclusion]
+Then, using the info provided (organized resources and tools), make a fighting game prototype or mod. Then, share it with the community by posting a want-to-play ad on the forums or asking in the chat rooms to see if anyone feels like playing at the moment, allowing the players to play with the game variables [in-game], and perhaps even streaming it together, ending it with a conclusion with some video clips in the forums.
+
+[removed from scrolls and tablets]
+In addition, it is my *hope* that a simple code library of common fighting game specific functions and dev tools will also grow over time from personal practice: a fighting game dev tool-kit.
+|
+*A major disclaimer to game programmers: The ‘dev tool-kit’ is just my own tiny prototyping code library and ‘barebones’, much like my ancient FlashPunk code [todo: link], and much like whatever people take to game jams. Absolutely zero promises made.*
+...
+*Also, a major fyi: Making a good, complex fighting video game is considered a notoriously difficult task, hence there are only about three good traditional fighting video game companies[!!!], and Dan Fornace [todo: sp?]. But, like most human problems, much of the notoriety stems from tradition. My personal game-making aim is toward simple, non-traditional, experimental games.*
+[todo: link to technical hurdles]
+[todo: bold on notoriously difficult, traditional, and tradition.]
+
+[removed from intro]
+art collectives, guilds, and schools of thought
+intent on capturing something; something beautiful...
+(often sketched in edgy writings and etched in minds)
+
+other notes, never used:
+distance, a compromise through distancing myself from the culture around FGs (America) [for bio]
+a digital anarchy for FGs, a FG digital anarchy [for sub-title]
+perpetual drifting, drift perpetually [for timeline]
+evaded games due to moral differences / distracted by everything wrong with reality [for bio, bigger picture]
+fighting game artists [for intro, to be promoted, recognized, etc.]
+[for before preface:]
+KickStarter: Explain it to a friend.
+Me: Yo! It’s like an online game lobby, except suited for game artists.
+history of game communities, StarCraft, Half-Life mods, WarCraft III, EGP, etc.
+
+[todo: move to code library]
+*Mario Party* mini-game level simplicity with detailed fighting game mechanics complexity. 
+
+[todo: remove?, counts as physical social-organization]
+I’ll continue my life as is: finding a more decent shed near nature, transforming it into a home, forming yet another community and commune, and thus the cycle of an idealist’s life goes on and on. But this time, I’ll make sure game culture is a part of it, and that we have more ways to generate capital, so that this time, we will pay the land-lords....*by throwing coins at them...!!!!* *There will be arcades next to those spice gardens, damn-it!*

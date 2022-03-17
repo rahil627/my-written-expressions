@@ -1,0 +1,15 @@
+https://updraftplus.com/information-on-importing-a-single-site-wordpress-backup-into-a-wordpress-network-i-e-multisite/
+https://updraftplus.com/faqs/tell-me-more-about-the-search-and-replace-site-location-in-the-database-option/
+https://wordpress.org/support/topic/error-message-that-name-is-not-allowed-restore-failed/
+https://deliciousbrains.com/wp-migrate-db-pro/doc/exporting-single-site-as-subsite-for-multisite-install/
+https://premium.wpmudev.org/blog/moving-wordpress-site-into-multisite/?utm_expid=3606929-105.kKHVTz43T_CV513Vo9oSow.0&utm_referrer=https%3A%2F%2Fwww.google.com.tw%2F
+https://pressjitsu.com/blog/wordpress-single-site-multisite-migration/
+https://codex.wordpress.org/Create_A_Network
+https://developer.wordpress.org/cli/commands/core/multisite-convert/
+https://code.tutsplus.com/tutorials/moving-wordpress-moving-a-site-into-a-multisite-network--cms-22773
+https://www.namecheap.com/support/knowledgebase/article.aspx/9364/2199/how-to-restore-cpanel-backups-for-addon-domains-partial-cpanel-transfer
+https://updraftplus.com/faqs/restore-site-updraftplus/
+https://updraftplus.com/faqs/how-do-i-migrate-to-a-new-site-location/
+http://updraftplus.com/faqs/migrated-site-searchreplace-database-can-now/
+http://www.rahilpatel.com/blog/wp-admin/options-general.php?page=updraftplus&tab=status
+https://www.google.com.tw/search?q=redirect+website+from+root+to+blog&oq=redirect+website+from+root+to+blog&aqs=chrome..69i57.7982j0j7&sourceid=chrome&ie=UTF-8

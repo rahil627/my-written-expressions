@@ -1,0 +1,61 @@
+play-ground sandbox maker modder:
+
+influenced by playing and making street games as a child.
+
+to digital forms of street-game-making in StarCraft custom maps with Battle.net, Half-Life mods with servers and audio chat, to... N64 party game custom rules in Smash ‘n GoldenEye... after that, I stopped being playful, creative in this sense, and only play one game: Melee. My creative energies focused into captain falcon. Though some friends found some creative outlet in Animal Crossing... A few years alter the creativity was renewed by the game art scene in Brooklyn. Again just groups of friends hanging out, playing, making, experimenting, in even more ways, through infinite mediums (“new media”), still retaining much of that childhood playfulness, of feeling, of input, of playing around, modding, making.
+
+In every case, a few things remain constant: the space to hangout (street, battle.net channel, server / steam / irc / etc. chat / discord, DIY space), and playful people (of all ages). All that’s left to complete the creation of street games then, is a conscious intention, and, better tools.
+
+That’s what street games is about.
+
+[the following paragraph applies to all digital community ideas]
+It’s a documentation, knowledge-base, community that love street games. I hope to host this digitally, to anyone from anywhere in the world can participate, in any language, to share the games they played as a child.
+
+In addition, I hope to make some digital street-game-making tools, loosely based on my child-hood experiences, to facilitate the creation of cool digital street games.
+
+
+—
+surely inspired by my childhood of making street games
+
+2D:
+  - should it be separated by camera set-up?:
+    - side
+    - top-down
+    - isometric (ragnarok, paper mario)
+      - 2D character animations, but 3D level? not sure...
+
+3D:
+  - player-character-centered (first-person, third-person)
+  - non-centered / god-mode
+  - fixed camera (as in Mario Party and PowerStone)
+
+all of the camera set-ups / genres could be player-controlled (gamepad input) or selectable (mouse input)
+
+all can be local multiplayer, online multi-player, or massive multi-player
+  - mmo implementation leads to awesome mmo ideas
+
+specific desires / directions:
+simple 2D fighting game maker
+simple 2D sports game maker
+wario ware mini-game maker
+mario party mini-game maker (2D)
+mario party mini-game maker (3D)
+__
+
+
+implementation:
+2D - Haxe vs Godot
+3D - Godot vs UE4 (UE4 is proprietary, but has good net code)
+—
+
+each play-ground maker can have several game-making communities of their own / within
+
+free, probably not open-source
+  - donation-based, goes to myself, real grassroots communities, and playground-game-making community organizers / support / devs
+—
+
+play-ground game maker / modder (with and without programming)
+people should be given a game editor, game engine, assets set up (sprites, animations, voices, sounds, etc.), input set-up (4 gamepads, mouse), multi-player set-up (later), game events making system (“blueprints”), etc. (see StarCraft map-maker as a good example). Or, can simply “mod” (program) the provided game code and assets completely and make your own game with it.
+
+thus, to make a simple game, just need to set up some level stuff in the scene editor, game events, and boom! But, to make a more complicated game, will need to do it yourself—DIY!
+

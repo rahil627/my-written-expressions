@@ -1,0 +1,49 @@
+The Living Room: feelings, thoughts, wanderings
+
+*Good news everyone.* I finally played The Living Room!
+
+feels ‘n thoughts:
+Overall, I got a early 90s game (aka *interactive CD-ROMs*) vibe playing this time, with all the *strangeness* of the time. Its not intentionally ridiculous/over-the-top vapor-ware strange...just a *bit* strange. I honestly don’t know if that was your intention, or what your intentions were, or if you even had any (maybe you were just naturally making stuff...). I think the living room portion is mostly to blame/thank for, with its isolated room feeling. That furniture placement ambient sound *nails* that 90s early-3D isolation feeling...creepy!
+
+Actually, each game seems to belong to some different era in game history, which is why the game as a whole feels so disjointed and hard to pinpoint / understand:
+  - the frog game belongs to an 80s arcade, or MS-DOS
+  - the dino finder game belongs to late 80s /early 90s sports bars that had that photo-finder game (along-side video poker)
+  - the living room belongs to the 90s, circa early-3D FPS on PC (Deus Ex...)
+  - the mail-cat belongs to a special place... a hell that annoying shop-keeper NPCs go...or maybe those early 90s point-and-click adventure games on PC
+  - the super cat box...
+  - trouble cat could have been a great Wario-ware mini-game-boss (intentionally retro and comical), circa 2005
+  - only moon ride feels contemporary (timeless even?), like a well-crafted indie flash game, complete with instrumental music
+
+Anyway, thats just my feelings. A strange strange little world in there. Surely only someone of our time and place could even catch any of those vibes. Anyone that never experienced 90s game culture (kids!) will just see everything without history, like playing Wario-ware without ever *getting it*... A strange little time warp indeed... Post-modern?, (I never remember when that term is used): A game about game culture?
+
+My personal(ity?) ideals are anti-culture, uncivilized, universally understood, without references, without verbal languages (hence me liking that dog behavior game, and explorative games in general; also, hence me avoiding anything that relies on past cultures / knowledge), so, we contrast each other, but, I hope I caught some of what you’re doing here... Surely there’s a fuzzy place for Hot Fuzz ‘n Shaun of the Dead in many o’ hearts...
+
+I vaguely remember playing a wild indie game (free, game-jam-incepted) that goes through all of those silly 90s game design tropes: like an underwater level where you just had to swim through several screens, because, you know, a lot of old games actually had that type of stuff... The problem with it (and similar works) is that it’s only fun/funny once. Luckily, there’s some actual games beneath the aesthetics here. *That’s important*. Or, at least, some *wares*. Whatever that means!
+
+*Cat-ware? Pixel-ware? Meow-ware?* Yes. *Meow-ware, sold exclusively for the Super Meow Box*. And its sequel, *Meowere*.
+
+Anyway, more practically, looks like you’ve got your own code base, code tools, *home*, for future meow-wares to sleep in.
+
+big bugs:
+note: I used a version around the time you added the new intro
+- trouble cat doesn’t increase in difficulty anymore? Beat the game twice, and all of the items still get swatted with one hit. I remember it becoming hectic the first time I played it: with Tina turning...‘n items requiring more hits...‘n time running out ‘n all.
+- mooooon ride’s gyro-meter(?) center is always a bit off. I believe it resets on spawn, which is a fine idea (maybe pausing should re-set it too?), but maybe its a problem since you have to tilt in order to reach the spawn area? The center sure does *seem* to usually be tilted toward the bottom-left (which is required to go to the spawn area located top-right)... do note: I was playing while laying down.
+
+lol bugs:
+- having a potted plant on a table lead to a dialog box that either crashed if you clicked yes or looped if you said no... probably not intentional, but, I sorta felt like it *should* have crashed there anyway. An old PC game would have. *Furniture atop of furniture!? Error!*
+
+design improvements:
+- the frog game would have a ton more control if the jumping meter were fluid, as opposed to the current 7 or so units, enabling the player to get into *the zone* more easily. On the other hand, maybe having limited control fits the retro aesthetic more. Intentionally bad input devices? That game sure did *feel* like it was supposed to be played with an old arcade stick...
+
+notes:
+- music is necessary, totally different feel with music, crucial for the retro/arcade aesthetic
+  - music to Dino Finder is *fantastic!*
+- generally a way better experience when played in isolation, to get the retro feel
+- probably best suited for iPad (which is luckily all I have)
+
+other notes / thoughts, game-specific:
+dino finder: first play 20’ish hats. Wished the hats kept stacking until they covered the screen. Works multi-player, team-play.
+frog game: reminiscent of a certain nightmare-ish trope section of games that I *detest* (DK cart levels [bees included], jumping disappearing platforms in double dragon / ninja gaiden, etc.). Wished it crashed, NES style, with random artifacts ‘n all, not to be played for another year.
+moon rider: got 100 stars! Yay. Pixelated stars have a certain natural beauty to them... Maybe something to explore there? How do pixels *grow*? Do they grow into sprites? Where do pixels go when they die?
+fundoku: did not play. Wished to move it under the sofa using the furniture placement matrix, along with the jumping game.
+trouble cat: could not progress (see bugs). Wished to blow on the cartridge. Perhaps wario-ware style mini-actions to blow on the cartridge, use alcohol-tipped swabs, blow in the cat box, insert the cat-ridge, flip the switch, check if its plugged in, check if the surge protector switch is on... kidding! But the next generation of humans must not forget...the toils of past technologies!! (But please, for the love of children, allow them to forget jumping disappearing platforms with rigid input!!) Haha, life transformed into wario-ware always turns out to be so ridiculous...

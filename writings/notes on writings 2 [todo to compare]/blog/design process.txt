@@ -1,0 +1,10 @@
+this post should be about my design process
+
+contraints
+medium
+  - film
+  - game
+    - interface
+    - local multiplayer
+subject
+time

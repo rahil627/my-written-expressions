@@ -1,0 +1,44 @@
+problems:
+The project managers may be too slack on deadlines. In the first week I've already seen too many projects that have been late. With strict QA in place, they will become even later.
+
+There are way too many errors, before QA AND in the live servers! Far more errors than my last job, which had a larger project and only 3 programmers. I guess that's the difference of business programming versus game programming. Banks must work, whereas it's okay for a game server to be down.
+
+solutions:
+The communication through workspace may be too intrusive. Or maybe it is just for me, as I am suscribed to everything as a QA. I have to check every comment on every task until somebody says "ready for QA". I have as much knowledge about tasks as as project manager does! There needs to be a button to inform QA at the precise time QA is needed.
+
+
+
+
+
+another problem:
+the larger software process requires project management or a similar higher position to overlook everything because the lower positions (developer/designer) focus on specific tasks without seeing the big picture. For example, when a developer was told to change english text "live" to german text "coming soon", the person overlooked the english flag beside it. The lower positions just work from task to task, losing an attention for detail.
+
+no passion to do quality work, just do to the work. Since it's just a website for video games, not software handling bank transaction, this is okay.
+
+These problems are probably only noticed because this all novel to me, I'm sure once I am used to the process, I'll forget these things.
+
+things that cannot be QA'd on a staging server, will increase QA time
+
+
+
+
+
+
+people don't follow up on workspace. Neither the developers, designers, or project managers. I often have to bug people to check the task to get tasks complete.
+developers are too busy with too many tasks, overseeing obvious mistakes.
+The amount of work is higher than the amount of resources. There are places to optimize though. A lot of the marketing content seem fruitful. A lot of the code needs to be cleaned up.
+
+developers do not read all of the requirements and comments on the work task or bug tracker.
+
+somteimes QA is just not needed. Developers just need extra time to create quality work. Instead of sending to QA so quickly, allow the developer to have more time and less QA will be needed.
+
+just some notes from my things to do lists:
+if it is the day of the release and the development is not complete, do not release?
+do not force unrealistic deadlines
+get the developer to create and assign the QA subtask
+limit the amount of releases, quality is decreasing and bugs are increasing
+a more personal note: quantity over quality, unsatisfied with resulting work
+front end does not think like a designer
+found out the real problem on the last day: There is no project manager. Vimal is too busy being busy. He is not strict enough for his position. He is allowing unrealistic deadlines to continue. He needs stop letting Operations tell him what to do, and make his own decisions.
+
+

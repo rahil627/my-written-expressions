@@ -1,0 +1,19 @@
+After wandering through GitHub a bit, gathering some info about current game engines, some thoughts came up about figuring out how to make the web social for individual-minds, as opposed to the current hive-minded mess.
+
+A few people use Mastadon, a sort of customizable Facebook that your community owns and controls that exists over a de-centralized network of servers. So, it’s post-based, and more about catching up with people in the community. Most people use it for value-shared communities (anarchy, etc.).
+
+Discord is probably the best, as it’s simply real-time conversations, mostly over audio.
+
+Slack might be interesting too, as a record of all conversations... at least for non-real-time closer friends...
+
+I was thinking, for Mastadon, the community should be limited to posting things about theirselves, and not things they find online, other artists, other media. This way, a sort of reality is created, with complete original thoughts through written language, photos, video, and whatever other digital mediums. This would be a way to create a grassroots collection of media, similar to zines. This could be quite interesting... to manage several value-shared digital communities.
+
+Through these value-shared digital communities, it would be much easier to maintain value-driven directions—vegan, back-to-nature, hand-made dev, DIY, etc. Important, otherwise hard-to-find internet tools and knowledge can be shared in a social way, without the need of being there in real-time.
+
+Yet, none of them are local... Well, I guess it can start out global, then, as people find each other, people can create their own local communities. Thus, it’s mostly a tool for finding people so that you can maintain sanity.
+—
+
+Twtxt is an extremely bare minimal way to share updates and see feeds to the internet. I guess this tries to solve the problem of people using various softwares for their blog sites. But isn’t that what web feeds did/do? Surely there’s some software that can e-mail you a feed once a week... A separate app for this would be nice though, so that one can focuson just the content... This would be especially incredible for writers, essayists, productive content-makers, etc.
+—
+
+There is also a trend to do everything in plain text. I’ve been with this since I first started using computers! But now it’s extending everywhere: simple mark-up languages (MarkDown), simple data serialization languages (yaml), flat-file CMSs (Kirby, Jekyll, etc.). Having everything run on plain text is absolutely the way to go. Devine (XXIV?) went further, creating his own plain text database format (just tabbed text)! It is indeed how everything should be: simple, human-readable text.

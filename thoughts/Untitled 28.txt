@@ -1,0 +1,270 @@
+# digital projects
+## anarchy tools
+### positive anarchy tools
+food waste mapping tool
+  - crowd-sourced
+  - local food waste mapping project (Taiwan CF)
+    - can call and ask buffets and restaurants for food waste
+  - global mapping by importing geo-points from other sources
+  - cooked and uncooked, farmer’s produce waste
+  - special food waste that can be used for animals—home and farm animals
+homeless mapping tool
+  - crowd-sourced
+  - local homeless mapping project (Taiwan CF)
+  - places that provide: free meals, free water, free shelters, free bicycles, free essentials, free showers (public places too!), free (and clean!) toilets
+      - this idea overlaps data with traveling without accommodation (free showers)
+  - this could lead to finding places more suitable for homeless people to live. A place where water, food, and shelter come easy, along with access to the city (and therefore wage labor and people)
+environment cleaning mapping tool
+  - crowd-sourced
+  - **local environment cleaning project (Taiwan CF)**
+    - sunset island: the beach and tree-line
+      - just try!
+      - $1000NT per day of work, a sort of funding
+        - pay ALiang the most
+second-hand shop map
+  - crowd-sourced
+  - national mapping project (Taiwan CF)
+  - include flea markets (not shops, but actual out-door markets)
+  - mostly done online now... (links to popular online markets, global and national)
+up-cycle mapping
+  - mapping useless materials
+  - overlaps with material mapping
+  - good for up-cycle projects and material-based creativity
+  - also way for trading business: buy nationally, sell globally. Especially electronics, such as Apple.
+
+**Spots (public and free marketing spaces)**
+  - mapping app, with crowd-sourced info, similar to Yelp
+    - have to choose between Google Maps or a separate Yelp-like platform. Need to see if Google Maps provides the ability to add fields such as:
+  - places to vend or busk
+  - police-friendly?
+  - neighbor-friendly?
+  - space for truck, car, motorcycle, bicycle?
+  - music-friendly?
+
+Slack channels for each project? At least some way for the crowd to communicate with each other in a human way...Perhaps leading to a community of its own.
+
+World-wide maps. Just a custom map on top of Google Maps.
+
+site mapping / domain paths
+maps.tools.waywardwolf.com
+maps.anarchy.tools.waywardwolf.com
+  - sub-domains for completely new sites
+waywardwolf.com/tools/anarchy/maps
+  - slash for using the same site (whatever CMS I choose)
+  - can add sub-domain re-direct as a shortcut, informing people of it on the page
+
+writings.waywardwolf.com
+  - new site, using an auto-gen CMS
+  - alt: philosophy, writings, notepad, notebooks, notes
+  - auto-gen complete list of files
+  - include section for notes (specific knowledge, etc.)
+  - philosophy, essays, thoughts, notes
+    - separate notes (documentation) from philosophy [and writings], especially those not related to anarchy [or humans]
+    - one part should be philosophy, in a strict first principles sense. Then, the main part can be the rest of the writings—essays, thoughts, ideas, concepts, cultural observations, etc.
+      - categorize entries by type. Concept can be a pholosophical first principles concept.
+
+photos.waywardwolf.com & /photos
+  - some sort of web-app for photos, or, use the CMS to use posts as albums
+  - photo series such as the Humans project can also be done via CMS
+    - can check Vincent Moon and Humans of NY. I believe HoNY used Tumblr. Locally install Tumblr? I think Kirby can be used for posting any sort of media and commenting... just have to provide and embed a Slack channel.
+  - I think what I like is having control, having everything on my server, not on other sites or web apps. Not Facebook, not Instagram, none of it. Just my own site with everything I own. Social networks must link to me, not to itself.
+    - Thus, no photos shall be uploaded to Facebook, but, there can be a fan page that links to my site.
+
+music.waywardwolf.com & /music
+  - my own music?
+  - link to music.txt
+
+films.waywardwolf.com
+  - list of films, embed Vimeo / YouTube vs just putting it straight on the server
+  - link to film notes
+
+games.waywardwolf.com
+  - list of games, game prototypes, game ideas
+  - link to game notes
+
+I think I need two CMSs: one for my writings, auto-gen’d, and one for the rest, a simple one (Kirby)
+  - so, anyway, have to migrate to Kirby
+
+some way to embed the Slack channel into the web-site?
+  - the web-page would consist of links to Google Maps, embedded maps, embedded Slack chat room
+
+
+#### commune tools
+networking communes, communists, anarchists
+  - list of all real communes and communal spaces (info-shops) around the world, past and present
+    - mapping (if address is available)
+    - + other semi-autonomous spaces: FabLabs, punk venues, inclusive places, etc. to find places where equality is high. Equality mapper? / Network.
+    - travel to one every visa-trip
+  - links to all other lists available on the internet (including Wikipedia)
+  - crowd-sourced
+  **- crowd-fund to start it (QuickStarter project)**
+    - first mapping project
+    - leads to auto-scraping data and auto-updating list of locations, allow others to add places on the internet to scrape from
+    - allow crowd to source data [directly]
+      - fields: accommodation?, type of space, type of ownership, values, etc.
+  - could continue and add communal hang-outs, like those near universities
+how to build a commune guide
+
+#### DIY tools
+DIY material mapping
+  - materials in nature
+    - types of plants, stones, etc.
+  - materials in artificial? Useful for city-dwellers, and using up processed materials. Especially useful for up-cycling.
+  - mapping of craftsmen, artisans, etc. knowledgeable and//or practicing peoples
+    - like Yelp, but for DIY-related things
+      - maybe need a natural Yelp, with a natural-ness rating: natural businesses, naturalists (people with natural experience and knowledge)
+    - also can create a map for independent farmers, and the places they are often found selling
+web-site for practical DIY projects, especially for commune-making
+  - shelter, food, water projects links
+  - farming projects—without land, with small amount of land, with large amount of land, in nature, natural farming— links
+  - basically, practical self-sufficiency
+
+#### mapping people (not anarchy tools?)
+map morals to places
+  - who owns a building and property? How much does it cost? What’s the history of the building and property ownership?
+map history to places
+  - augmented reality useful here
+  - **can map past evil acts too**
+    - map history of evil acts to places and people
+  - **can map environmental history to the environment** (environmental actions to people)
+DIT
+  - initially Craigslist style listing (new site and sub-domain)
+    - can check Facebook
+  - feature: a map with peoples’ intentions and desires [to places]
+
+### negative anarchy tools
+empowering tools
+  - car horns for bicycles
+  - ways to punish bad drivers...some sort of washable throwing item—a fruit? Durian! lol!
+calling-out and suing tools and simple guide
+  - bad land-lords, bosses, businesses, capitalists, etc.
+  - bad actions, vigilantism: trashing, traffic violators, trespassers, etc.
+anti-police tools
+  - black-list, gather videos, sue
+  - make this process easier
+anti-law-enforcer tools
+map the evil capitalists
+  - mapping of political party leaders, super-rich, etc. evil-doers to incite physical actions toward them
+self-defense media compilation / guide
+
+## real media
+real.waywardwolf.com
+documenting natural ethics
+  - indie farmers, DIY people, and people that live naturally
+  - people that act like communists: giving out food to homeless, selling locally foraged plants, living together, sharing, feeding animals, etc.
+  - 1 film per shoot
+  - motorcycle around for subjects
+    - at the moment, being in Tainan, I see none. No one good here. Zero altruism.
+documenting communes
+  - history, what projects they did or tried, problems, things that worked, things that didn’t, etc.
+  - guide to handling people, accommodating everyone, all personalities
+film essays
+  - mostly to put knowledge together in a gestalts way, like Connections
+  - really question how the reality came to be, why people do what they currently do / behave how they currently behave, seeing institutionalized educations and habits in their behaviors
+photos of DIY places
+  - basically, cool homes
+  - homes, shops, etc.
+  - crowd-sourced, crowd-rated platform, with crowd-sourced info (captions)
+    - maybe Kirby has an add-on?
+    - also can be mapped, but, the photo is more important than the location.
+photos of DIY gadgets / ideas
+  - cool tools continuation
+  - crowd-sourced, crowd-rated
+  - can lead to industrializing via 3D-printing
+
+## anti-fake media
+### real internet
+[anti-pop media]
+add-ons to block the use unconscious consumption of fake media: Facebook, Instagram (public), YouTube, Twitter, everything. Simple quotes to remind people of reality. Or, pictures of streets and homes around the world. Simple sounds to direct one’s attention away from it all. Nature sounds. Chimes. Bells. Slow music, without the beat of a working slave.
+
+Block Google news.
+
+browser add-ons to replace pictures with pictures of reality: somewhat evenly divided across cultures. So, for example, many South Asians, Chinese, Africans, etc.
+
+browser add-ons to detect anything owned by a large corporation, not just ads, but, media, web-sites, even servers, the building of the internet! lol. Replace those pictures and links with the names of corporations.
+
+
+
+# real projects
+## commune-making
+### sunset island commune
+This comes first, simply because I live here. But, I must get out, because the culture surrounding it is terrible. Also, it’s on the developed side of Taiwan.
+
+Just do the repairs, create a communal place for surfers, but, don’t get in too deep.
+
+Test hippie businesses: sell tea (experiment a few kinds), sell food (experiment a few kinds), figure out bicycles, figure out pottery[?], busk. Can try pay-what-you-want models for all three.
+ - coincides with Spots idea
+   - have to do and build technology concurrently
+ - coincides with DIT idea
+
+Provide CouchSurfing hosting! Try other hospitality sites too. (Not work exchange! Real, free exchange.)
+  - This could lead to making the space more homely: renovating, painting, natural stove building, etc.
+
+### east side commune
+This is the dream.
+
+First, I need to find a place. Should it be property or on nature? Or, can I negotiate with tribes?
+
+It’s difficult to build up a commune if one does not own the property, as the state can always take it down, as it is not legal, giving them the right to force...
+
+But, even if it were legally owned, the state could take it down. The laws don’t matter...
+
+Hmmm...
+
+Anyway.
+
+It should be within distance to a good [physical] market. Perhaps, the best market in the area. That is, the city. Traveling 50 kilometers to get to the market is quite the waste, of gas, time, and human energy, and, it’s a bore, a commute.
+
+Sunset island works by having the market right there, on the island. People physically come. The market is within viewing distance, like having a vending stall in front of one’s house. It’s perfect.
+
+I guess on the east side I can get an electric scooter to do the commute. It might be okay... Still a waste though.
+
+**Perhaps one must migrate. Migrate to the city when one needs the market. Migrate to the east side when one has enough money stored. Yeah. That’s best. Separate the market from home.** This way there are no useless commutes. No wasting time in markets. Just do it all quickly in a short period of time. Just have to create wares and sell it all.
+
+This makes selling daily things like food and drinks impossible. Well, it’s not natural anyway. Have to make and sell store-able foods and drinks (alcohol!).
+—
+
+Practically, I should take a motorcycle trip. First, just find a nice place to pitch a tent, perhaps not too far from a public bathroom. Then, just check property web-site once. Then, wander around, looking for good people. Network. Ask around for homes. Especially the hippies that live in Dulan, and, the people that vend at metal flower street. Through them, keep searching, until, one find a place and/or people. Also, take regular trips to tribes. Try to find a few nice waterfalls.
+
+At the moment, I’m thinking a Totoro house near farms is much better than a hippie enclave. Just be completely independent. Because, even the hippies are stupid, just a strand of the public. Complete independence, and, a Factory-like public commune. I do not want to take care of the stupid public. At the public commune, I can tolerate them, but have zero responsibility to clean their shit up. Just go, do my work, get out.
+
+### Taibei commune?
+Perhaps just a space in nature to pitch a tent or park a car, to take advantage of the markets.
+
+**A city commune would be nice though. It would have the largest amount of people participating. The most amount of artists. The most diverse. The most accessible.** It would just have to be somewhere in nature, or an abandoned building, as property costs too much. Or a deal with a moral land-lord.
+
+Still, a very very worthy thing to do. **Maybe even the best thing to do, as it would effect the greatest amount of people.**
+
+## hippie-business-making (communal-capitalist)
+### drinks
+tea, herbal tea, coffee
+  - self-serving (drink [including sugar, milk] payment)
+    - 1. black or oolong, in case people want milk-tea
+    - 2. special black teas from that one online brand!
+    - 2. chai masala?
+  - fixed price vs pay-what-you-want
+  - local herbs, teas, coffees
+
+### food
+food-stand vs at the commune pay-what-you-want
+  - food-stand, to separate the market from the commune
+    - first at sunset island, but then, can also try selling at other locations, such as night markets and train stations. Rural train stations would be a great place to try.
+  - self serving (food [including salt] and payment)
+  - fixed price vs pay-what-you-want
+    - have to try free, see if people have morals or not
+  - mixed steamed local wild vegetables from indie farmers and five-grain rice. 4pm+.
+    - just need rice cooker... Or, just a water dispenser, then, use double-steel method to cook rice.
+  - local fish
+
+### bicycles
+bicycle rental as sunset island
+  - sand-tires
+
+selling online (nationally)
+Able to pick them up from the street? What’s the laws?
+Get from fishing area. Sell at the sunset island commune.
+
+### motorcycles
+selling online (nationally)
+Able to pick them up from the street? What’s the laws?
+Requires much knowledge / specialization. Can specialize in Honda Cub clones. Buy / Sell. Don’t even have to know how to repair. Can rely on my repair-man. Clean and tune-up myself. Test ride myself. Sell myself, online.

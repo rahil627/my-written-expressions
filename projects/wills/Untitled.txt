@@ -1,0 +1,80 @@
+5. spots
+  - public-facing spots
+  - try creating a map on Google Maps on iPad
+
+cost?:
+15x750=3750+7500=11250=375/week
+**410** - for internet projects (2 weeks min. work)
+750/2 weeks
+**800** - for film and music projects (4 weeks min. work)
+375x4=1100/month
+
+*title*:
+Those Beautiful Things That We Made (and Did?)
+
+*blurb*:
+Consider it a digital exhibition of beautiful things made by the worlds’ best designers: us! I’m merely a curator, and if you want, you can be a curator too!
+
+*description*:
+**those beautiful things:**
+This project intends to collect **the everyday designs of the world**: the cardboard sleeping mat and pillow, the post-office mail envelope material tent, the hose sink aerator, that thing you use to clean your ears, teeth, nose, body, that thing you use to carry heavy groceries in your car, on your scooter, on your bicycle, on your back, **the things that we make to get by**.
+
+In order to satisfy our desires, we often use materials from the surrounding environment to find a way. Sometimes it (the design or method) sucks, or is a waste. But sometimes it’s genius. I want to collect them.
+
+What designs should be allows is still debatable: It could be someone from a small farm who has a neat device that picks hard to reach fruits, or, a natural tool used for re-potting plants. That design could use **locally-popular recycled material.** That design could be a **modification** of a local tool. But where the line is drawn might be up to a consensus from curators. Surely we do not want to fill it with various iPhone cases, or a similar popularly manufactured product. In fact, that’s what this project is an anti-thesis of: a world full of manufactured products. This is a world of **DIY** products.
+
+**What should be allowed should follow the golden rule: if you could create an artificial world atop of the world that we live in, what designs should it have?**
+
+The result should be an endless set of photos from around the world. From the past to the present. From Taiwan to Turkey. From underground village dwellings to city offices to house-boats to wilderness cabins.
+
+Ideally photos should include the environment, and, even better, its creator.
+
+**(Did?):**
+One thing up to debate (in my mind) is whether it should be limited to physical designs, or, open to those crazy ways we do things; In other words, should it be limited to peanut-shell cracking-devices, or, **should it include that wild way** you crack peanut shells. Technically, this would add video to the content, as opposed to solely photos. I’m quite sure there are viral videos my auntie shares on Facebook of how someone from India makes rotis or how someone in New York makes pizzas, but, **can everyone do that?**...
+
+**cost:**
+Although the amount to kickstart is equivalent to a week of (full-time, min. wage) work in the US ($375 +5-10% fees + possible bank transfer fees), the cost is arbitrary: My living expenses are honestly extremely low, poverty-low. The cost, to me, is more of a measure of public interest towards the idea. Though I will always do the minimum work to kickstart the project, any more money informs me how much time and attention should be spent toward the project afterwards. (There is an anomoly to this: if it made $10,000 doesn’t mean I will spend my life’s time on it, but surely [it] will have a crazy influence on my life.) Thus: **$410 to kickstart, $800 to make me feel *real* good about it.**
+
+detailed cost:
+$5/day min. cost of living
+$20 mobile internet / month
+$50? laptop battery (optional, though annoying)
+$10?/year domain name
+$? guerilla marketing?
+$? if money left over, maybe buy an old iPhone 4 or 5 (that was stolen) for taking pictures and uploading content myself
+
+**work:**
+I will absolutely put an initial minimum of two weeks *worth* of [full-time] work, but [I] am hoping to give the project continuous attention over several months, for [personally] adding, maintaining, and moderating content, then, decide it’s fate.
+
+After the project has been kickstarted, I will pay attention to such designs near me, taking photos. I’m quite the wanderlust, so I will be able to weave through neighborhoods, farms, villages, natural places in Taiwan to create contemporary content. At night, I can browse the internet for photos of such cool designs, and borrow (does the internet have copyright?). It’s always surprising how narrow the content on the internet is.
+
+I will also see all similar projects on the internet. The one that comes to mind is “cool tools” by that guy who lived with omish people and began Wired magazine. Other than that, I quite expect any magazine or site with DIY or environmental values to have such content. I haven’t seen any that is **purely photos of the designs in practice / in the world**. Usually it’s either bloated with a ton of extra content, or, simply a picture of the design on a white background: all of the life of it cut out.
+
+technical:
+**Facebook**
+an e-mail subscription service
+Tumblr (or some more modern alternative that categorizes photos, and syncs with Facebook)
+  - the backers / community can help deciding this
+internet domain name
+  - once we figure out a cool name for it. Surely there a word in some language for this... We being you, backers.
+ web server
+   - starting by sharing with my own web server, then switch to its own (“dedicated”) when necessary
+   - maybe important for *owning* original content than for storing high quality images / videos
+
+**related experience:**
+I’d say my closest experience to this project is Humans of Taipei. A clone of Humans of New York, I started that project for many reasons: a genuine interest in the [minds of] people around me, to put reality back into Facebook (and a hate for Facebook content), to make beautiful content (to rival HONY by being more inclusive, not just middle-class Manhattans [at that time]), to better reflect the world, and, as a benefit, to naturally learn a language and be a part of the city.
+
+Though only ran haphazardly for a few months, I found it really easy to gain views, with nearly zero marketing— I only told the people (the humans) about it. Furthermore, I found the process, though at first extremely anxious (you try asking homeless people!), quite worthy of time, in a time where time was extremely precious.
+
+This project is quite similar to HOT, in that it strives to put real, inclusive, often over-looked or marginalized content on contemporary television (Facebook), in order for the world to better understand the world (as opposed to a narrow-view of it).
+
+That was many years ago, a rushed, anxious, politically-motivated American-cultured mind in Asia, living life at an incredible pace, so, I only ran the project for a few months, as I had plans to continue travelling. Now I’m older, slower, more traditional-paced; So, hopefully it will be executed better. Besides, it’s much much easier to take photos of things than to ask people on the streets serious questions of life.
+
+**fate:**
+The server and content **will probably last forever** (on Facebook, on the server, on whatever other sites), so the project will never really die. One can always look back to that glorious archive of things that we made.
+
+Consider it an exhibition of beautiful things made by the worlds’ best designers: us! I’m merely a curator, and if you want, you can be a curator too!
+
+**Let’s playfully compete with who designs best with their environment in mind**. Is it really Japanese culture? Or is it Kenyan culture? Brooklyn DIY scene? Or indigenous peoples from Polynesia?
+
+**Let’s collect the world’s designs, so that we may carefully shape the world in the present.**

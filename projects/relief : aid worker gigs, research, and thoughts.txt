@@ -1,0 +1,66 @@
+# from temp.txt
+Hey Red Cross TW.
+
+Is there a to way to find Red Cross [paying] jobs in Taiwan? Or even other nearby countries in Asia, for English speakers?
+
+I checked the website, but I only see volunteer information. Am I supposed to contact a specific branch (Tapei, Gaoxiong)?
+
+
+http://www.taiwanngo.tw/bin/index.php?Plugin=o_ngo&Action=ongoschresult&CgPath=87,98,&TB_pt__user1=%E4%BA%BA%E9%81%93%E6%85%88%E5%96%84%20Humanitarian%20Aid%20%26%20Charity
+  - main list of aid orgs
+  - http://blog.xuite.net/tier001/twblog/114018609
+    - must call, no email
+  - http://www.buddinghope.org.tw/2014-05-09-04-55-31/2014-05-09-04-57-54.html
+    -  must fill form
+
+
+http://www.taiwanngo.tw/files/13-1000-29865-1.php?Lang=zh-tw
+  - strange
+
+email red cross first
+  - redcross@redcross.org.tw
+then register via Chinese language site
+  - http://imis1.redcross.org.tw/WebSite/WebMember2.aspx
+
+general info of big orgs in taiwan
+  - http://www.taiwanngo.tw/files/11-1000-340.php
+
+some supergroup of NGOs
+  - http://www.taiwanaid.org/zh-hant/book/97
+
+article to read
+  - https://www.brookings.edu/opinions/taiwans-humanitarian-aiddisaster-relief-wither-or-prosper/
+
+# expat aid worker articles
+https://www.theguardian.com/global-development-professionals-network/2016/nov/22/secret-aid-worker-surely-ngos-should-embrace-trade-unions-not-block-them
+https://www.theguardian.com/global-development-professionals-network/2016/oct/04/secret-aid-worker-its-ok-to-not-love-this-job-all-the-time
+https://www.theguardian.com/global-development-professionals-network/2016/feb/23/secret-aid-worker-is-humanitarian-work-a-career-for-escapists
+https://www.theguardian.com/global-development-professionals-network/2015/dec/29/secret-aid-worker-how-can-we-fight-inequality-if-we-live-as-privileged-expats
+https://www.google.com.tw/search?q=expat+aid+worker.&oq=expat+aid+worker.&aqs=chrome..69i57.1286j0j4&sourceid=chrome&ie=UTF-8
+https://stuffexpataidworkerslike.com/about/
+https://www.theguardian.com/global-development-professionals-network/2016/feb/23/secret-aid-worker-is-humanitarian-work-a-career-for-escapists
+https://www.theguardian.com/global-development-professionals-network/2016/nov/29/deployment-limbo-secret-aid-worker
+https://www.google.com.tw/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=ngos%20in%20taiwan
+
+# reliefweb
+http://reliefweb.int/
+http://reliefweb.int/jobs
+http://reliefweb.int/jobs?career_categories=6865#content
+http://reliefweb.int/jobs?theme=4587#content
+http://reliefweb.int/jobs?theme=4595#content
+http://reliefweb.int/jobs#content
+http://reliefweb.int/jobs?region=22.39.42.57.64.81.88.93.97.112.186.187.221.247.250#content
+http://reliefweb.int/jobs?region=35.68.83.109.116.156.173.184#content
+http://reliefweb.int/jobs?region=17.25.62.63.67.80.90.94.108.114.132.151.157.167.171.172.176.177.178.183.185.189.204.215.232.233.239.249.252#content
+http://reliefweb.int/jobs?region=31.44.48.120.135.147.165.188.212.228.230.251#content
+
+# medair
+https://en.wikipedia.org/wiki/Medair
+http://www.medair.org/en/jobs/positions/P12/?features=&country=
+http://www.medair.org/en/jobs/positions/project-manager-wash-generic/
+http://www.medair.org/en/jobs/positions/nfi-manager-emergency-response-team-sds-1/
+http://www.medair.org/en/jobs/positions/P24/?features=&country=
+
+# others
+http://careers.samaritanspurse.org/
+shelterbox

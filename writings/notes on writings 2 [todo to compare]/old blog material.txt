@@ -1,0 +1,30 @@
+postmortem:
+This game required a lot of interesting coding. I had to create a <a href="http://en.wikipedia.org/wiki/Connected_component_labeling">connected component labeling</a> algorithm as I couldn't find any in ActionScript. For the homing missile I had to use vector math. To calculate the failure rate of upgrades I used a function that approaches a <a href="http://en.wikipedia.org/wiki/Limit_(mathematics)">limit</a>. This proves that if you have are motivated enough to create a product of your vision you'll do anything to get there, even if it means going back to those dreadful middle school mathematics.
+
+I may try to complete it and throw it on some flash portal just for the sake of completing a project. I'm also willing to collaborate with anyone interested.
+
+
+
+Who?
+
+Well, I think you know my name already. It's all part of my shameless self-branding strategy.
+
+I grew up in suburban Hampton Roads (it's sad I have to link this), attended a nearby college (it's even sadder I'm not linking this), and didn't really begin thinking about what I was going to do in life until I graduated (super sad panda face). After graduation, I decided that I would try a nearby programming job before moving out. So I did. The job and company was okay, but it quickly became a chore, and the monotony of the suburb wore me down. After leaving that job I flew to San Francisco. There, my city desires were filled. With xiaolongbao, horchata, ramen, pearl milk tea, and an infinite amount of events. But career-wise I made the rash decision, possibly influenced by money, of working at a company in a lowly position with a long commute. After unmistakably working for the man for longer than I should have I moved to New York with a friend.
+
+This is where the juicy part begins. I have no intention to get a full-time job. I'm living off of the little savings I have left over. I plan to only partake in projects I am genuinely interested in and be as prolific as I can. While doing this I have to balance exploration and family. Will my simple methods keep me alive or will I lose hope and fall into the stupor that capitalism causes? Stay tuned to find out!
+
+Why?
+
+I initially created this website for many reasons. I wanted my identity on the web. If anyone wants more information about me I can link them here. I plan to publish my resume and portfolio here. I also created it for learning purposes. This server is my sandbox for leisure web programming. Lastly, I wanted to share some notes and source code that I've gathered through my experience as a techie in hopes of helping others.
+
+Since then, the main reason has changed a little. The blog transformed into a personal outlet, to rid the thoughts that were burning in my mind. I plan to further transform it into a blog of integrity akin to Coding Horror, so that anyone can benefit from reading it, deeming it more valuable than the average blog.
+
+Website Profiles
+
+Facebook, check out my interests
+
+Yelp, I'm way better than you. I'm elite.
+
+Contact Info
+
+Email me at me@rahilpatel.com, especially if you want to collaborate on video games, films or any creative projects!

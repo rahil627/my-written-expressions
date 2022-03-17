@@ -1,0 +1,36 @@
+# notes
+## info
+What can’t be edited?
+funding goal
+project deadline
+  - 30 days is recommended, less if urgent. 60 days max.
+reward tiers that have already been selected by a backer
+bank account & verified identity
+
+can only run one Kickstarter project at a time
+  - perhaps can run QuickStarter projects...
+
+KickStarter is global. There’s a link to see how to handle multi-lingual projects.
+
+use Campus to connect with other KS’ers to network with
+can message backers as a group and individually
+can post updates to backers (like a blog)
+
+680px recommended image scaling
+
+(I got most of this info from the KS FAQs)
+
+## formatting
+all caps headers?
+Because the KS text editor sucks, one has to re-add all text formatting (bold, italics, headers, links, photos, etc.). To make up for this, can create a list of links or place them below each corresponding paragraph, copy-paste by sections.
+For larger projects, can separate it to a core and full proposal on my web-site.
+
+## marketing
+Personally e-mail other artists, fuck the press. They are not my audience. List artists. Prep e-mails. Send (“blast”) all when I launch the project.
+
+# biography
+I’m a life-long diarist, philosopher, anarchist (utopianist and rebel), designer, communal-place-maker, and, with the help of Kickstarter, a life-long film-maker, game-maker, music-maker, civil technologist too!
+
+Yo. When I’m a human, I usually just volunteer for dreamers, playfully working together to build and maintain utopian places.
+
+Rawr. When I’m a wolf, I seriously art reality, then implement tools and ideas to guide the sheep into the moral light.

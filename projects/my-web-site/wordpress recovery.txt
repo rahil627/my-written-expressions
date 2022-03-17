@@ -1,0 +1,85 @@
+# wordpress recovery notes
+
+# post-recovery, preparing for export
+clean-up installation before backing up:
+users:
+settings, general, uncheck ‘anyone can register’
+  - why the fuck does this exist?
+download some plugin (WP Bulk Delete) to help delete all users with the ‘subscriber’ role
+  - can also use that plugin to clean old slugs ‘n orphaned things
+
+
+# recovery
+for some reason, Wordpress UpdraftPlus backup plugin wasn’t working... luckily, the backups were a zipped mysql database file and zipped folders of the contents of wordpress-home/wp-content directory:
+themes
+plugins
+uploads
+...?
+“others” for all files in this directory
+
+check version of Wordpress
+  - two methods: database or file
+  - the version number in the database must be cross-referenced at [get wordpress codex version link]; for example. 45805 = 5.3.01 to 5.3.10
+install the correct version of Wordpress (using Plesk)
+  - ensure database table prefix is the same as in the backup
+  - ensure the admin username and password are the same
+    - if not, Plesk will give an error or warning about the admin credential not working
+    - can change this in the database under the ‘users’ table
+      - go to database, phpmyadmin, and change it in there
+  - leave the database user-name and password fields as is—auto-generated; they are automatically set in the wp-config file
+  - wait for this to finish in Plesk; don’t go to another tab
+
+restore the database
+  - save the password hash for the admin user from the user table, just in case the password was different
+  - go to the database, import dump, select database file (zipped)
+    - make sure the table prefix is the same as the one entered during installation. If not, can change it in phpmyadmin: on the view tables screen, at the bottom there’s a drop-down menu with the replace table prefix option in it
+      - in Plesk, can’t choose ‘wp_’ table prefix. Plesk will change this and generate a random one for security reasons and for multi-site reasons. So, make another one up based on the site, like ‘rn_’ for rahil’s notepad.
+
+restore the content files
+  - just go to blog-home/wp-content and extract all of the backups there. There should be a folder for themes, plugins, uploads, and a few files such as index and .htaccess
+  - start with themes and others, uploads (any time), and then do plugins last
+
+
+## problems after Wordpress is installed:
+a common problem are plugins
+  - rename the folder of the particular plugin (to [name]-old? i don’t remember...)
+
+404 on every page other than the home-page:
+reset the permalinks
+go to Settings, Permalinks, press Save button
+
+critical errors
+enable debugging
+  - add this line to the wp-config file (**remember to turn off** before exporting!!)
+    - define( 'WP_DEBUG', true );
+  - https://wordpress.org/support/article/debugging-in-wordpress/
+it often gives the exact line of the culprit error, except for callbacks
+  - i ended up downgrading PHP from 7.4 to 7.3, but really, i didn’t need to! I just forgot to turn this off!! :(  
+    - https://www.ionos.com/digitalguide/websites/web-development/change-the-php-version-on-a-plesk-server/
+
+redirects:
+installed the redirection plug-in
+
+re-direct the base-url to ‘/blog’
+“create a .htaccess file in root folder, and put this content inside (just change example.com and my_subdir):”
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www.)?example.com$
+RewriteCond %{REQUEST_URI} !^/my_subdir/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /my_subdir/$1
+RewriteCond %{HTTP_HOST} ^(www.)?example.com$
+RewriteRule ^(/)?$ my_subdir/index.php [L] 
+</IfModule>
+
+https://wordpress.org/support/article/giving-wordpress-its-own-directory/
+  - this document contains the above method (keep ‘/blog’ sub-directory)
+  - this document also explains how to properly change the site url to completely remove the ‘/blog’ in the url (it’s a longer process)
+
+
+https://stackoverflow.com/questions/3402577/why-are-my-pages-linking-to-404-pages-using-wordpress
+—
+
+

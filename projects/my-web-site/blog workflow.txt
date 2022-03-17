@@ -1,0 +1,178 @@
+flat-file CMS
+  - choose one
+  - should support Dropbox as server (via plugin or script or whatever)
+
+desired work-flow:
+  - update (edit and save) text file on Dropbox via mobile computer
+  - manually execute script to push modified files into the web server (in case I want to publish something immediately, perhaps just to see how it looks)
+  - automatically detect changes and push periodically (say, daily) to the web server
+
+desired file structure:
+  - a single folder with all (500’ish) text files
+  - ideally should be able to accommodate any file structure
+
+flat file CMS vs SSG
+  - https://discourse.gohugo.io/t/setup-hugo-on-shared-hosting/1434
+ “You don’t put Hugo on the server (well, you could but that’s a whole other topic), you upload the content of the ‘public’ folder that Hugo generated when you tell it to build your site.
+
+You can upload those files via SFTP or whatever tools your host provides to the relevant directory in your hosting account - just like where you’d stick Wordpress’ files.
+
+Those files from the public folder ‘are’ your site, it’s a static site generator after all so it outputs all the HTML/CSS/JS/media files that you need to that public folder and you simply upload them.
+
+When you update the site, you re-upload the files (I use rsync to do it so it does it intelligently and doesn’t re-upload stuff that hasn’t changed).
+
+That’s a pretty simple overview but should hopefully help.”
+- so, for Hugo at least, which is cross-platform (but perhaps not for iOS), you just set it up on your PC, then execute, then upload to website. That can probably automate it, using some sort of syncing FTP commands. **Workflow: edit content files on dropbox, tell Hugo to generate the site, use an FTP program (Transmit, which I believe has an iOS app) to upload files to the server.** The script to automate this would be on the client-side, perhaps near the content folder, which simply generates the site and uploads changes. Can’t run the script periodically because my client side device isn’t always on. Also, I’m not sure if its possible to run the script on iOS (with dropbox installed).
+  - **For the blog, this is quite good, as the website doesn’t need to be updated often, just synced with my text files whenever I write a bunch.**
+x/- another way seems to have GitLabs, which has a computer with all of the SSGs installed, to build and deploy the site for you, deploying to their own server, I believe. But I believe you have to use git, which I loathe.
+- since the site is generated, you don’t put the site into dropbox, you just keep your content and whatever Hugo files in your dropbox.
+  - you could. however, put a dropbox folder (containing your content), then run Hugo on the web server, to generate the files. This way, you can avoid running FTP. **Workflow: edit content files on dropbox, execute Hugo on the web-server.** With this method one avoids git and FTP, making it the best. Maybe can login to the server (from browser) and run it. Maybe there can be a script to detect changes, then run at the end of the day.
+
+
+
+SSGs
+  - https://www.smashingmagazine.com/2015/11/static-website-generators-jekyll-middleman-roots-hugo-review/
+    - Jekyll as main product (same person who made GitHub) with migration helpers and largest community
+      - Ruby, Liquid
+    - **Hugo for content, speed, but lack of extend-ability**, can use it **for blog / writing,** then use something else (Kirby) for non-writing-content sites
+      - Go, Go templates
+      - Shortcodes, built in and simple pagination, flexible taxonomies and a simple content model all add up to a productive and enjoyable way to build a website.
+      - 
+    - Roots for javascript / front-end lovers, also support nearly anything
+      - Spike, their smaller SSG
+  - Hexo?
+    - javascript, EJS, PUG (aka Jade)
+
+  - **which one has the simplest file structure?**
+    - Hugo beats Kirby: Kirby has a fixed file structure: one folder is one page; Hugo’s file structure is very similar to web hosts, and, it can be overriden with front-matter.
+      - another problem for Kirby is that the name of the file is used to determine which template it uses.
+
+https://gohugo.io/content-management/organization/
+https://gohugo.io/content-management/organization/#paths-explained
+https://getkirby.com/docs/content/adding-content
+
+GitLab/Pages as repository and ability to generate SSs, to avoid premium servers to have SSG software and save time from installing and updating the software
+  - https://about.gitlab.com/features/pages/
+  - https://pages.github.com/
+  - https://help.github.com/articles/about-supported-custom-domains/
+    - to see if sub-domains would work
+  - GitSync software as a possible way to get Dropbox-like syncing
+
+https://tyler.io/publishing-your-blog-with-dropbox-and-jekyll/
+  - Dropbox daemon might work with most SSGs
+
+https://www.staticgen.com/
+  - very good site with info (including popularity) or SSGs
+https://www.cmswire.com/digital-experience/15-static-site-generators-to-complement-your-headless-cms/
+https://w3techs.com/technologies/overview/content_management/all
+  - CMS markwt share
+https://www.smashingmagazine.com/2015/11/static-website-generators-jekyll-middleman-roots-hugo-review/
+http://joshwerts.com/blog/2015/12/10/octopress-to-hexo-to-hugo/
+https://novelist.xyz/tech/hugo-vs-jekyll-static-site-generator/
+https://www.michaelbromley.co.uk/blog/going-static-with-hugo/
+  - wordpress to hugo exporter!
+https://netdevops.me/2017/setting-up-a-hugo-blog-with-gitlab-and-cloudflare/
+  - a set-up of Hugo with GitLab/Pages and Cloudflare
+
+flat-file cms:
+  - **Kirby**, won me with the name
+    - “**Mature, simple [small and fast!], clean, stong community, frequent updates**”
+    - **built with traditional, standard web languages (html, javascript, php)**, as opposed to the newer templating systems or ruby or node.js
+    - https://getkirby.com/docs/cookbook/dropbox
+      - **It’s possible to connect Kirby with Dropbox** but you need your own server. It’s not possible on shared hosting (scroll down for an exception). You need to have a dedicated ($40/month) or virtual server ($16/month) with SSH access and the permissions to install things on it.
+        - https://getkirby.com/docs/cookbook/dropbox
+      - “It’s absolutely awesome to make changes to your local text files and see how your site gets updated online. And the best part: you gain full version control for your website content by Dropbox’s built in versioning.”
+        - **When does Kirby detect changes, and when does it update them?** That could be a problem as one constantly saves edits (automatically by iOS text editors)
+        - **work-flow: to add a new post, one must create a new folder, and a new text file, (perhaps with the .md extension?). It’s best to just copy another post to use as a template.**
+          - https://getkirby.com/docs/content/adding-content
+    - https://getkirby.com/docs/cookbook/blog
+      - will have to abide by a file structure. No dreamy list of editing text files. Also, there’s no way to search as easily (from iOS text editors), as all of the files are recommended to be named the same, i.e. blog-article.txt, to be able to use a template
+  - Grav
+
+https://github.com/ahadb/flat-file-cms
+https://www.cmswire.com/digital-experience/15-flat-file-cms-options-for-lean-website-building/
+https://news.ycombinator.com/item?id=13679424
+  - many vouch for Kirby over Grav
+https://blog.zipboard.co/which-cms-to-choose-kirby-grav-jekyll-or-craft-f7d61616510
+  - says Grav and Jekyll users should be developers
+http://stayregular.net/blog/from-wordpress-to-kirby-part-1-designing-the-cms
+  - a rather popular site switches to Kirby
+https://web.appstorm.net/reviews/web-dev/kirby-the-flat-file-cms-thatll-make-you-rethink-content-management/
+  -  a lengthy and positive review of Kirby
+
+what about the text format?
+  - Kirbytext, inherits markdown and adds simple tabs, very intuitive, well thought of, much like KirbyCMS
+
+https://getkirby.com/docs/content/text
+
+# from a comments discussion
+Editing text files using my favorite iOS editor, saving to auto-publish is a dream of mine too.
+
+So now, do you still use Github Pages? Repos n all? Perhaps some iOS repo app to push a repo on dropbox or something? :(
+—
+It worked great when it worked but I kept having to manually intervene when the daemon would crash.
+
+I think I have been spending too much time optimising process over actual content. For me now, continuous publish is not so important as it just means I can publish drafts quicker but it’s probably better to only publish considered and vetted text. The git flow isn’t too bad. I could alternatively publish from Ulysses directly to Medium instead.
+
+On the Mac I use sourcetree and working copy on iOS what about you?
+—
+Dang okay. Thanks for the reply!
+
+Mmmm, that’s true: content over other distractions, but I kinda like having everything, all posts, as a continuously growing thing, able to jump in and edit and auto-update anywhere, like an online notebook, as mine is quite the corpus already.
+
+I still have an ancient Wordpress site, and was just pondering some work-flow before I go through another writing phase. I feel I must at least step away from Wordpress before I look at my old notebooks.
+
+After a day of research, I’ve narrowed it down to Hugo and Kirby. I hate git so Jekyll was out. It’s even possible to install dropbox on the (need to upgrade to vps) web server to get that auto-magic update for Kirby, but I’d have to abide their file structure. Hugo supports any file structure, then I’d just have to find a way to ftp from iOS?
+
+Heck, I might just use both. Hugo as the digital notebook (writing-only blog) and Kirby for a main site, as it uses the more traditional code (php, json).
+
+Anyway, I won’t have time at the moment, but after claiming my content back into markdown, I already feel more freeeeee. :)
+—
+Agreed It does give a sense of control to get stuff out of wordpress and into markdown. I had a look at Hugo and it looks faster than Jekyll, without having to fiddle with Ruby as it’s a single binary. The only issue I encountered was that it didn’t support symlinks. Would be interested to know how it works out for you.
+
+http://shedali.co.uk/writing/2017/01/27/Jekyll/#comment-3760725212
+
+# other people’s workflows
+http://shedali.co.uk/writing/2017/01/27/Jekyll/
+http://namelesshorror.com/2013/12/18/super-easy-blogging-with-jekyll-dropbox-and-ifttt/
+  - from 2013!
+  - and uses IFTT possibilities
+  - scripts to handle file renaming!
+    - **this can solve the file organization problem of Kirby**. Just set up a script to check, generate, and sync posts files from a standard folder of text files.
+https://mattgemmell.com/using-the-ipad-for-blogging-with-jekyll/
+https://medium.com/@marcprecipice/coding-on-an-ipad-9ca022736b9e
+  - Prompt
+  - Transmit
+  - Working Copy
+
+
+## iOS text editors that other people’s workflows mention
+JotterPad
+TextDown
+Editorial
+Textastic
+
+# Hugo work-flow
+
+https://tomanistor.com/blog/hugo-workflow/
+  - local method.
+  - says using hugodeploy does some magic, so should use it.
+  - automates cloudfare cache clearing
+- http://www.andrewcodispoti.com/deploy-process/
+  - “On the server, there is another copy of Hugo; when Git on the server receives the pushed changes, it tells its neighbor Hugo to generate a fresh copy of the site.”
+    - uses a “post-commit hook”. I can use something else, resync? to detect changes. Or, just run Hugo manually via server terminal.
+  - “In terms of web server, I’m using a shared host (Dreamhost). These directions should work for a VPS or whatever as well. All that’s required is:”
+
+I guess there are two main work-flows:
+edit and save content files locally, run Hugo locally, upload website files via FTP
+edit and save content files locally, upload content files via FTP, run Hugo remotely
+  - the second work-flow makes more sense as there are less files to upload. After uploading content files, the server should detect them, regenerate the site (remove folder, generate)
+
+
+
+migration:
+  - export content to markdown files, save to Dropbox
+  - install a CMS or SSG on the server
+
+in the mean time:
+  - i should just edit text files via Dropbox via iOS text editor apps using markdown

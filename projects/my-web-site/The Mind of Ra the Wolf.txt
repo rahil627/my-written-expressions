@@ -1,0 +1,39 @@
+
+todo:
+try Hugo
+set it up
+
+hugo themes:
+tip: click the author’s name. Usually, the author uses the theme for their personal site.
+
+https://pfht.netlify.com/
+  - a much better way to find the right theme
+
+ananke
+  - used by Hugo’s official site?
+    - no:
+
+https://github.com/gohugoio/gohugoioTheme
+
+https://themes.gohugo.io/theme/hugo-flex/
+  - extremely basic, functional, fastest
+
+https://github.com/xianmin/hugo-theme-jane
+  - built on even
+    - https://github.com/olOwOlo/hugo-theme-even
+
+https://themes.gohugo.io/hugo-theme-anubis/
+  - perhaps the standard
+https://themes.gohugo.io/charaka-hugo-theme/
+  - simple, like anubis, but with old book page colors, and serif font
+https://themes.gohugo.io/pulp/
+  - simple, like the anubis theme
+
+https://themes.gohugo.io/hugo-grapes/
+  - my favorite for iPad mini, because it’s a bit more centered, and poppy
+
+https://themes.gohugo.io/hugo-dusky-neon-potato/
+  - neon color scheme
+https://themes.gohugo.io/hugo-book/
+  - generates a “table of contents”, based on the headers of the file
+

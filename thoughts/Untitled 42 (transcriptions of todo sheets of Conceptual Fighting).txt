@@ -1,0 +1,82 @@
+# idea
+new game idea, thought of just now, while transcribing:
+A fighting game that builds tension as the fight goes on. I can imagine a shoot ‘em up  top down. The amount of bullets build up, get closer, slowly, over the round of a match, making each required movement more precise.
+
+# concepts
+“game play”:
+avoiding the ‘neutral game’, relying on other ways to win
+  - examples: Laura from SFV, Marth near the ledge
+    - ‘set plays’ to lead to those other ways to win. For example: some attacks and baits to lead to having someone near the ledge.
+
+# title
+Conceptual Fighter
+Conceptual Fighting Framework
+Fighting Game DIY Tool-Kit
+Fighting (Game Framework)
+  - main product
+Conceptual Fighting
+
+The goal is to provide a sand-box game, so that from there, all that is required is to add art (especially animations), characters, balancing, effects on hit, ‘n’so’on
+
+developer over-lay to balance the game.
+
+# FGDC (towards an)
+  - ideal input device
+    - GC controller?
+  - FG framework (Unity? 2D)
+  - chat room? 24/7, forums
+    - online social organizing
+  - ‘net code’, Fight-code
+
+# FG Maker (towards an)
+  - allow players to create characters, upload, vote on balancing (human subjective), then can download from a database on-line
+  - allow players to create stages, vote on how balanced
+
+
+# past games?
+**Blade 2**
+  - **Samurai-esque!**
+
+1. SF 3s
+SF Alpha 2
+Garou (MotW)
+
+need to play all of them, with friend, learn 1 character match-up.
+  - **history of fighting games**
+
+# a history of fighting game mechanics
+SF2
+  - standard ‘fighter’
+  - jump, low/mid block, forward/back throw, low/mid/knock-down hits (one attack can hit low or mid depending on timing), speeds, dash?, stun, delayed air attack, block to throw
+
+SSF2T (ST)
+  - super attack with meter
+
+SF3S
+  - parry (including air parry)
+  - ‘command throw’ (grappler characters)
+  - supers that are a throw (some grappler characters)
+  - choose which super can obtain/earn multiple super attacks with meter
+  - universal over-head (UOH)
+    - usually slow, reactable 
+    - some characters have other attacks that are over-heads
+
+SF4
+  - EX (what is this?)
+  - focus (replaced parry)
+
+# todo?
+try net play from Taiwan
+
+2D shoot ‘em up
+first fighting game it create
+1v1 / 2v2
+choose attacks / buttons?
+  - like Gradius
+  - cool-downs?
+move with a stick
+aim fire with second stick
+
+# from the same sheet as above, but written during another time
+consciousness of area - ‘the big picture’
+attention area - home, neighborhood, city, ‘n so on

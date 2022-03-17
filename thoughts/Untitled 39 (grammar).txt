@@ -1,0 +1,179 @@
+# my own personal grammar
+[todo: idea] There needs to be a site to share personal grammars and languages. Just like this file, there should be a list of concepts with correlating symbols (digital, and somehow, later, physical too). marks.willowolf.com (as opposed to markings.willowolf.com for the writings using a set of marks; also, marks.rathewolf.com should lead to my own).
+
+Comic books are perhaps the best place to look on how to best convey written expressions, especially intonations.
+
+[todo: idea]
+…?
+
+Another idea: an ideal: Try to use English in a very childish, concept-oriented way. Here are some rules: no compound words, use words linked by hyphens instead; No Latin words such as et. all, etc.; No words from other languages. Create your own simple language combining simple English words.
+|
+etc. - ‘n so on, n’ so, n’so, ‘n-so-on
+et al. - ‘n others, n’ gang, n’ crew
+
+## concepts
+¿ or ¡ to indicate sentence is a question or exclamation
+?, for separating questions
+‘ or ‘’ or ' [the middle ones are left and right single quote marks] for words that a person doesn’t know, just to display the set of characters, like an image
+?!
+!?
+[] is used for nested parenthesis, but, I think I should sub it with {}.
+*never comprimise*: phrases from a character [todo: change from italics?]
+*time will tell*: song lyrics [todo: change from italics? music symbol!]
+“publish” or “play doctor”: pseudo-usage of a word, euphemism
+‹ *Ahem.* ›, ‹*choo chooo!*›, ‹*sirens wailing*›: sounds
+(!!!): feelings conveyed, atmosphere, emoji?
+  - « !!! », « ! », «!!!», «!»
+† for references, alts: ^, ª, º, 
+€ for post-scripts, alts: §, ₽
+§ for “book sections”?
+— is what I currently use physically and digitally for new sections
+  - ‘- - -‘ or ‘___’ is what Markdown uses for line separators, along with a few others. The length can be longer.
+  - I quite like the middle dash as it’s more centered, matching the separator line.
+  - I think I auto-generate separator lines before every new header for my site.
+computer-webs, computer-web walkers, web-home: concepts combing words or roots of other words, can be a new concept (to convey a new idea) or an old concept (to keep it simple) [todo: I feel that this really needs a symbol, especially if it’s not defined in the writing, or even if it just hasn’t been used recently, to remind one’s self of the meaning]
+
+¡™£¢∞§¶•ªº–≠ ⁄€‹›ﬁﬂ‡°·‚—±
+
+### intonation
+normal
+LOUD or ANNOYING
+[smaller font] quiet
+[larger font] loud
+*my inner voice, ooo!*: could use squiggly lines (squiggly under-line for physical paper / digital display; tilde or approx equal for keyboard input)
+“What about us!?” the reader’s voice or the public’s bantering voice: perhaps can be separated to another line, like dialog? Or given a new background color for every new person introduced?
+
+
+aLieN L a N g U A g E or [other childish fonts]
+aN oFFeR cap consonants only or cap vowels only
+THe sToRY oF RA tHe wOlF  aNd hiS miNd mix by feeing: caps for emphasis of sound, caps names, space instead of comma
+a/v/ @ffe|R use symbols to re-create characters
+
+## physical editing marks
+## digital editing marks
+| correlation
+[] currently used as editing tags [todo: conflicts with other uses]
+
+## keyboard short-cuts
+**I think I just need to create my own syntax, then, the display can be generated from that. Re-purposing symbols in writings doesn’t make much sense, unless that’s what the symbol was made for, such as the exclamation mark.
+
+Idea: could just use Chinese for all of my own marks. Wouldn’t the language need to be installed? Also, it might break line-spacing...
+
+### physical keyboard device
+[option key] as key/character modifier
+[option key] + [shift] as key/character modifier
+
+[option key] + numbers row
+`¡™£¢∞§¶•ªº–≠
+  - • for lists [8]
+
+[option key] + [shift key] + numbers row
+`⁄€‹›ﬁﬂ‡°·‚—±
+  - ‹› could be used as tags, along with <>, and ≤≥
+  - · this one seems really useful
+  - ° this one seems alright too [8]
+  - ‡ looks useful, like a double cross, for a second reference
+
+[option key] + characters top row
+œ∑´®†¥¨ˆøπ“‘«
+  - † for references [option] + [t]
+  - ® also would work for references, and makes more sense [option] + [r]
+  - ∑ for sum [option] + [w]
+
+[option key] + [shift key] + characters top row
+Œ„´‰ˇÁ¨ˆØ∏”’»
+  - «» another set of tags, [option] + [\], [option] + [shift] + [\]
+
+[option key] + characters middle row
+Åß∂ƒ©˙∆˚¬…æ
+  - … [option] + [;]
+  - ∆ looks useful [option] + [j]
+
+[option key] + [shift key] + characters middle row
+ÅÍÎÏ˝ÓÔÒÚÆ
+
+[option key] + characters top row
+Ω≈ç√∫˜µ≤≥÷
+  - √ very useful! [option] + [v]
+  - Ω alpha, beta, gamma, delta all seem useful too
+
+[option key] + [shift key] + characters low row
+¸˛Ç◊ı˜Â¯˘¿
+  - ◊ [option] + [shift] + [v]
+
+[command] + [shift] + [3] for screenshot
+
+### touch screen
+Hold down the key to modify the character.
+¢₽£€¥₩ [hold $]
+  - ₽ for post-script?
+€£¥, §|~^… [from the standard numbers layout]
+  - € seems nice to have at the beginning of a line
+  - ¥ seems okay too, maybe even for references
+«»“"”„ [hold “]
+  - the double angle quotes are awesome for emoting
+  - the left and right double and single quotes are difficult to differentiate for most fonts. I think it’s best to just use the neutral double and single quote to keep it’s simple.p
+  - I’m not sure where the double commas would be used… Arabic?
+‘'’` [hold ‘]
+
+## examples
+Concepts written above each example in ‘[]’.
+
+### from the proposal to the mind of Ra
+aN oFFeR
+
+[‘/‘, phrase from a character, song lyrics]
+I’m a life-long philosophical diarist / conceptual thinking and experimenting machine. Yep, *that* animal. Maybe you’ve seen or met that kind of animal before, but perhaps just haven’t peered into their minds. That’s ‘cause you’re not supposed to see their elusive minds! Normally they’d *never compromise*, but life’s circumstances finally got me compromising now, with *d’evils* (not you silly; the system!), proposing to exchange my mind for money. :(
+
+[pseudo-use of a word]
+**This project is to fund and enable me to search, fetch, transcribe, and organize years of my physical writings, “publish” it to [my web-site]...
+
+[list of points]
+The shared booty (treasures...) of this project include: (1) the unrefined material of my past writings—raw written expressions: thoughts, concepts, philosophical discourses and essays, poetics, day-dreams, observations...—that hopefully most beings could find value in, with utopia and utopian ethics as the core binding thread; (2) my think-to-publish tech work-flow; and (3) my site’s design (aim: if the Little Prince designed Wikipedia);—Bonus booty!: (4) proof that wolves are good animals too, if only the world could keep it as real / live as true as weeee doooo.
+
+[**sounds, atmosphere**]
+*Ahem.* Dear good animals on the ‘puter-web. My good friend Ra the Wolf of the beaches of Va is in trouble, and needs your help: *He lost his mind(!!!),* and he has no way of getting it back together.
+
+...
+
+The web medium keeps possibilities open; It allows me to create tools to make a better interactive experience: Concepts dictionary? Should entries have titles and categories?, Ideograms in their stead? How could related concepts interact with each other?, Related discourses?, Related arts and media? Tool-kits to aid thinking? Connections between words? How could the public interact?, Contribute? *Mind games?!* And so the mind further organizes itself naturally over time. Besides, isn’t that what the web medium was made for?: linking places to content?; Just as the mind links concepts to content. Anyway, that’s the dream of the project.
+
+
+[ellipse, longer time elapse, words that one do not know]
+The strange thing is that I have so much content, but never look back at it… until now.
+|
+Just a little after that, in high-school, he watched movies, then ‘films’ then realy ‘films’. He loved ‘films’! 
+|
+Another year passes as he seeks ‘n dwells in various comfy shared dwellings with other animals, always thinking about animal cruelty and dreaming of more comf—... ... ...
+|
+... uh ... uh-huh... hold on.  *Footsteps go into the distance.* ... *Voices continue at a distance.* ... ... ... ... ...
+|
+YOU WHAT!?!?
+HAVE YOU LOST YOUR MIND?!
+
+But that day, he saw other peoples’ thought.txts under strange strange names: ‘essays’, ‘philosophy’, ‘discourses’, ‘dialogs’, ‘dialogues’;
+
+...
+
+[inner-voice]
+and perhaps even help me figure out what kind of wolf my mind may belong to! *…a falcon wolf sun-god?*).
+
+...
+
+[elongated words, command]
+Normally I’m wayyy too active to do this sort of work, but luckily for this project, I’ve been alone for some time now, and the dryer winter nights have just arrived. *Praise the weather gods* too!
+
+[alien language]
+Humans: Please continue to ‘the gist...’ just below, and after you’re done with that skip down to the excerpts and photos further below. Pretty please.
+Animals: Dear dear animals, skip to ‘AN OFFER...’.
+
+...
+
+[concept-making]
+A little later, he made his own home on the computer-webs. It was mostly a place to share bits of stuff with friends, and his notes.txt with other computer-web walkers. He felt he didn’t know anything that the web didn’t know, so he didn’t share much.
+
+…
+
+[reference, post-script]
+* 0-15% taxes?†
+€ †*The theory is that as long it counts as “expenses” for the project, and that the “tax year” is the same (it will be), it should be 0%? I honestly don’t know how taxes work. I have great parents to thank that handled the stupid shit for me.*

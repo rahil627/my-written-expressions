@@ -1,0 +1,73 @@
+[written at night, continuing perhaps, from today’s thoughts written on physical paper.]
+
+I’m barely living. Just moving information. It’s no good. But, for the moment, I am happy, or, complacent.
+
+Raoul’s book, art, mediation of his mind, his intuition of life, is toooo goood....
+
+Ah right, I was thinking earlier today, that my digital writings could be similar to childish JRPG dialog boxes: Earthbound, Mario series, etc. You know, with words or groups of words being animated: moving up and down slowly, dreamily; shaking, to denote agitation; becoming smaller or larger; changing colors to denote changing moods: becoming sick, blushing, etc.; etc. Lots of things can be done with simple animations of text. It adds a lot of character, mood, expressions, similar to the way emoticons do, but, even more originally. I still remember the symbol language of the big nose race (Mr. Saturns) in Earthbound, and surely there were more with different races, robots, special people.
+
+So, an animation library for text for the web (WebGL?). Sounds fun!
+
+Instead of having to rely on fonts and emoticons, one can really express one’s self through very simple styles (font color, bold, italics, etc.; CSS) and animations.
+
+I mean, it’s not as cool as a game...not even as cool as flim-images or drawing-animation, but, c’mon! I’m still expressing myself...
+
+Here were some day-dreams of it all:
+Stoic-like consolations in a very large, narrow-width format, for extremely easy reading, like a children’s book. A really really short story at max length. Full of all those JRPG dialog elements, making it really feel like an interactive children’s book.
+
+Some thoughts from right now:
+It could have optional peaceful music to choose from: dream-pop playlists, nature sounds play-lists, aboriginal music play-lists, etc.
+
+It could have sounds to add a bit of interactivity / engagement. Maybe a sound for every-time you click a link, or, click anything! Take the sound from some old JRPG game UI sounds. It should be very peaceful noises. Natural. Real sounds. Delicate. Like the sounds of writing on paper, wind chimes, etc.
+
+It should definitely have a voice-reading option. [todo: !!!]
+
+It should also definitely have a copy text-only option, to put in your favorite app.
+
+It should also have a light-switch for dimming the borders, or, auto-dim over-time, when one doesn’t move the mouse, or, when one presses keys other than scroll up or down.
+  - wolf eyes and outlines that randomly move about in the dim areas.
+
+Random wolf howls, another other wolf noises.
+
+An auto-generated listing of all posts by date and title.
+
+## The lay-out design:
+I really dig the narrow width similar to my settings for Voice Dream reader and writer.
+
+It would be really cool to have the Sublime text maginified view selection...
+
+Hmmm, perhaps I should just tell people to use Voice Dream reader then... :(
+
+But then, I can’t add my own expressions (animations, etc.).
+
+Voice Dream Writer’s built-in pop-out dictionary is nice, as is their pop-out outline selector. I guess I need to put the auto-gen table of contents on the side margins, effectively turning it into an outline. No need to have the full Sublime Text-like view selector.
+
+Scrolling should be smooth, like iOS apps. So, instead of mouse-scrolling, grab the screen with the mouse. The scroll buttons should accellerate the page up or down, and then either pressing the other direction or mouse grab to stop the acceleration. Page up and down buttons, space-bar all still work too.
+
+I think PhiloBro’s site was quite a good start. Clean, spacey, with few words, so one can focus entirely on the content.
+
+The content could disappear completely, dimming completely after some time, so that one would look away from the screen.
+
+One should be able to mark through words (and un-mark), to help block it out of their view. One should also be able to select (high-light) and grab section, moving it elsewhere for keep’s sake.. It should be playful. Picking out sentences to focus on them. Creating their own space somewhere on the side or the top or bottom of the screen, or on top of text they marked out, to make their own room on the screen. One could even insert their own writings. In addidtion, one can high-light (another kind of mark) stuff. Think of it as a sandbox. It’s playful, up to the desires of the user. Then, export all of the current non-marked-out text or selected text or marked-light text for own’s own use, like a piece of paper.
+
+Every-page could be saved, concurrently[?], so that one can go through pages they marked and wrote things on at any-time. That entire data should be save-able and load-able too. Save game, load game, new game.
+
+**All text should start out collapsed (except perhaps the intro section [paragraph, paragraphs, sentence, word] and title). The user must begin the interaction with the desire to read it.** This is extremely important because it **ensures the user doesn’t conspicuously consume, rather, actively consume, consciously, all of the time.** So, every page should start out with a good intro, then, see enforce the user to interact in order to se the rest. These forced breaks are necessary. To think, contemplate, then act again.
+
+Reader app built-in the page (like a Java app) or standard HTML page? The reader app means I can’t alter the app to my desires. If there is to be an app, it should be completely customizable. A Flash one would be dope. Holy shittttt. Yeah, I could just make one using Flash! Hollllyy shitttt. Everything could be built-in to it: the fonts, saving, loading, etc. It could just use game programming! Holllyyyshiiiitt..... Flash vs WebGL... It would just have to be usable with an iOS browser...
+
+I can imagine a very childish, playful reader application: leaving marks, rubbing sand on text, un-sanding text, ripping text and placing text, etc. Just need to make use of select, cut, paste, mouse click or finger touch, select another tool or two-finger touch, etc. Cool! A text game! [can search for browser plug-ins that allow this]
+
+Font size should be adjustable. Perhaps everything should be, like Voice Dream apps?
+
+The color pallette, hmmm. That’s tough. Neon (Monokai)? Optional? Very interesting... Can steal palletes from code editors. Should be able to save and load a custom set.
+
+There could be two options: mostly neutral and playful. Mostly neutral text is where most of the text is plain, without decoration. Playful could be where main points / statements become decorated, animated, etc.
+
+The ability to make marks on the web-site would be cool, by just left-clicking anywhere. Claw marks on drag. As a way to book-mark something.
+
+Should it all be slowly-animated, smooth, experience, or, instant, fast? I think the slow-ness could make the experience more eontemplative, smooth. Perhaps there can be an option for choosing. What I mean here is that text fades in an out, clicking on a link takes time to fade out the page and in a new page. It sucked for JRPGs, when you just wanted to skip through the dialogs and menus. A complete waste of time. But, for the first time playing, it was quite nice. At the least, there can be animations for collapsing and not collapsing, and other slide in / out animations, like for pop-up definitions, etc.
+
+Selecting a section, and waiting, over-time, should dim everything around the selected section.
+
+Next / previous header short-cuts, with smooth scrolling. Left/right arrows and mouse-gestures (for desk-top)? Two-finger swipe up/down for mobile devices?
